@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>3641053-1458747975-56</MsgID>
+        <ExecType>0</ExecType>
+        <TradeDate>2018-05-16</TradeDate>
+		<ValueDate>2018-05-16</ValueDate>
+        <ExtRefNo>30102373</ExtRefNo>
+        <ExternalCustomer>101</ExternalCustomer>
+        <Amount>+0</Amount>
+		<CashBalance>0</CashBalance>
+        <Currency>GBP</Currency>
+        <Book>Deal</Book>
+        <Notes>NOTE NOTE NOTE</Notes>
+		<MandatedUser>Andrew Jones</MandatedUser>
+		<AccountNumber>NUM001</AccountNumber>
+		<AccountName>NAME001</AccountName>
+      </Collection>   
+</Collections>
