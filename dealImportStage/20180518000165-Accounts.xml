@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>167</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>18/05/2018</TradeDate>
+        <ExtRefNo>NSIWAYSM/F-NSWM</ExtRefNo>
+        <ExternalCustomer>NSI-OTH</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>GBP</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>NSIWAYSM</Book>
+        <ValueDate>02/01/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>NS&amp;I Ways &amp; Means into NLF [F-nswm] [NSI-OTH]</Notes>
+        <accountName>NS&amp;I Ways &amp; Means into NLF [F-nswm]</accountName>
+        <accountNumber>NSIWAYSM/F-NSWM</accountNumber>
+        <name>NS&amp;I Ways &amp; Means into NLF [F-nswm]</name>
+        <number>NSIWAYSM/F-NSWM</number>
+      </Collection>
+</Collections>

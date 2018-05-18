@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>154</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>18/05/2018</TradeDate>
+        <ExtRefNo>NLFPAYIR4CD/S-IRCTDINT</ExtRefNo>
+        <ExternalCustomer>HMT-LON</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>GBP</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>NLFPAYIR4CD</Book>
+        <ValueDate>02/01/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>NLF interest payments to IR for CTD and TRC [S-irctdint] [HMT-LON]</Notes>
+        <accountName>NLF interest payments to IR for CTD and TRC [S-irctdint]</accountName>
+        <accountNumber>NLFPAYIR4CD/S-IRCTDINT</accountNumber>
+        <name>NLF interest payments to IR for CTD and TRC [S-irctdint]</name>
+        <number>NLFPAYIR4CD/S-IRCTDINT</number>
+      </Collection>
+</Collections>

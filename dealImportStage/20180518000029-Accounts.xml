@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>31</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>18/05/2018</TradeDate>
+        <ExtRefNo>CERTOFTAXD/AZ-CTDR</ExtRefNo>
+        <ExternalCustomer>HMT-LON</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>GBP</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>CERTOFTAXD</Book>
+        <ValueDate>02/01/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>Cert of Tax Deposit Purchases [AZ-ctdr] [HMT-LON]</Notes>
+        <accountName>Cert of Tax Deposit Purchases [AZ-ctdr]</accountName>
+        <accountNumber>CERTOFTAXD/AZ-CTDR</accountNumber>
+        <name>Cert of Tax Deposit Purchases [AZ-ctdr]</name>
+        <number>CERTOFTAXD/AZ-CTDR</number>
+      </Collection>
+</Collections>

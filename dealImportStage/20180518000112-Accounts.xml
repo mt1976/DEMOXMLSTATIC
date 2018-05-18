@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>114</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>18/05/2018</TradeDate>
+        <ExtRefNo>ISA/A-TIDX</ExtRefNo>
+        <ExternalCustomer>HEALTH-OTH</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>GBP</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>ISA</Book>
+        <ValueDate>02/01/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>ISA [A-tidx] [HEALTH-OTH]</Notes>
+        <accountName>ISA [A-tidx]</accountName>
+        <accountNumber>ISA/A-TIDX</accountNumber>
+        <name>ISA [A-tidx]</name>
+        <number>ISA/A-TIDX</number>
+      </Collection>
+</Collections>
