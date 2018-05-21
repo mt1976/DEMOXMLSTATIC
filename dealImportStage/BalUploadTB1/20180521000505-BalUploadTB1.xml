@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BROADCAST/D-BRL</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>18/06/2018</ValueDate>
+        <Adjustment>131294.68</Adjustment>
+        <Notes>Broadcasting Receiving Licences/D-brl/01-02-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170000505</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

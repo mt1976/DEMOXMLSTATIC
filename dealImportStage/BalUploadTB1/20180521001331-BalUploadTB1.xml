@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>RBSCUMBERN/A-BSCOT</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>02/08/2018</ValueDate>
+        <Adjustment>3494.84</Adjustment>
+        <Notes>RBS Cumbernauld/A-bscot/18-03-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170001331</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

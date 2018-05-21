@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>ALLIANCEL/A-CGIRO</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>12/09/2018</ValueDate>
+        <Adjustment>14297.06</Adjustment>
+        <Notes>Alliance &amp; Leicester/A-cgiro/28-04-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170000089</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

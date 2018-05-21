@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BARCTOSHIP/A-BBARC</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>11/06/2018</ValueDate>
+        <Adjustment>5957.11</Adjustment>
+        <Notes>Barclays to Shipley transfer/A-bbarc/25-01-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170000277</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

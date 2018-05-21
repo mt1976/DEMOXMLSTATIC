@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>EDUCATION/D-ED</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>24/08/2018</ValueDate>
+        <Adjustment>23828.44</Adjustment>
+        <Notes>Education/D-ed/09-04-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170000619</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

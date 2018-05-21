@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>INCREDITCL/B-VETF</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>21/08/2018</ValueDate>
+        <Adjustment>1191.42</Adjustment>
+        <Notes>In Credit Clearing/B-vetf/06-04-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170000754</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

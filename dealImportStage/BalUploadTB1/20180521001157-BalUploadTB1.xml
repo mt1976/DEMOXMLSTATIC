@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>NLFINTRPAY/D-NLFR</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>11/06/2018</ValueDate>
+        <Adjustment>4765.69</Adjustment>
+        <Notes>NLF interest repayments/D-nlfR/25-01-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170001157</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>VATBACSREP/B-VRPAY</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>06/08/2018</ValueDate>
+        <Adjustment>-97140.59</Adjustment>
+        <Notes>VAT BACS Repayments/B-vrpay/22-03-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170001472</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

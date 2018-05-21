@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BACSRCPTS/A-BACS</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>04/06/2018</ValueDate>
+        <Adjustment>383478.95</Adjustment>
+        <Notes>BACS receipts/A-bacs/18-01-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170000116</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>ADJUSTMENT/B-ADJ</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>31/05/2018</ValueDate>
+        <Adjustment>397.14</Adjustment>
+        <Notes>Adjustments/B-adj/14-01-10/17:00 (prev)</Notes>
+        <ExtRefNo>y0180521170000002</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>7</Portfolio>
+      </Collection>
+</Collections>

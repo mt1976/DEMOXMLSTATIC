@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>NIFBENEFIT/D-P1CHPX</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>03/09/2018</ValueDate>
+        <Adjustment>-15806.2</Adjustment>
+        <Notes>NIF Benefits Girobanks/D-p1chpx/19-04-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170001145</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

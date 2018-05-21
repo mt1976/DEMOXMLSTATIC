@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>NWTOSHIP/A-BNATW</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>30/07/2018</ValueDate>
+        <Adjustment>67752.18</Adjustment>
+        <Notes>Nat West Bank Shipley/A-bnatw/15-03-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170000930</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

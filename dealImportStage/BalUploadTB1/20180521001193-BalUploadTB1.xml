@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>OTHERRCPT/D-OIDR</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>14/06/2018</ValueDate>
+        <Adjustment>1032.57</Adjustment>
+        <Notes>Other identified receipts/D-oidr/28-01-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170001193</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>ENGLISHREC/B-ENG</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>29/05/2018</ValueDate>
+        <Adjustment>635.42</Adjustment>
+        <Notes>English Receipts/B-eng/12-01-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170000627</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>

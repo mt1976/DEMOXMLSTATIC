@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>NICTONI/A-TNINI</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>04/06/2018</ValueDate>
+        <Adjustment>-2700.56</Adjustment>
+        <Notes>NIC to NI/A-tnini/18-01-10/17:00 (prev)</Notes>
+        <ExtRefNo>0180521170000972</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+      </Collection>
+</Collections>
