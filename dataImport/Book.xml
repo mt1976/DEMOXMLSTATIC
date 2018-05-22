@@ -25,8 +25,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">ALLIANCE+L</KEYFIELD>
-        <FIELD name="fullName">ALLIANCE + LEICESTER</FIELD>
+        <KEYFIELD name="bookName">ALLIANCEAN</KEYFIELD>
+        <FIELD name="fullName">ALLIANCE and LEICESTER</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -784,8 +784,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">HMREVENUE+</KEYFIELD>
-        <FIELD name="fullName">HM REVENUE + CUSTOMS</FIELD>
+        <KEYFIELD name="bookName">HMREVENUEA</KEYFIELD>
+        <FIELD name="fullName">HM REVENUE and CUSTOMS</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1015,8 +1015,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">LEARNING+S</KEYFIELD>
-        <FIELD name="fullName">LEARNING + SKILLS COUNCIL</FIELD>
+        <KEYFIELD name="bookName">LEARNINGAN</KEYFIELD>
+        <FIELD name="fullName">LEARNING and SKILLS COUNCIL</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1423,7 +1423,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NICUSTOMS</KEYFIELD>
-        <FIELD name="fullName">NORTHERN IRELAND CUSTOMS + EXCISE T</FIELD>
+        <FIELD name="fullName">NORTHERN IRELAND CUSTOMS and EXCISE T</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1444,8 +1444,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NS+IPAYMEN</KEYFIELD>
-        <FIELD name="fullName">NS+I PAYMENTS -INTEREST + PSB PRIZE</FIELD>
+        <KEYFIELD name="bookName">NSANDIPAYM</KEYFIELD>
+        <FIELD name="fullName">NSandI PAYMENTS -INTEREST and PSB PRIZE</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1455,8 +1455,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NS+IRECEIP</KEYFIELD>
-        <FIELD name="fullName">NS+I RECEIPTS</FIELD>
+        <KEYFIELD name="bookName">NSANDIRECE</KEYFIELD>
+        <FIELD name="fullName">NSandI RECEIPTS</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1466,8 +1466,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NS+ITOTALF</KEYFIELD>
-        <FIELD name="fullName">NS+I TOTAL FORECAST</FIELD>
+        <KEYFIELD name="bookName">NSANDITOTA</KEYFIELD>
+        <FIELD name="fullName">NSandI TOTAL FORECAST</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1477,8 +1477,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NS+IWAYS+M</KEYFIELD>
-        <FIELD name="fullName">NS+I WAYS + MEANS INTO NLF</FIELD>
+        <KEYFIELD name="bookName">NSANDIWAYS</KEYFIELD>
+        <FIELD name="fullName">NSandI WAYS and MEANS INTO NLF</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1873,8 +1873,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">SF+HEFC</KEYFIELD>
-        <FIELD name="fullName">SF + HEFC</FIELD>
+        <KEYFIELD name="bookName">SFANDHEFC</KEYFIELD>
+        <FIELD name="fullName">SF and HEFC</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
