@@ -26,7 +26,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">ALLIANCEL</KEYFIELD>
-        <FIELD name="fullName">ALLIANCE &amp; LEICESTER</FIELD>
+        <FIELD name="fullName">ALLIANCE and LEICESTER</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -59,7 +59,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">BACSRCPTS</KEYFIELD>
-        <FIELD name="fullName">BACS RECEIPTS</FIELD>
+        <FIELD name="fullName">SCOTTISH GOVERNMENT / SCOTLAND OFFICE</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -114,7 +114,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">BEER</KEYFIELD>
-        <FIELD name="fullName">BEER</FIELD>
+        <FIELD name="fullName">HER MAJESTYS TREASURY</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -785,7 +785,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">HMREVENUE</KEYFIELD>
-        <FIELD name="fullName">HM REVENUE &amp; CUSTOMS</FIELD>
+        <FIELD name="fullName">HM REVENUE and CUSTOMS</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1016,7 +1016,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">LEARNINGS</KEYFIELD>
-        <FIELD name="fullName">LEARNING &amp; SKILLS COUNCIL</FIELD>
+        <FIELD name="fullName">LEARNING and SKILLS COUNCIL</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1357,7 +1357,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NLFMISCPAY</KEYFIELD>
-        <FIELD name="fullName">NLF MISC PAYMENTS (SWING)</FIELD>
+        <FIELD name="fullName">NLF MISC PAYMENTS SWING</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1445,7 +1445,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NSIPAYMNT</KEYFIELD>
-        <FIELD name="fullName">NS&amp;I PAYMNTS INTEREST AND PRIZES</FIELD>
+        <FIELD name="fullName">NSandI PAYMNTS INTEREST AND PRIZES</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1456,7 +1456,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NSIRECEIP</KEYFIELD>
-        <FIELD name="fullName">NS&amp;I RECEIPTS</FIELD>
+        <FIELD name="fullName">NSandI RECEIPTS</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1467,7 +1467,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NSITOTALF</KEYFIELD>
-        <FIELD name="fullName">NS&amp;I TOTAL FORECAST</FIELD>
+        <FIELD name="fullName">NSandI TOTAL FORECAST</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1478,7 +1478,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NSIWAYSM</KEYFIELD>
-        <FIELD name="fullName">NS&amp;I WAYS &amp; MEANS INTO NLF</FIELD>
+        <FIELD name="fullName">NSandI WAYS and MEANS INTO NLF</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1643,7 +1643,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">POIDEPT(EX</KEYFIELD>
-        <FIELD name="fullName">POI DEPT (EX REVAL) PAID TO NLF</FIELD>
+        <FIELD name="fullName">POI DEPT EX REVAL PAID TO NLF</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1687,7 +1687,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">PRINCIPLER</KEYFIELD>
-        <FIELD name="fullName">PRINCIPLE REPAY FROM NLF TO NS&amp;I</FIELD>
+        <FIELD name="fullName">PRINCIPLE REPAY FROM NLF TO NSandI</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1874,7 +1874,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">SFHEFC</KEYFIELD>
-        <FIELD name="fullName">SF &amp; HEFC</FIELD>
+        <FIELD name="fullName">SF and HEFC</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1973,7 +1973,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">TDPRINCIPA</KEYFIELD>
-        <FIELD name="fullName">TD PRINCIPAL MATURING (NON-OPG)</FIELD>
+        <FIELD name="fullName">TD PRINCIPAL MATURING NON-OPG</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1984,7 +1984,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">TSDMATINT</KEYFIELD>
-        <FIELD name="fullName">TDS MATURING (NON-OPG) INTEREST</FIELD>
+        <FIELD name="fullName">TDS MATURING NON-OPG INTEREST</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1995,7 +1995,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">TDSTKNN</KEYFIELD>
-        <FIELD name="fullName">TDS TAKEN (NON-OPG)</FIELD>
+        <FIELD name="fullName">TDS TAKEN NON-OPG</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -2006,7 +2006,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">TDSTKNO</KEYFIELD>
-        <FIELD name="fullName">TDS TAKEN (OPG)</FIELD>
+        <FIELD name="fullName">TDS TAKEN OPG</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -2061,7 +2061,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">TOTALCHQ</KEYFIELD>
-        <FIELD name="fullName">TOTAL CHEQUES (HMRC FORECAST)</FIELD>
+        <FIELD name="fullName">TOTAL CHEQUES HMRC FORECAST</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>

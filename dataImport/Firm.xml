@@ -10,13 +10,13 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">HMRC</KEYFIELD>
-        <FIELD name="fullName">HM REVENUE &amp; CUSTOMS</FIELD>
+        <FIELD name="fullName">HM REVENUE and CUSTOMS</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">MOD</KEYFIELD>
-        <FIELD name="fullName">MINISTRY OF DEFENCE</FIELD>
+        <FIELD name="fullName">ALLIANCE and LEICESTER</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
       </RECORD>
@@ -34,7 +34,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">SCOTGOV</KEYFIELD>
-        <FIELD name="fullName">SCOTTICH GOVERNMENT / SCOTLAND OFFICE</FIELD>
+        <FIELD name="fullName">SCOTTISH GOVERNMENT / SCOTLAND OFFICE</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
       </RECORD>
@@ -64,7 +64,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">HMT</KEYFIELD>
-        <FIELD name="fullName">HER MAJESTY'S TREASURY</FIELD>
+        <FIELD name="fullName">HER MAJESTYS TREASURY</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
       </RECORD>
@@ -82,7 +82,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">AGO</KEYFIELD>
-        <FIELD name="fullName">ATTORNEY GENERAL'S OFFICE</FIELD>
+        <FIELD name="fullName">ATTORNEY GENERALS OFFICE</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
       </RECORD>
@@ -94,13 +94,13 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">BUSI</KEYFIELD>
-        <FIELD name="fullName">DEPARTMENT FOR BUSINESS, ENERGY AND INDUSTRIAL STRATEGY</FIELD>
+        <FIELD name="fullName">DEPARTMENT FOR BUSINESS ENERGY AND INDUSTRIAL STRATEGY</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">DIGITAL</KEYFIELD>
-        <FIELD name="fullName">DEPARTMENT FOR DIGITAL, CULTURE, MEDIA AND SPORT</FIELD>
+        <FIELD name="fullName">DEPARTMENT FOR DIGITAL CULTURE MEDIA AND SPORT</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
       </RECORD>
@@ -112,7 +112,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">ENVIRO</KEYFIELD>
-        <FIELD name="fullName">DEPARTMENT FOR ENVIRONMENT, FOOD AND RURAL AFFAIRS</FIELD>
+        <FIELD name="fullName">DEPARTMENT FOR ENVIRONMENT FOOD AND RURAL AFFAIRS</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
       </RECORD>
@@ -148,7 +148,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">HCLC</KEYFIELD>
-        <FIELD name="fullName">MINISTRY OF HOUSING, COMMUNITIES AND LOCAL GOVERNMENT</FIELD>
+        <FIELD name="fullName">MINISTRY OF HOUSING COMMUNITIES AND LOCAL GOVERNMENT</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
       </RECORD>
