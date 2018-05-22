@@ -25,8 +25,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">ALLIANCEL</KEYFIELD>
-        <FIELD name="fullName">ALLIANCE and LEICESTER</FIELD>
+        <KEYFIELD name="bookName">ALLIANCE+L</KEYFIELD>
+        <FIELD name="fullName">ALLIANCE + LEICESTER</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -59,7 +59,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">BACSRCPTS</KEYFIELD>
-        <FIELD name="fullName">SCOTTISH GOVERNMENT / SCOTLAND OFFICE</FIELD>
+        <FIELD name="fullName">BACS RECEIPTS</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -114,7 +114,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">BEER</KEYFIELD>
-        <FIELD name="fullName">HER MAJESTYS TREASURY</FIELD>
+        <FIELD name="fullName">BEER</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -356,7 +356,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">COTAXSA</KEYFIELD>
-        <FIELD name="fullName">COTAX / SA</FIELD>
+        <FIELD name="fullName">COTAX  SA</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -411,7 +411,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">CUSTOMSPAY</KEYFIELD>
-        <FIELD name="fullName">CUSTOMS PAYMENTS TO OPG</FIELD>
+        <FIELD name="fullName">CUSTOMS PAYMENTS TO OPG INC CONT F</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -422,7 +422,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">CUSTOMRECO</KEYFIELD>
-        <FIELD name="fullName">CUSTOMS RECPTS FROM OPG</FIELD>
+        <FIELD name="fullName">CUSTOMS RECEIPTS FROM OPG INC CONT</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -433,7 +433,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">CUSTOMSREC</KEYFIELD>
-        <FIELD name="fullName">CUSTOMS RECPTS FROM OPG INC FND</FIELD>
+        <FIELD name="fullName">CUSTOMS RECEIPTS FROM OPG INCL CON</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -510,7 +510,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">DEPTINNO</KEYFIELD>
-        <FIELD name="fullName">DEPT FOR INNO UNIV AND SCHOOL</FIELD>
+        <FIELD name="fullName">DEPARTMENT FOR INNOVATION UNIVERSIT</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -718,8 +718,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">GOVDEPTFXP</KEYFIELD>
-        <FIELD name="fullName">GOV DEPT FX PAYMENTS</FIELD>
+        <KEYFIELD name="bookName">GOVERNMENT</KEYFIELD>
+        <FIELD name="fullName">GOVERNMENT DEPARTMENT'S FOREIGN EXC</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -784,8 +784,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">HMREVENUE</KEYFIELD>
-        <FIELD name="fullName">HM REVENUE and CUSTOMS</FIELD>
+        <KEYFIELD name="bookName">HMREVENUE+</KEYFIELD>
+        <FIELD name="fullName">HM REVENUE + CUSTOMS</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -960,8 +960,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">IRTXFRTONL</KEYFIELD>
-        <FIELD name="fullName">IR TXFR TO NLF FOR CTD PURCHASES</FIELD>
+        <KEYFIELD name="bookName">IRTRANSFER</KEYFIELD>
+        <FIELD name="fullName">IR TRANSFERS TO NLF FOR CTD PURCHAS</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1015,8 +1015,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">LEARNINGS</KEYFIELD>
-        <FIELD name="fullName">LEARNING and SKILLS COUNCIL</FIELD>
+        <KEYFIELD name="bookName">LEARNING+S</KEYFIELD>
+        <FIELD name="fullName">LEARNING + SKILLS COUNCIL</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1181,7 +1181,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NATLOTTPAY</KEYFIELD>
-        <FIELD name="fullName">NATIONAL LOTTERY DISTRIB FUND PAY</FIELD>
+        <FIELD name="fullName">NATIONAL LOTTERY DISTRIBUTION FUND </FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1192,7 +1192,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NATLOTTRCP</KEYFIELD>
-        <FIELD name="fullName">NATIONAL LOTTERY DISTRIB FUND RCPTS</FIELD>
+        <FIELD name="fullName">NATIONAL LOTTERY DISTRIBUTION FUND </FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1323,7 +1323,7 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NLFPAYIR4CTD</KEYFIELD>
+        <KEYFIELD name="bookName">NLFPAYIRCA</KEYFIELD>
         <FIELD name="fullName">NLF INTEREST PAYMENTS TO IR FOR CTD</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
@@ -1334,8 +1334,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NLFPAYIR4CD</KEYFIELD>
-        <FIELD name="fullName">NLF INTEREST PAYMENTS TO IR FOR CT2</FIELD>
+        <KEYFIELD name="bookName">NLFPAYIRCB</KEYFIELD>
+        <FIELD name="fullName">NLF INTEREST PAYMENTS TO IR FOR CTD</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1423,7 +1423,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NICUSTOMS</KEYFIELD>
-        <FIELD name="fullName">NI CUSTOMS AND EXCISE TXFR TO CF</FIELD>
+        <FIELD name="fullName">NORTHERN IRELAND CUSTOMS + EXCISE T</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1444,8 +1444,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NSIPAYMNT</KEYFIELD>
-        <FIELD name="fullName">NSandI PAYMNTS INTEREST AND PRIZES</FIELD>
+        <KEYFIELD name="bookName">NS+IPAYMEN</KEYFIELD>
+        <FIELD name="fullName">NS+I PAYMENTS -INTEREST + PSB PRIZE</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1455,8 +1455,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NSIRECEIP</KEYFIELD>
-        <FIELD name="fullName">NSandI RECEIPTS</FIELD>
+        <KEYFIELD name="bookName">NS+IRECEIP</KEYFIELD>
+        <FIELD name="fullName">NS+I RECEIPTS</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1466,8 +1466,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NSITOTALF</KEYFIELD>
-        <FIELD name="fullName">NSandI TOTAL FORECAST</FIELD>
+        <KEYFIELD name="bookName">NS+ITOTALF</KEYFIELD>
+        <FIELD name="fullName">NS+I TOTAL FORECAST</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1477,8 +1477,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">NSIWAYSM</KEYFIELD>
-        <FIELD name="fullName">NSandI WAYS and MEANS INTO NLF</FIELD>
+        <KEYFIELD name="bookName">NS+IWAYS+M</KEYFIELD>
+        <FIELD name="fullName">NS+I WAYS + MEANS INTO NLF</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1489,7 +1489,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">NTCWFTC</KEYFIELD>
-        <FIELD name="fullName">NTC / WFTC</FIELD>
+        <FIELD name="fullName">NTC  WFTC</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1499,8 +1499,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">ONADJUSTM</KEYFIELD>
-        <FIELD name="fullName">O/N ADJUSTMENT</FIELD>
+        <KEYFIELD name="bookName">ONADJUSTME</KEYFIELD>
+        <FIELD name="fullName">ON ADJUSTMENT</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1522,7 +1522,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">OPGTXFRFX</KEYFIELD>
-        <FIELD name="fullName">OPG TRANSFERS TO BANKS FX ACC</FIELD>
+        <FIELD name="fullName">OPG TRANSFERS TO BANK'S FORIEGN EXC</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1642,8 +1642,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">POIDEPT(EX</KEYFIELD>
-        <FIELD name="fullName">POI DEPT EX REVAL PAID TO NLF</FIELD>
+        <KEYFIELD name="bookName">POIDEPTEXC</KEYFIELD>
+        <FIELD name="fullName">POI DEPT EXCL REVALUATION PAID TO</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1686,8 +1686,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">PRINCIPLER</KEYFIELD>
-        <FIELD name="fullName">PRINCIPLE REPAY FROM NLF TO NSandI</FIELD>
+        <KEYFIELD name="bookName">PRINCIPALR</KEYFIELD>
+        <FIELD name="fullName">PRINCIPAL REPAYMENTS FROM NLF TO NS</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1753,7 +1753,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="bookName">RPAYMAT</KEYFIELD>
-        <FIELD name="fullName">REPAYMENT OF MAT OPG TDS INC INT</FIELD>
+        <FIELD name="fullName">REPAYMENT OF MATURING OPG TDS INCL</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -1873,8 +1873,8 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="bookName">SFHEFC</KEYFIELD>
-        <FIELD name="fullName">SF and HEFC</FIELD>
+        <KEYFIELD name="bookName">SF+HEFC</KEYFIELD>
+        <FIELD name="fullName">SF + HEFC</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
