@@ -590,6 +590,72 @@
         <FIELD name="counterparty.firm">EUROPE</FIELD>
         <FIELD name="counterparty.centre">OTH</FIELD>
       </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">FIRSTDIR-EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">FIRSTDIR</FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">SANTANDE-EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">SANTANDE</FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">SMILE-EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">SMILE</FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">NATIONWI-EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">NATIONWI</FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">THECOOP-EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">THECOOP</FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">HALIFAX -EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">HALIFAX </FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">TSB -EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">TSB </FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">BANKOFSC-EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">BANKOFSC</FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">YORKSHIR-EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">YORKSHIR</FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">LLOYDSBA-EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">LLOYDSBA</FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">HSBC -EXT</KEYFIELD>
+        <FIELD name="counterparty.firm">HSBC </FIELD>
+        <FIELD name="counterparty.centre">EXT</FIELD>
+      </RECORD>
     </TABLE>
   </TRANSACTION>
 </TRANSACTIONS>

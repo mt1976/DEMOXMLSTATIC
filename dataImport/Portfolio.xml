@@ -42,6 +42,11 @@
         <FIELD name="description1">16:30</FIELD>
         <FIELD name="default">N</FIELD>
       </RECORD>
+      <RECORD>
+        <KEYFIELD name="code">ACCOUNT</KEYFIELD>
+        <FIELD name="description1">ACCOUNT</FIELD>
+        <FIELD name="default">N</FIELD>
+      </RECORD>
     </TABLE>
   </TRANSACTION>
 </TRANSACTIONS>

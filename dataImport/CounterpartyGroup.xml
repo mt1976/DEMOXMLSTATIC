@@ -170,6 +170,50 @@
         <KEYFIELD name="name">EUROPE</KEYFIELD>
         <FIELD name="countryCode">GBR</FIELD>
       </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">FIRSTDIR</KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">SANTANDE</KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">SMILE</KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">NATIONWI</KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">THECOOP</KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">HALIFAX </KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">TSB </KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">BANKOFSC</KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">YORKSHIR</KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">LLOYDSBA</KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">HSBC </KEYFIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+      </RECORD>
     </TABLE>
   </TRANSACTION>
 </TRANSACTIONS>

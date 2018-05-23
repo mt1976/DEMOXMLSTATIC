@@ -198,19 +198,19 @@
         <KEYFIELD name="firmName">NATWEST</KEYFIELD>
         <FIELD name="fullName">NATWEST BANK</FIELD>
         <FIELD name="country">GBR</FIELD>
-        <FIELD name="sector">GOVT</FIELD>
+        <FIELD name="sector">Banks</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">ALLIANCE</KEYFIELD>
         <FIELD name="fullName">ALLIANCE AND LEICESTER</FIELD>
         <FIELD name="country">GBR</FIELD>
-        <FIELD name="sector">GOVT</FIELD>
+        <FIELD name="sector">Banks</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">BARCLAYS</KEYFIELD>
         <FIELD name="fullName">BARCLAYS BANK</FIELD>
         <FIELD name="country">GBR</FIELD>
-        <FIELD name="sector">GOVT</FIELD>
+        <FIELD name="sector">Banks</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">NHS</KEYFIELD>
@@ -234,13 +234,13 @@
         <KEYFIELD name="firmName">SHIPLEY</KEYFIELD>
         <FIELD name="fullName">SHIPLEYS BANK</FIELD>
         <FIELD name="country">GBR</FIELD>
-        <FIELD name="sector">GOVT</FIELD>
+        <FIELD name="sector">Banks</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">RBS</KEYFIELD>
         <FIELD name="fullName">ROYAL BANK OF SCOTLAND</FIELD>
         <FIELD name="country">GBR</FIELD>
-        <FIELD name="sector">GOVT</FIELD>
+        <FIELD name="sector">Banks</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="firmName">DEFRA</KEYFIELD>
@@ -253,6 +253,72 @@
         <FIELD name="fullName">EUROPEAN COMMISSION</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">FIRSTDIR</KEYFIELD>
+        <FIELD name="fullName">FIRST DIRECT </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">SANTANDE</KEYFIELD>
+        <FIELD name="fullName">SANTANDER </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">SMILE</KEYFIELD>
+        <FIELD name="fullName">SMILE (PART OF THE CO-OP BANK) </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">NATIONWI</KEYFIELD>
+        <FIELD name="fullName">NATIONWIDE </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">THECOOP</KEYFIELD>
+        <FIELD name="fullName">THE CO-OP </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">HALIFAX </KEYFIELD>
+        <FIELD name="fullName">HALIFAX </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">TSB </KEYFIELD>
+        <FIELD name="fullName">TSB </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">BANKOFSC</KEYFIELD>
+        <FIELD name="fullName">BANK OF SCOTLAND </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">YORKSHIR</KEYFIELD>
+        <FIELD name="fullName">YORKSHIRE BANK </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">LLOYDSBA</KEYFIELD>
+        <FIELD name="fullName">LLOYDS BANK </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">HSBC </KEYFIELD>
+        <FIELD name="fullName">HSBC </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
       </RECORD>
     </TABLE>
   </TRANSACTION>

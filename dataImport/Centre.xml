@@ -67,6 +67,11 @@
         <FIELD name="fullName">OTHER</FIELD>
         <FIELD name="country">GBR</FIELD>
       </RECORD>
+      <RECORD>
+        <KEYFIELD name="shortName">EXT</KEYFIELD>
+        <FIELD name="fullName">EXTERNAL</FIELD>
+        <FIELD name="country">GBR</FIELD>
+      </RECORD>
     </TABLE>
   </TRANSACTION>
 </TRANSACTIONS>
