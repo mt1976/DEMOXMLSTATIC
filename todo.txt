@@ -6,7 +6,7 @@ XWork out a script for Funds Transfer
 Work out a story around ePayments (will have to use sys-3) - Showing remote authorisation 
 ip Build Cashflow Balance reports
 ip Build Reports for reconciliation
-work on Deck (get as much done as possible).
+ip work on Deck (get as much done as possible).
 
 NOTE
 Add a DealImport - External Book setting. Set External System to ExternalDealImporter and Book to a valid book. This is the default book and can be overriden in the import XML. If it is not defined, then the deal is imported as Incomplete.
