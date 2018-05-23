@@ -1,0 +1,9 @@
+Plan of Action for Wed
+x Get Spreadsheet cleansed and uploaded into SQL server  
+Get new build on local machine and test account & ammendment uploads.
+Implement reconciliation 
+Work out a script for Funds Transfer 
+Work out a story around ePayments (will have to use sys-3) - Showing remote authorisation 
+Build Cashflow Balance reports
+Build Reports for reconciliation
+work on Deck (get as much done as possible).
