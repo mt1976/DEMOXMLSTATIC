@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>NIFBENEFIT/D-P1CHPX</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>08/06/2018</ValueDate>
+        <Adjustment>-11272.44</Adjustment>
+        <Notes>NIF Benefits Girobanks/D-p1chpx/20-01-10/17:00 (prev)</Notes>
+        <InterestRateType>Fixed</InterestRateType>
+        <ExtRefNo>0180524170001084</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+        <Book>NIFBENEFIT</Book>
+      </Collection>
+</Collections>

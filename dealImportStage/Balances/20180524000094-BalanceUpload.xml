@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BACS/D-P1BAC</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>31/08/2018</ValueDate>
+        <Adjustment>-7942.81</Adjustment>
+        <Notes>BACS/D-p1bac/15-04-10/17:00 (prev)</Notes>
+        <InterestRateType>Fixed</InterestRateType>
+        <ExtRefNo>0180524170000094</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+        <Book>BACS</Book>
+      </Collection>
+</Collections>

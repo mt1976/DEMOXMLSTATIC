@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>MISC.PMGRE/D-MSCPR</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>06/07/2018</ValueDate>
+        <Adjustment>103256.55</Adjustment>
+        <Notes>Misc. PMG Receipts/D-mscPR/18-02-10/17:00 (prev)</Notes>
+        <InterestRateType>Fixed</InterestRateType>
+        <ExtRefNo>0180524170000830</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+        <Book>MISC.PMGRE</Book>
+      </Collection>
+</Collections>

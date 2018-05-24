@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>VATPAYABLE/B-XRPAY</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>0</ExecType>
+        <ValueDate>07/09/2018</ValueDate>
+        <Adjustment>-6354.25</Adjustment>
+        <Notes>VAT Payable Order Repayments/B-xrpay/20-04-10/17:00 (prev)</Notes>
+        <InterestRateType>Fixed</InterestRateType>
+        <ExtRefNo>0180524170001658</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>0</Portfolio>
+        <Book>VATPAYABLE</Book>
+      </Collection>
+</Collections>
