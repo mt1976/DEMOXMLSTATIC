@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>156</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>02/01/2018</TradeDate>
+        <ExtRefNo>NLFMISCPAY/S-MISCP</ExtRefNo>
+        <ExternalCustomer>OTHER-OTH</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>GBP</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>NLFMISCPAY</Book>
+        <ValueDate>02/01/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>NLF misc payments (Swing) [S-miscp][NLFMISCPAY][OTHER-OTH]</Notes>
+        <AccountName>NLF misc payments (Swing) [S-miscp]</AccountName>
+        <AccountNumber>NLFMISCPAY/S-MISCP</AccountNumber>
+      </Collection>
+</Collections>
