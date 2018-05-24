@@ -13,12 +13,12 @@ Plan of Action for Wed
 
 Plan of Action for Thurs
 --------------------------------
-* Reconfigure system.properties sizings
-* Integrate Data, Views
-* Load Static
-* Load Accounts
-* Load Deal Data
+* X - Reconfigure system.properties sizings
+* X - Integrate Data, Views
+* X - Load Static
+* X - Load Accounts
+* X - Load Deal Data
 * Work out a story around ePayments (will have to use sys-3) - Showing remote authorisation 
-* ip Build Cashflow Balance reports [ready to integrate]
-* ip Build Reports for reconciliation [ready to integrate]
-* ip work on Deck (get as much done as possible). [final stages]
+* X - ip Build Cashflow Balance reports [ready to integrate]
+* X - ip Build Reports for reconciliation [ready to integrate]
+* X - ip work on Deck (get as much done as possible). [final stages]
