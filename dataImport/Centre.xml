@@ -14,7 +14,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="shortName">SCO</KEYFIELD>
-        <FIELD name="fullName">ALLIANCE and LEICESTER</FIELD>
+        <FIELD name="fullName">SCOTTISH GOVERNMENT - OFFICE</FIELD>
         <FIELD name="country">GBR</FIELD>
       </RECORD>
       <RECORD>
@@ -29,7 +29,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="shortName">EMI</KEYFIELD>
-        <FIELD name="fullName">SCOTTISH GOVERNMENT / SCOTLAND OFFICE</FIELD>
+        <FIELD name="fullName">EAST MIDLANDS</FIELD>
         <FIELD name="country">GBR</FIELD>
       </RECORD>
       <RECORD>
@@ -54,7 +54,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="shortName">WAL</KEYFIELD>
-        <FIELD name="fullName">HER MAJESTYS TREASURY</FIELD>
+        <FIELD name="fullName">WELSH GOVERNMENT</FIELD>
         <FIELD name="country">GBR</FIELD>
       </RECORD>
       <RECORD>
@@ -70,6 +70,11 @@
       <RECORD>
         <KEYFIELD name="shortName">EXT</KEYFIELD>
         <FIELD name="fullName">EXTERNAL</FIELD>
+        <FIELD name="country">GBR</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="shortName">HMT</KEYFIELD>
+        <FIELD name="fullName">HM TREASURY</FIELD>
         <FIELD name="country">GBR</FIELD>
       </RECORD>
     </TABLE>
