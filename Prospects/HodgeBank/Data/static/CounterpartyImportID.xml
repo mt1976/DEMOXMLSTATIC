@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="CounterpartyImportID" classname="com.eurobase.siena.data.counterparty.CounterpartyImportID">
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">BOE-OTH</KEYFIELD>
+        <FIELD name="counterparty.firm">BOE</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">COMM-OTH</KEYFIELD>
+        <FIELD name="counterparty.firm">COMM</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">DEV-OTH</KEYFIELD>
+        <FIELD name="counterparty.firm">DEV</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">INV-OTH</KEYFIELD>
+        <FIELD name="counterparty.firm">INV</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">LEND-OTH</KEYFIELD>
+        <FIELD name="counterparty.firm">LEND</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">OTHER-OTH</KEYFIELD>
+        <FIELD name="counterparty.firm">OTHER</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">RETAIL-OTH</KEYFIELD>
+        <FIELD name="counterparty.firm">RETAIL</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>

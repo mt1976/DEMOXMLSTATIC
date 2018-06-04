@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="Counterparty" classname="com.eurobase.siena.data.counterparty.Counterparty">
+      <RECORD>
+        <KEYFIELD name="name.firm">BOE</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Corporate</FIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+        <FIELD name="sectorCode">GOVT</FIELD>
+        <FIELD name="cpartyGroupName">BOE</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">COMM</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Corporate</FIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+        <FIELD name="sectorCode">SELF</FIELD>
+        <FIELD name="cpartyGroupName">COMM</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">DEV</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Corporate</FIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+        <FIELD name="sectorCode">SELF</FIELD>
+        <FIELD name="cpartyGroupName">DEV</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">INV</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Corporate</FIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+        <FIELD name="sectorCode">SELF</FIELD>
+        <FIELD name="cpartyGroupName">INV</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">LEND</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Corporate</FIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+        <FIELD name="sectorCode">SELF</FIELD>
+        <FIELD name="cpartyGroupName">LEND</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">OTHER</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Corporate</FIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+        <FIELD name="sectorCode">SELF</FIELD>
+        <FIELD name="cpartyGroupName">OTHER</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">RETAIL</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Corporate</FIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+        <FIELD name="sectorCode">SELF</FIELD>
+        <FIELD name="cpartyGroupName">RETAIL</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="Firm" classname="com.eurobase.siena.data.firms.Firm">
+      <RECORD>
+        <KEYFIELD name="firmName">BOE</KEYFIELD>
+        <FIELD name="fullName">BANK OF ENGLAND</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">COMM</KEYFIELD>
+        <FIELD name="fullName">COMMERCIAL</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">SELF</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">DEV</KEYFIELD>
+        <FIELD name="fullName">DEVELOPMENT</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">SELF</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">INV</KEYFIELD>
+        <FIELD name="fullName">INVESTMENT</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">SELF</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">LEND</KEYFIELD>
+        <FIELD name="fullName">LENDING</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">SELF</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">OTHER</KEYFIELD>
+        <FIELD name="fullName">OTHER</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">SELF</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">RETAIL</KEYFIELD>
+        <FIELD name="fullName">RETAIL</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">SELF</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>
