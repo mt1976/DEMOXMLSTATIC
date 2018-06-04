@@ -2,10 +2,10 @@
 <Collections>
       <Collection>
         <DealType>Account</DealType>
-        <MsgID>11</MsgID>
+        <MsgID>12</MsgID>
         <ExecType>1</ExecType>
         <TradeDate>18/05/2018</TradeDate>
-        <ExtRefNo>RETAIL/DEBIT</ExtRefNo>
+        <ExtRefNo>RETAIL/CREDIT</ExtRefNo>
         <ExternalCustomer>RETAIL-OTH</ExternalCustomer>
         <Direction>DEPO</Direction>
         <Rate>0</Rate>
@@ -18,8 +18,8 @@
         <InterestRateType>Fixed</InterestRateType>
         <FloatingRateMargin></FloatingRateMargin>
         <InterestAction>0</InterestAction>
-        <Notes>Retail [DEBIT][RETAIL][RETAIL-OTH]</Notes>
-        <AccountName>Retail [DEBIT]</AccountName>
-        <AccountNumber>RETAIL/DEBIT</AccountNumber>
+        <Notes>Retail [CREDIT][RETAIL][RETAIL-OTH]</Notes>
+        <AccountName>Retail [CREDIT]</AccountName>
+        <AccountNumber>RETAIL/CREDIT</AccountNumber>
       </Collection>
 </Collections>

@@ -2,24 +2,24 @@
 <Collections>
       <Collection>
         <DealType>Account</DealType>
-        <MsgID>10</MsgID>
+        <MsgID>11</MsgID>
         <ExecType>1</ExecType>
         <TradeDate>18/05/2018</TradeDate>
-        <ExtRefNo>DEVELOP/LOAN</ExtRefNo>
-        <ExternalCustomer>DEV-OTH</ExternalCustomer>
+        <ExtRefNo>RETAIL/DEBIT</ExtRefNo>
+        <ExternalCustomer>RETAIL-OTH</ExternalCustomer>
         <Direction>DEPO</Direction>
         <Rate>0</Rate>
         <DealtCurrency>GBP</DealtCurrency>
         <DealtAmount>0</DealtAmount>
-        <Book>DEVELOP</Book>
+        <Book>RETAIL</Book>
         <ValueDate>02/01/2018</ValueDate>
         <MaturityDate></MaturityDate>
         <InterestFrequency>1M</InterestFrequency>
         <InterestRateType>Fixed</InterestRateType>
         <FloatingRateMargin></FloatingRateMargin>
         <InterestAction>0</InterestAction>
-        <Notes>Development [LOAN][DEVELOP][DEV-OTH]</Notes>
-        <AccountName>Development [LOAN]</AccountName>
-        <AccountNumber>DEVELOP/LOAN</AccountNumber>
+        <Notes>Retail [DEBIT][RETAIL][RETAIL-OTH]</Notes>
+        <AccountName>Retail [DEBIT]</AccountName>
+        <AccountNumber>RETAIL/DEBIT</AccountNumber>
       </Collection>
 </Collections>

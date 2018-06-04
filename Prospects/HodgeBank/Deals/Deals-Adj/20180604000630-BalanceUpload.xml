@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>LENDING/LOAN</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>1</ExecType>
+        <ValueDate>23/08/2018</ValueDate>
+        <Adjustment>-9293.09</Adjustment>
+        <Notes>Lending/LOAN/23-08-18/15:15</Notes>
+        <InterestRateType>Fixed</InterestRateType>
+        <ExtRefNo>4180604151502650</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>CF-04</Portfolio>
+        <Book>LENDING</Book>
+      </Collection>
+</Collections>

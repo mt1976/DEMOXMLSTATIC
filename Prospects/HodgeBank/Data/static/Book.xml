@@ -3,17 +3,6 @@
   <TRANSACTION type="IMPORT">
     <TABLE name="Book" classname="com.eurobase.siena.data.book.Book">
       <RECORD>
-        <KEYFIELD name="bookName">BOE</KEYFIELD>
-        <FIELD name="fullName">BANK OF ENGLAND TRANSFERS</FIELD>
-        <FIELD name="pLManage">None</FIELD>
-        <FIELD name="pLTransfer">None</FIELD>
-        <FIELD name="derivePL">0</FIELD>
-        <FIELD name="costOfCarry">0</FIELD>
-        <FIELD name="costOfFunding">0</FIELD>
-        <FIELD name="lotAllocationMethod">Average</FIELD>
-        <FIELD name="allEquities">Y</FIELD>
-      </RECORD>
-      <RECORD>
         <KEYFIELD name="bookName">MISC</KEYFIELD>
         <FIELD name="fullName">MISCELLANEOUS</FIELD>
         <FIELD name="pLManage">None</FIELD>
@@ -38,17 +27,6 @@
       <RECORD>
         <KEYFIELD name="bookName">OTHERREC</KEYFIELD>
         <FIELD name="fullName">OTHER IDENTIFIED RECEIPTS</FIELD>
-        <FIELD name="pLManage">None</FIELD>
-        <FIELD name="pLTransfer">None</FIELD>
-        <FIELD name="derivePL">0</FIELD>
-        <FIELD name="costOfCarry">0</FIELD>
-        <FIELD name="costOfFunding">0</FIELD>
-        <FIELD name="lotAllocationMethod">Average</FIELD>
-        <FIELD name="allEquities">Y</FIELD>
-      </RECORD>
-      <RECORD>
-        <KEYFIELD name="bookName">INVESTMENT</KEYFIELD>
-        <FIELD name="fullName">INVESTMENT</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>
@@ -93,6 +71,17 @@
       <RECORD>
         <KEYFIELD name="bookName">LENDING</KEYFIELD>
         <FIELD name="fullName">LENDING</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BOE</KEYFIELD>
+        <FIELD name="fullName">BANK OF ENGLAND</FIELD>
         <FIELD name="pLManage">None</FIELD>
         <FIELD name="pLTransfer">None</FIELD>
         <FIELD name="derivePL">0</FIELD>

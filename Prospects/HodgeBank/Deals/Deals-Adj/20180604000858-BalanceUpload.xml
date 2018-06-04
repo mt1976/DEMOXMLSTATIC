@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>OTHERREC/RECEIPT</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>1</ExecType>
+        <ValueDate>10/10/2018</ValueDate>
+        <Adjustment>-39316.92</Adjustment>
+        <Notes>Other identified receipts/RECEIPT/10-10-18/12:45</Notes>
+        <InterestRateType>Fixed</InterestRateType>
+        <ExtRefNo>2180604124503582</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>CF-02</Portfolio>
+        <Book>OTHERREC</Book>
+      </Collection>
+</Collections>

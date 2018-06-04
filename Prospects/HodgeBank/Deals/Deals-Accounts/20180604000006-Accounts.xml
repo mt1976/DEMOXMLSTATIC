@@ -2,10 +2,10 @@
 <Collections>
       <Collection>
         <DealType>Account</DealType>
-        <MsgID>8</MsgID>
+        <MsgID>9</MsgID>
         <ExecType>1</ExecType>
         <TradeDate>18/05/2018</TradeDate>
-        <ExtRefNo>INVESTMENT/LOAN</ExtRefNo>
+        <ExtRefNo>INVESTMENT/DEPOSIT</ExtRefNo>
         <ExternalCustomer>INV-OTH</ExternalCustomer>
         <Direction>DEPO</Direction>
         <Rate>0</Rate>
@@ -18,8 +18,8 @@
         <InterestRateType>Fixed</InterestRateType>
         <FloatingRateMargin></FloatingRateMargin>
         <InterestAction>0</InterestAction>
-        <Notes>Investment [LOAN][INVESTMENT][INV-OTH]</Notes>
-        <AccountName>Investment [LOAN]</AccountName>
-        <AccountNumber>INVESTMENT/LOAN</AccountNumber>
+        <Notes>Investment [DEPOSIT][INVESTMENT][INV-OTH]</Notes>
+        <AccountName>Investment [DEPOSIT]</AccountName>
+        <AccountNumber>INVESTMENT/DEPOSIT</AccountNumber>
       </Collection>
 </Collections>

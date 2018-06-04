@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>COMMERCIAL/DEPOSIT</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>1</ExecType>
+        <ValueDate>27/08/2018</ValueDate>
+        <Adjustment>-21048.45</Adjustment>
+        <Notes>Commercial/DEPOSIT/27-08-18/16:05</Notes>
+        <InterestRateType>Fixed</InterestRateType>
+        <ExtRefNo>6180604160500278</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>CF-06</Portfolio>
+        <Book>COMMERCIAL</Book>
+      </Collection>
+</Collections>
