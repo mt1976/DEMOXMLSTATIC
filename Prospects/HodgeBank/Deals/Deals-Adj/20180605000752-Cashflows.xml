@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>MISC/CREDIT</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>1</ExecType>
+        <ValueDate>31/10/2018</ValueDate>
+        <Adjustment>79.43</Adjustment>
+        <Notes>Miscellaneous/CREDIT/31-10-18/16:05</Notes>
+        <InterestRateType>Fixed</InterestRateType>
+        <ExtRefNo>6180604160503079</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>CF-06</Portfolio>
+        <Book>MISC</Book>
+        <MandatedUser>Default MISC</MandatedUser>
+      </Collection>
+</Collections>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>RETAIL/DEBIT</ParentExtRefNo>
+        <DealType>Account Amendment</DealType>
+        <ExecType>1</ExecType>
+        <ValueDate>31/08/2018</ValueDate>
+        <Adjustment>-1993.64</Adjustment>
+        <Notes>Retail/DEBIT/31-08-18/09:30</Notes>
+        <InterestRateType>Fixed</InterestRateType>
+        <ExtRefNo>1180604093004024</ExtRefNo>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>CF-01</Portfolio>
+        <Book>RETAIL</Book>
+        <MandatedUser>Default RETAIL</MandatedUser>
+      </Collection>
+</Collections>
