@@ -36,6 +36,17 @@
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
       <RECORD>
+        <KEYFIELD name="bookName">INVESTMENT</KEYFIELD>
+        <FIELD name="fullName">INVESTMENT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
         <KEYFIELD name="bookName">DEVELOP</KEYFIELD>
         <FIELD name="fullName">DEVELOPMENT</FIELD>
         <FIELD name="pLManage">None</FIELD>
