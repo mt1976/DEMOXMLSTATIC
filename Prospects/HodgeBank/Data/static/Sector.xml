@@ -10,6 +10,10 @@
         <KEYFIELD name="code">SELF</KEYFIELD>
         <FIELD name="name">SELF</FIELD>
       </RECORD>
+      <RECORD>
+        <KEYFIELD name="code">BANKS</KEYFIELD>
+        <FIELD name="name">BANKS</FIELD>
+      </RECORD>
     </TABLE>
   </TRANSACTION>
 </TRANSACTIONS>

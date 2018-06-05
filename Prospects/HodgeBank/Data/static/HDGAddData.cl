@@ -6,3 +6,4 @@ run UpdateTable database=database() xmlFile = "data_import_in/CounterpartyGroup.
 run UpdateTable database=database() xmlFile = "data_import_in/Counterparty.xml";
 run UpdateTable database=database() xmlFile = "data_import_in/CounterpartyImportID.xml";
 run UpdateTable database=database() xmlFile = "data_import_in/Portfolio.xml";
+run UpdateTable database=database() xmlFile = "data_import_in/MandatedUser.xml";

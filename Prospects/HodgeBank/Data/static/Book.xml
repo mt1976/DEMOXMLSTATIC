@@ -101,6 +101,17 @@
         <FIELD name="lotAllocationMethod">Average</FIELD>
         <FIELD name="allEquities">Y</FIELD>
       </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NOSTROREC</KEYFIELD>
+        <FIELD name="fullName">RECONCILIATION ACCOUNTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
     </TABLE>
   </TRANSACTION>
 </TRANSACTIONS>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>66</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>02/01/2018</TradeDate>
+        <ExtRefNo>WESLEYAN/ENG</ExtRefNo>
+        <ExternalCustomer>WESLEYAN-ENG</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>GBP</DealtCurrency>
+        <DealtAmount>2900</DealtAmount>
+        <Book>NOSTROREC</Book>
+        <ValueDate>04/06/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[41373868][NOSTROREC][WESLEYAN-ENG]</Notes>
+        <AccountName>WESLEYAN BANK LIMITED</AccountName>
+        <AccountNumber>41373868</AccountNumber>
+        <MandatedUser>Default WESLEYAN</MandatedUser>
+      </Collection>
+</Collections>
