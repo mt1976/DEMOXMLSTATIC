@@ -1,0 +1,2 @@
+Set notes as a VARCHAR 240 in order for import to work
+Set Adjustment and Balances as DECIMAL
