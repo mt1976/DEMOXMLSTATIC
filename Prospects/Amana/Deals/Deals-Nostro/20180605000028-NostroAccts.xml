@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>28</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>04/06/2018</TradeDate>
+        <ExtRefNo>GHANAINT/ENG</ExtRefNo>
+        <ExternalCustomer>GHANAINT-ENG</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>GBP</DealtCurrency>
+        <DealtAmount>9134.23</DealtAmount>
+        <Book>NOSTROREC</Book>
+        <ValueDate>04/06/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[38124606][NOSTROREC][GHANAINT-ENG]</Notes>
+        <AccountName>GHANA INTERNATIONAL BANK PLC</AccountName>
+        <AccountNumber>38124606</AccountNumber>
+        <MandatedUser>Default GHANAINT</MandatedUser>
+      </Collection>
+</Collections>
