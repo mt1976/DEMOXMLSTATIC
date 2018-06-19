@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="persister-table.xsl" type="text/xsl"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                           http://www.springframework.org/schema/aop 
+                           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+<!-- ***Enter bean id below this line*** -->
+
+<bean id="FXSPOTMarketEURUSD--SP-Market-RateBean" class="com.eurobase.ratemanager.beans.RateBean">
+  <property name="assetClass">
+    <value>FXSPOT</value>
+  </property>
+  <property name="ccy">
+    <value/>
+  </property>
+  <property name="baseCcy">
+    <value>EUR</value>
+  </property>
+  <property name="quoteCcy">
+    <value>USD</value>
+  </property>
+  <property name="category">
+    <value>Market</value>
+  </property>
+  <property name="contributor">
+    <value></value>
+  </property>
+  <property name="period">
+    <value>true</value>
+  </property>
+  <property name="supplier">
+    <value>2</value>
+  </property>
+  <property name="tenor">
+    <value>SP</value>
+  </property>
+  <property name="quoteUnitDP">
+    <value>${default_FX_QuoteUnitDP4}</value>
+  </property>
+    <property name="quotePrecision">
+    <value>${default_FX_SpotQuotePrecision4}</value>
+  </property>
+</bean>
+
+<!-- ***Enter bean id above this line*** -->
+
+</beans>
