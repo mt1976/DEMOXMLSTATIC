@@ -16,7 +16,7 @@
         <FIELD name="fullName">BARCLAYS BANK PLC</FIELD>
         <FIELD name="defaultEquityBrokerage">0</FIELD>
         <FIELD name="contact"></FIELD>
-        <FIELD name="address">1 Church Hill Place, London, E13 5BH</FIELD>
+        <FIELD name="address">1 Church Hill Place,London,E13 5BH</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="code">GO</KEYFIELD>
@@ -32,7 +32,7 @@
         <FIELD name="fullName">KVIKA BANKI HF</FIELD>
         <FIELD name="defaultEquityBrokerage">0</FIELD>
         <FIELD name="contact"></FIELD>
-        <FIELD name="address">?Reykjavik, Iceland</FIELD>
+        <FIELD name="address">Reykjavik, Iceland</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="code">LL</KEYFIELD>
@@ -40,7 +40,7 @@
         <FIELD name="fullName">LLOYDS BANK</FIELD>
         <FIELD name="defaultEquityBrokerage">0</FIELD>
         <FIELD name="contact"></FIELD>
-        <FIELD name="address"> 33 Old Broad St, London EC2N 1HZ</FIELD>
+        <FIELD name="address">33 Old Broad St, London EC2N 1HZ</FIELD>
       </RECORD>
       <RECORD>
         <KEYFIELD name="code">RB</KEYFIELD>
