@@ -1,4 +1,19 @@
 #!/bin/bash
+#
+# ===================================================================
+# Purpose:           Fetches Spot FX Rates from fixer.io
+# Parameters:        one ; two ; three
+#                    ---------------------------
+#                    $one = (enum) load, unload
+#                    $two = (string) second parameter
+#                    $three = (num) expected
+#                    ---------------------------
+# Called From:
+# Author:            Matt Townsend
+# Notes:
+# Revsion:
+# ===================================================================
+#
 clear
 figlet "Fetch Spot FX Rates"
 echo
@@ -12,6 +27,7 @@ symbols="USD,JPY,GBP,BTC,CAD,AUD,XAU,CHF,MXN,STD,NOK,DKK,RUR,RMB,HKD"
 path=$PWD
 fileHDR=$(<rateFileHdr.txt)
 newline="\n"
+destFile=$path"/""FXSPOTbaseline.csv"
 
 #echo $fileHDR
 echo "path     =["$path"]"
@@ -21,6 +37,7 @@ echo "urlDest  =["$urlDest"]"
 echo "baseCCY  =["$baseCCY"]"
 echo "symbols  =["$symbols"]"
 echo "fileHDR  =["$fileHDR"]"
+echo "destFile =["$destFile"]"
 
 request=$urlDest
 request+=$endpoint
@@ -37,18 +54,15 @@ curlArgs="-sL"
 
 result=$(curl $curlArgs "$request")
 
-echo "result   =["$result"]"
 rateDate=$(echo $result | jq -r '.date')
-
-echo "rateDate =["$rateDate"]"
-
 rateBase=$(echo $result | jq -r '.base')
-echo "rateBase =["$rateBase"]"
-
 rateRates=$(echo $result | jq '.rates')
-echo "rateRates=["$rateRates"]"
-
 noRates=$(echo $result | jq '.rates|length')
+
+echo "result   =["$result"]"
+echo "rateDate =["$rateDate"]"
+echo "rateBase =["$rateBase"]"
+echo "rateRates=["$rateRates"]"
 echo "noRates  =["$noRates"]"
 
 outputFile=""
@@ -59,39 +73,36 @@ outputFile+=$newline
 for ((c=1;c<=$noRates;c++))
 do
 
-outputFile+="FX"
-outputFile+=","
-outputFile+="FXSPOT"
-outputFile+=","
-outputFile+="SP"
-outputFile+=","
-outputFile+=","
-outputFile+="SIMU"
-outputFile+=","
-outputFile+=$rateBase
-outputFile+=","
+  id="$(($c-1))"
+  rCCY=$(echo $result | jq -r '.rates | keys | .['$id']')
+  rRate=$(echo $result | jq -r '.rates.'$rCCY)
 
-id="$(($c-1))"
-echo "index    =["$id"]"
+  echo "index    =["$id"]"
+  echo "rCCY     =["$rCCY"] "$c" "$id
+  echo "rRate    =["$rRate"] "$c" "$id
 
-rCCY=$(echo $result | jq -r '.rates | keys | .['$id']')
-echo "rCCY     =["$rCCY"] "$c" "$id
 
-rRate=$(echo $result | jq -r '.rates.'$rCCY)
-echo "rRate    =["$rRate"] "$c" "$id
-
-outputFile+=$rCCY
-outputFile+=","
-outputFile+=$rRate
-outputFile+=","
-outputFile+=$rRate
-outputFile+=",Market,0,A"
-outputFile+=$newline
+  outputFile+="FX"
+  outputFile+=","
+  outputFile+="FXSPOT"
+  outputFile+=","
+  outputFile+="SP"
+  outputFile+=","
+  outputFile+=","
+  outputFile+="SIMU"
+  outputFile+=","
+  outputFile+=$rateBase
+  outputFile+=","
+  outputFile+=$rCCY
+  outputFile+=","
+  outputFile+=$rRate
+  outputFile+=","
+  outputFile+=$rRate
+  outputFile+=",Market,0,A"
+  outputFile+=$newline
 
 done
 
-echo -e "$outputFile"
-
-printf 'new\nline\n$outputFile'
-
-echo "\nDONE!"
+rm "$destFile"
+echo -e "$outputFile" >> "$destFile"
+echo "DONE!"
