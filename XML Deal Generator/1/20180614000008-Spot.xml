@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Spot</DealType>
+        <MsgID>3641032-1458747961-200</MsgID>
+        <ExecType>0</ExecType>
+        <TradeDate>20/06/2018</TradeDate>
+        <ExtRefNo>239-1458747961-3393-4110577</ExtRefNo>
+        <ExternalCustomer>DEV-OTH</ExternalCustomer>
+        <Direction>BUY</Direction>
+        <Rate>0.004</Rate>
+        <DealtCurrency>EUR</DealtCurrency>
+        <AgainstCurrency>USD</AgainstCurrency>
+        <DealtAmount>298000.52</DealtAmount>
+        <Book>SPOT</Book>
+        <ValueDate></ValueDate>
+        <Notes>TXN LOAD</Notes>
+        <MandatedUser>Default DEV</MandatedUser>
+      </Collection>
+</Collections>
