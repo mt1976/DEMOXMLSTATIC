@@ -1,0 +1,122 @@
+    Date/Time: 23May16 / 15:49:13
+  System Name: AQUA BANK
+   Department: *AQUA BANK
+ Message Type: MT940      Customer Statement Message
+               HSBC LONDON        MIDLGB22XXX
+               HSBC BANK PLC (FORMERLY MIDLAND BAN
+               27-32 POULTRY
+     Priority: N
+        Queue: Current  Unprocessed
+          ISN: 004000027
+               Message received on 31Aug17 at 15:49:13
+ --------------------------------------------------------------------------------
+ {1:F21PTSBGBAAAXXX5732443988}{4:{177:0503232114}{451:0}}{1:F01PTSBGBAAAXXX5732
+ 443988}{2:O9402016050323MIDLGB22AXXX46332306130503232116N}{3:{108:E95005032332
+ 5227}}{4:
+ :20:    Transaction Reference
+                  AM01049845
+ :25:    Account Identification
+                  1234567890
+ :28C:   Statement & Page Number
+                  10/1
+ :60:    Date   Ccy    Opening Balance                  D/C          Amount
+        160519  GBP                                      D          214060,77
+ :61:    Date Entry F Code Reference/Suppl. details         D/C      Amount
+        160522 0323   FCHG                                                12,
+                  NLAMPYS103182822//FT74240152261
+                  CHARGES
+        170830 0323   FCHG NLAMPYS103182821 FT74240662261                 12,
+                  CHARGES
+        170830 0323   S103 NLAMPYS103182821 FT74240662261                100,
+                  MODIS EUROPE LIMITED
+        170830 0323   S103 NLAMPYS103182773 FT74226406261              108,75
+                  HUNTING OILFIE
+                  LD SERVICES B.V.
+        170830 0323   S103 NLAMPYS103182822 FT74240152261                300,
+                  MODIS EUROPE LIMITED
+        170830 0323   S202 NLAMPYS202182820 FT74238724261               1925,
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 NLAMPYS202182784 FT74237975261             4731,62
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 NLAMPYS202182635 FT74236772261            19980,01
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 NLAMMMS202568925 FT74236528261            35855,66
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 NLAM2DN202047061 FT74236491261            40139,67
+    Date/Time: 23May16 / 15:49:13
+  System Name: AQUA BANK
+   Department: *AQUA BANK
+ Message Type: MT940      Customer Statement Message
+               HSBC LONDON        MIDLGB22XXX
+               HSBC BANK PLC (FORMERLY MIDLAND BAN
+               27-32 POULTRY
+     Priority: N
+        Queue: Current  Unprocessed
+          ISN: 004000027
+               Message received on 31Aug17 at 15:49:13
+               (Continued)
+ --------------------------------------------------------------------------------
+                  LLOYDS TSB BK PLC
+ :61:    Date Entry F Code Reference/Suppl. details         D/C      Amount
+        170830 0323   S202 NLAM2DN202047028 FT74236277261            99271,48
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 NLAM2DN202021419 FT74236248261           100293,02
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 NLAMMMS202564940 FT74236095261           205184,78
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 NLAMMMS2025733                           910680,66
+                  98//FT74235769261
+                  LLOYDS TSB BK PLC
+        170830 0323   NMSC LOYD220494LOYD2A LD64699106001001         1000000,
+                  LOYD220494LOYD2A
+        170830 0323   NMSC LOYD220502LOYD2A LD74697157002001       1400192,55
+                  LOYD220502LOYD2A
+        170830 0323   S202 NLAMPYS202182873 FT74248071261            2040000,
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 NLAMMMS202564724 FT74235424261          4312744,28
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 NLAMFES202717029 FT74255356261            9000000,
+                  LLOYDS TSB BK PLC
+        170830 0323   S202 AXE6261          SAF6261                     1000,
+                  FUNDS IN
+        170830 0323   S202 AXD6262          DEB6262                     1500,
+                  TRF OUT
+        170830 2323   S202 AXE6262          SAF6262                     1500,
+                  FUNDS IN
+        170830 2323   S202 AXD6261          DEB6261                     1000,
+                  TRF OUT
+        170830 2323   S202 AXE6260          SAF6261                     1200,
+    Date/Time: 23May16 / 15:49:13
+  System Name: AQUA BANK
+   Department: *AQUA BANK
+ Message Type: MT940      Customer Statement Message
+               HSBC LONDON        MIDLGB22XXX
+               HSBC BANK PLC (FORMERLY MIDLAND BAN
+               27-32 POULTRY
+     Priority: N
+        Queue: Current  Unprocessed
+          ISN: 004000027
+               Message received on 31Aug17 at 15:49:13
+               (Continued)
+ --------------------------------------------------------------------------------
+                  FUNDS IN
+ :61:    Date Entry F Code Reference/Suppl. details         D/C      Amount
+        170830 2323   S202 AXD6260          DEB6261                     1200,
+                  TRF OUT
+        170830 0323   S202 AXD6262          DEB6263                     2000,
+                  TRF OUT
+        170830 0323   S202 AXE6262          SAF6263                     2000,
+                  FUNDS IN
+        170830 0323   S202 AXD6262          DEB6264                     3000,
+                  TRF OUT
+        170830 0323   S202 AXE6262          SAF6264                     3000,
+                  FUNDS IN
+ :62:    Date   Ccy    Closing Balance                  D/C          Amount
+        160520  GBP                                      C        19385592,25
+ -}{5:{CHK:603D876F7C83}}{S:{COP:S}}
+Audit Log
+  AQUAOWNER   2017/08/31  15:49:13  Inward MT940 CREATED - Department: *AQUA BANK, Entity: AQUA BANK, State: CURRENT,
+  AQUAOWNER   2017/08/31  15:49:13            Status: UNPROCESSED, Postings: <blank>
+  AQUAOWNER   2017/08/31  15:49:13  Workflow:AR_INWARD has been run
+  *SYSTEM     2017/08/31  15:49:13  MATTTOWNS  Notified via E-mail
+  *SYSTEM     2017/08/31  15:49:13  N.FERNANDO Notified via AS400 TCS

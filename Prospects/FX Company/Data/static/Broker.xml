@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="Broker" classname="com.eurobase.siena.data.broker.Broker">
+      <RECORD>
+        <KEYFIELD name="code">BA</KEYFIELD>
+        <FIELD name="name">BACB</FIELD>
+        <FIELD name="fullName">BACB</FIELD>
+        <FIELD name="defaultEquityBrokerage">0</FIELD>
+        <FIELD name="contact"></FIELD>
+        <FIELD name="address">8-10 Mansion House Pl, London EC4N 8BJ</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="code">BR</KEYFIELD>
+        <FIELD name="name">BARCLAYS</FIELD>
+        <FIELD name="fullName">BARCLAYS BANK PLC</FIELD>
+        <FIELD name="defaultEquityBrokerage">0</FIELD>
+        <FIELD name="contact"></FIELD>
+        <FIELD name="address">1 Church Hill Place,London,E13 5BH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="code">GO</KEYFIELD>
+        <FIELD name="name">GOLDMANS</FIELD>
+        <FIELD name="fullName">GOLDMAN SACHS</FIELD>
+        <FIELD name="defaultEquityBrokerage">0</FIELD>
+        <FIELD name="contact"></FIELD>
+        <FIELD name="address">Christchurch Court, 10-15 Newgate St, London EC1A 7HD</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="code">KV</KEYFIELD>
+        <FIELD name="name">KVIKA</FIELD>
+        <FIELD name="fullName">KVIKA BANKI HF</FIELD>
+        <FIELD name="defaultEquityBrokerage">0</FIELD>
+        <FIELD name="contact"></FIELD>
+        <FIELD name="address">Reykjavik, Iceland</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="code">LL</KEYFIELD>
+        <FIELD name="name">LLOYDS</FIELD>
+        <FIELD name="fullName">LLOYDS BANK</FIELD>
+        <FIELD name="defaultEquityBrokerage">0</FIELD>
+        <FIELD name="contact"></FIELD>
+        <FIELD name="address">33 Old Broad St, London EC2N 1HZ</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="code">RB</KEYFIELD>
+        <FIELD name="name">RBS</FIELD>
+        <FIELD name="fullName">ROYAL BANK OF SCOTLAND</FIELD>
+        <FIELD name="defaultEquityBrokerage">0</FIELD>
+        <FIELD name="contact"></FIELD>
+        <FIELD name="address">250 Bishopsgate, London EC2M 4AA</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="code">SA</KEYFIELD>
+        <FIELD name="name">SAXO</FIELD>
+        <FIELD name="fullName">SAXO BANK</FIELD>
+        <FIELD name="defaultEquityBrokerage">0</FIELD>
+        <FIELD name="contact"></FIELD>
+        <FIELD name="address">Copenhagen, Denmark</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="code">SU</KEYFIELD>
+        <FIELD name="name">SUCDEN</FIELD>
+        <FIELD name="fullName">SUCDEN FINANCIAL</FIELD>
+        <FIELD name="defaultEquityBrokerage">0</FIELD>
+        <FIELD name="contact">Alexander Culley</FIELD>
+        <FIELD name="address">3rd Floor Plantation Place South 60 Great Tower Street London EC3R 5AZ</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>

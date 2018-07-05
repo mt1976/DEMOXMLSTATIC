@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="filters-table.xsl" type="text/xsl"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xmlns:aop="http://www.springframework.org/schema/aop" 
+       xmlns:context="http://www.springframework.org/schema/context" 
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+                           http://www.springframework.org/schema/aop 
+                           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd 
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+<!-- ***Enter data below this line*** -->
+
+<bean id="FXSPOTMarketEURUSD--SP-Market-rangeFilter" class="com.eurobase.ratemanager.processing.filter.checks.RangeFilterCheckImpl">
+  <property name="minAcceptancePrice">
+    <value>${default_FX_SpotMinAcceptancePrice}</value>
+  </property>
+  <property name="maxAcceptancePrice">
+    <value>${default_FX_SpotMaxAcceptancePrice}</value>
+  </property>
+</bean>
+
+<bean id="FXSPOTMarketEURUSD--SP-Market-spreadFilter" class="com.eurobase.ratemanager.processing.filter.checks.SpreadCheckImpl">
+  <property name="pipsValue">
+    <value>${default_FX_SpotPipsValue_Wide}</value>
+  </property>
+  <property name="isPips">
+    <value>${default_FX_IsPips}</value>
+  </property>
+</bean>
+
+<bean id="FXSPOTMarketEURUSD--SP-Market-gradientFilter" class="com.eurobase.ratemanager.processing.filter.checks.GradientFilter">
+  <property name="pips">
+    <value>${default_FX_SpotGradientPips}</value>
+  </property>
+  <property name="periodOfTime">
+    <value>${default_FX_SpotGradientTime}</value>
+  </property>
+  <property name="minimumUpdatePeriod">
+    <value>${default_FX_SpotMinUpdatePeriod}</value>
+  </property>
+</bean>
+
+<bean id="FXSPOTMarketEURUSD--SP-Market-toleranceFilter" class="com.eurobase.ratemanager.processing.filter.checks.ToleranceFilterCheckImpl">
+  <property name="minimumStandardDeviation">
+    <value>${default_FX_SpotMinimumSD}</value>
+  </property>
+  <property name="pips">
+    <value>${default_FX_SpotPips}</value>
+  </property>
+  <property name="publishRate">
+    <value>${default_FX_FilterPublishRate}</value>
+  </property>
+  <property name="warmUpStatus">
+    <value>${default_FX_WarmUpStatus}</value>
+  </property>
+  <property name="narrowTolerance">
+    <value>${default_FX_SpotNarrowTolerance}</value>
+  </property>
+  <property name="broadTolerance">
+    <value>${default_FX_SpotBroadTolerance}</value>
+  </property>
+  <property name="warmUpPeriod">
+    <value>${default_FX_SpotWarmUpPeriod}</value>
+  </property>
+  <property name="collectionSizeMax">
+    <value>${default_FX_SpotCollectionSizeMax}</value>
+  </property>
+  <property name="collectionSizeMin">
+    <value>${default_FX_SpotCollectionSizeMin}</value>
+  </property>
+  <property name="collectionLifeSpan">
+    <value>${default_FX_SpotCollectionLifeSpan}</value>
+  </property>
+  <property name="exceptions">
+    <value>${default_FX_SpotExceptions}</value>
+  </property>
+  <property name="indicativePercentageMax">
+    <value>${default_FX_SpotIndicativePercentageMax}</value>
+  </property>
+  <property name="stalePercentageMax">
+    <value>${default_FX_SpotStalePercentageMax}</value>
+  </property>
+  <property name="multicastEventSystem">
+    <ref bean="multicastEventSystem"/>
+  </property>
+</bean>
+
+<bean id="FXSPOTMarketEURUSD--SP-Market-PercentageFilter" class="com.eurobase.ratemanager.processing.filter.checks.PercentageToleranceFilterCheckImpl">
+  <property name="narrowTolerance">
+    <value>${default_FX_SpotNarrowPercentage}</value>
+  </property>
+  <property name="broadTolerance">
+    <value>${default_FX_SpotBroadPercentage}</value>
+  </property>
+  <property name="warmUpPeriod">
+    <value>${default_FX_SpotWarmUpPeriod}</value>
+  </property>
+  <property name="collectionSizeMax">
+    <value>${default_FX_SpotCollectionSizeMax}</value>
+  </property>
+  <property name="collectionSizeMin">
+    <value>${default_FX_SpotCollectionSizeMin}</value>
+  </property>
+  <property name="collectionLifeSpan">
+    <value>${default_FX_SpotCollectionLifeSpan}</value>
+  </property>
+  <property name="exceptions">
+    <value>${default_FX_SpotExceptions}</value>
+  </property>
+  <property name="indicativePercentageMax">
+    <value>${default_FX_SpotIndicativePercentageMax}</value>
+  </property>
+  <property name="stalePercentageMax">
+    <value>${default_FX_SpotStalePercentageMax}</value>
+  </property>
+  <property name="multicastEventSystem">
+    <ref bean="multicastEventSystem" /> 
+  </property>
+</bean>
+
+<!-- ***Enter data above this line*** -->
+
+</beans>

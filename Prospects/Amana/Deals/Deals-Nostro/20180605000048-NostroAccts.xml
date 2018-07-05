@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>48</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>04/06/2018</TradeDate>
+        <ExtRefNo>RBS/SCO</ExtRefNo>
+        <ExternalCustomer>RBS-SCO</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>GBP</DealtCurrency>
+        <DealtAmount>12152.5</DealtAmount>
+        <Book>NOSTROREC</Book>
+        <ValueDate>04/06/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[37194346][NOSTROREC][RBS-SCO]</Notes>
+        <AccountName>ROYAL BANK OF SCOTLAND PLC</AccountName>
+        <AccountNumber>37194346</AccountNumber>
+        <MandatedUser>Default RBS</MandatedUser>
+      </Collection>
+</Collections>

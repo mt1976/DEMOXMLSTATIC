@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="persister-table.xsl" type="text/xsl"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                           http://www.springframework.org/schema/aop 
+                           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+<!-- ***Enter bean id below this line*** -->
+
+<bean id="FXSPOTMarketEURUSD--SP-Market-Controller" class="com.eurobase.ratemanager.processing.controller.MulticastSkewAndSpreadControllerImpl" init-method="init" depends-on="accControlFactory">
+  <constructor-arg index="0">
+    <value>FXSPOTMarketEURUSD--SP-Market-Controller</value>
+  </constructor-arg>
+  <property name="skew">
+    <value>${default_FX_SpotSkew}</value>
+  </property>
+  <property name="spread">
+    <value>${default_FX_SpotSpread}</value>
+  </property>
+  <property name="rateBean">
+    <ref bean="FXSPOTMarketEURUSD--SP-Market-RateBean"/>
+  </property>
+  <property name="writer">
+    <ref bean="ControllerStore-FXSPOTMarketEURUSD--SP-Market"/>
+  </property>
+  <property name="factory">
+    <ref bean="DefaultRateDatumFactory"/>
+  </property>
+  <property name="multicastEventSystem">
+    <ref bean="multicastEventSystem"/>
+  </property>
+  <property name="active">
+    <value>${default_FX_SpotActive}</value>
+  </property>
+  <property name="rmProperties">
+    <ref bean="rmProperties"/>
+  </property>
+  <property name="priceStream">
+    <value>${default_FX_SpotPriceStream}</value>
+  </property>
+  <property name="inactiveStatus">
+    <value>${default_FX_SpotInactiveStatus}</value>
+  </property>
+  <property name="publishInactiveRate">
+    <value>${default_FX_SpotPublishInactiveRate}</value>
+  </property>
+  <property name="maxSpread">
+    <value>${default_FX_SpotMaxSpreadPermitted}</value>
+  </property>
+  <property name="maxSkew">
+    <value>${default_FX_SpotMaxSkewPermitted}</value>
+  </property>
+</bean>
+
+<!-- ***Enter data above this line*** -->
+
+</beans>
