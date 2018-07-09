@@ -23,9 +23,9 @@ endpoint="latest"
 accessKey="c3811be81a6df1db0e14304d77b3a23d"
 urlDest="http://data.fixer.io/api/"
 baseCCY="EUR"
-symbols="USD,JPY,GBP,BTC,CAD,AUD,XAU,CHF,MXN,STD,NOK,DKK,RUR,RMB,HKD"
+symbols="USD,JPY,GBP,BTC,CAD,AUD,XAU,CHF,MXN,STD,NOK,DKK,RUR,RMB,HKD,CAD,CHF,DKK,GBP,HKD,JPY,NOK,SEK,SGD,USD,ZAR"
 path=$PWD
-fileHDR=$(<rateFileHdr.txt)
+fileHDR=$(<FXSPOTbaseline.csv)
 newline="\n"
 destFile=$path"/""FXSPOTbaseline.csv"
 
