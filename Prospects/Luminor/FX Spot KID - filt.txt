@@ -1,0 +1,77 @@
+PURPOSE
+This document provides you with key information about this investment product. It is not marketing material. The information is required by law to help you understand the nature, costs, risks and rewards of this product and to help you compare it with other products. 
+ 
+ 
+PRODUCT
+The Manufacturer of this product is Saxo Bank A/S.  Contact us on +45 3977 4000 for more information. Saxo Bank A/S is under the supervision of the Danish Financial Services Authority. This Key Information Document was published on 16th August 2017.  
+ 
+ 
+ALERT 
+You are about to purchase a product that is not simple and may be difficult to understand.
+WHAT IS THIS PRODUCT? 
+ 
+TYPE 
+Rolling FX Spot is a contract where the profit it to be secured or loss avoided by reference to fluctuations in an underlying currency pair, such the Euro (EUR) against the U.S. Dollar (USD), referred to as EURUSD, for immediate delivery. Visit home.saxo for further information in relation to the underlying currency pairs available.
+ 
+ 
+OBJECTIVES 
+The objective of trading Rolling FX Spot is to gain exposure to fluctuations related to the underlying currency pair without owning it. Your return depends on the size of the performance (or movement) of the underlying currency pair and the size of your position. This product is entered into for the purpose of speculation or hedging and is commonly traded on margin. Margin refers to the use of a small amount of capital to support an investment of a larger exposure. Please note that margin trading requires extra caution, because whilst you can realise large profits if the price moves in your favour, you risk extensive losses if the price moves against you.   
+ 
+INTENDED RETAIL INVESTOR
+Trading in this product will not be appropriate for everyone. This product would commonly be used by persons who want to generally gain short term exposures to financial instruments/markets; are using (trading with) money which they can afford to lose; have a diversified investment and savings portfolio; have a high risk tolerance; and understand the impact of and risks associated with margin trading. 
+ 
+ 
+TERM
+Rolling FX Spot is an execution-only product and generally therefore has no recommended holding period. Rolling FX Spot trades do not settle. Instead, open positions held at the end of a trading day are rolled forward to the next available business day.       
+Specific information on each underlying investment option can be found here. 
+ 
+ 
+WHAT ARE THE RISKS AND WHAT COULD I GET IN RETURN?
+RISK INDICATOR
+1234567
+	LOWER RISK	HIGHER RISK
+The summary risk indicator is a guide to the level of risk of this product compared to other products. It shows how likely it is that the product will lose money because of movements in the markets or because we are not able to pay you. We have classified this product as 7 out of 7, which is the highest risk class. This rates the potential losses from future performance at a very high level. Be aware of currency risk. You may receive payments in a different currency, so the final return you will get depends on the exchange rate between the two currencies 
+ 
+This risk is not considered in the indicator shown above. In some circumstances you may be required to make further payments to pay for losses. Trading risks are magnified by leverage – the total loss you may incur may significantly exceed the amount invested. Values may fluctuate significantly in times of high volatility or market/economic uncertainty; such swings are even more significant if your positions are leveraged and may also adversely affect your position. As a result, margin calls may be made quickly or frequently. In the event of default, Saxo shall seek to immediately terminate, cancel and close-out all of part of any outstanding positions, and any shortfall will be borne by you.  Trade only after you have acknowledged and accepted the risks. You should carefully consider whether trading in leveraged products is appropriate for you.
+PERFORMANCE SCENARIOS
+There are a number of types of trading risk, including leverage risk, which you should be aware of before beginning to trade. Information on factors that affect the performance of this product are detailed here - including but not limited to;
+	 	Leverage risk 	Unregulated market risk
+	 	Risk of unlimited loss 	Market disruption risk
+	 	Margin risk 	Counterparty risk
+	 	Foreign exchange risk 	Online trading platform and IT risk
+	 	Market risk 	Conflicts of interest
+Specific trading examples in this product can be found here. 
+ 
+WHAT HAPPENS IF SAXO IS UNABLE TO PAY OUT? 
+Saxo Bank A/S is a fully accredited European Bank and is a member of The Guarantee Fund for Depositors and Investors (www.gii.dk); an institution established by the Danish parliament which is supervised by the Ministry of Finance and Business in Denmark. In the unlikely event that Saxo Bank is declared bankrupt, The Guarantee Fund covers cash deposits up to EUR 100,000. Securities, for example stocks, held in an individual custody account will be returned to the owner, irrespective of a winding-up order. In the unlikely event that Saxo Bank is unable to return the securities held in safe-custody, administered or managed, The Guarantee Fund as a rule covers losses of up to EUR 20,000 per investor. For more information you can visit the Danish Financial Supervisory Authority at www.finanstilsynet.dk.  
+ 
+WHAT ARE THE COSTS?
+Before you begin to trade Rolling FX Spot you should familiarise yourself with all commissions, fees, and other charges for which you will be liable. These charges will reduce any net profit or increase your losses. For more information please visit our website. 
+BREAKDOWN OF POSSIBLE COSTS ASSOCIATED WITH ROLLING FX SPOTOne-off costsSpreadThe difference between the bid (sell) price and the offer (buy) price. Spread is dependent on many different factors, including but not limited to, the underlying liquidity and volatility, time of day and notional trade size.CommissionThe fee charged for the service of carrying out the transaction, subject to a minimum fee on small notional trade sizes.Profit/Loss Currency ConversionThe fee charged for converting realised profit/loss from the instrument currency to the account currency.Ongoing costsTom/Next swap points  (Forward Price)The swap points used are calculated using the tom/next swap feeds from Tier-1 banks, plus/minus a mark-up.Financing of unrealised profit/loss (Financing Interest)Any unrealised profit/loss that is rolled from one day to the next is subject to an interest credit or debit. HOW LONG SHOULD I HOLD IT AND CAN I TAKE MONEY OUT EARLY?
+Recommended holding period: NO RECOMMENDED HOLDING PERIOD
+Rolling FX Spot has no recommended holding period. Provided that Saxo is open for trading you can enter and exit positions at any time. 
+HOW CAN I COMPLAIN? 
+If you as a client or a prospective client of Saxo Bank A/S have raised a question or an issue with Saxo Bank A/S for instance with your account manager or another employee of Saxo Bank A/S without receiving a satisfactory answer you may file a complaint with Saxo Bank A/S as per below.
+If the person advising or selling to you is not Saxo Bank A/S directly please contact them directly. 
+Attn: Complaints, Saxo Bank A/S,Philip Heymans Allé 15, 2900 Hellerup, Denmark Or by e-mail to complaints@saxobank.com
+If you are not satisfied with the response to your complaint, you may file a complaint directly with The Danish Complaint Board of Banking Services: Pengeinstitutankenævnet, Amaliegade 8 B, 2. sal, Postboks 9029, DK-1022 København K, Denmark.  www.pengeinstitutankenaevnet.dk
+OTHER RELEVANT INFORMATION
+Please refer to our website for any other information.
+KEY INFORMATION DOCUMENT 
+FX SPOT
+
+
+KEY INFORMATION DOCUMENT 
+FX SPOT
+
+
+                                                  1FX SPOT
+
+                                                  3FX SPOT
+
+KEY INFORMATION DOCUMENT 
+FX SPOT
+
+
+                                                  1FX SPOT
+
