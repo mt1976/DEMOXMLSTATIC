@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Spot</DealType>
+        <MsgID>3641053-1458747975-56</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>10/07/18</TradeDate>
+        <ExtRefNo>=CONCAT(E2,ROW())</ExtRefNo>
+        <ExternalCustomer>56</ExternalCustomer>
+        <Direction>BUY</Direction>
+        <Rate>3.3881725211205</Rate>
