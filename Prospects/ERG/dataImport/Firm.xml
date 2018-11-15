@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="Firm" classname="com.eurobase.siena.data.firms.Firm">
+      <RECORD>
+        <KEYFIELD name="firmName">NICS</KEYFIELD>
+        <FIELD name="fullName">NORTHERN IRELAND CIVIL SERVICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">HMRC</KEYFIELD>
+        <FIELD name="fullName">HM REVENUE and CUSTOMS</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">MOD</KEYFIELD>
+        <FIELD name="fullName">ALLIANCE and LEICESTER</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">FCO</KEYFIELD>
+        <FIELD name="fullName">FOREIGN AND COMMONWEALTH OFFICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">DWP</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR WORK AND PENSIONS</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">SCOTGOV</KEYFIELD>
+        <FIELD name="fullName">SCOTTISH GOVERNMENT / SCOTLAND OFFICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">MOJ</KEYFIELD>
+        <FIELD name="fullName">MINISTRY OF JUSTICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">WELSHGOV</KEYFIELD>
+        <FIELD name="fullName">WELSH GOVERNMENT / WALES OFFICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">DFT</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR TRANSPORT</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">HOME</KEYFIELD>
+        <FIELD name="fullName">HOME OFFICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">HMT</KEYFIELD>
+        <FIELD name="fullName">HER MAJESTYS TREASURY</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">CROWN</KEYFIELD>
+        <FIELD name="fullName">CROWN ESTATES</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">OTHER</KEYFIELD>
+        <FIELD name="fullName">OTHER</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">AGO</KEYFIELD>
+        <FIELD name="fullName">ATTORNEY GENERALS OFFICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">CAB</KEYFIELD>
+        <FIELD name="fullName">CABINET OFFICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">BUSI</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR BUSINESS ENERGY AND INDUSTRIAL STRATEGY</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">DIGITAL</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR DIGITAL CULTURE MEDIA AND SPORT</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">EDU</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR EDUCATION</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">ENVIRO</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR ENVIRONMENT FOOD AND RURAL AFFAIRS</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">BREXIT</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR EXITING THE EUROPEAN UNION</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">INTDEV</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR INTERNATIONAL DEVELOPMENT</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">INTTRA</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR INTERNATIONAL TRADE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">TRANSPORT</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR TRANSPORT</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">HEALTH</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT OF HEALTH AND SOCIAL CARE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">HCLC</KEYFIELD>
+        <FIELD name="fullName">MINISTRY OF HOUSING COMMUNITIES AND LOCAL GOVERNMENT</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">NIO</KEYFIELD>
+        <FIELD name="fullName">NORTHERN IRELAND OFFICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">ADVOCATE</KEYFIELD>
+        <FIELD name="fullName">OFFICE OF THE ADVOCATE GENERAL FOR SCOTLAND</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">LEADHOC</KEYFIELD>
+        <FIELD name="fullName">OFFICE OF THE LEADER OF THE HOUSE OF COMMONS</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">LEADHOL</KEYFIELD>
+        <FIELD name="fullName">OFFICE OF THE LEADER OF THE HOUSE OF LORDS</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">EXPORT</KEYFIELD>
+        <FIELD name="fullName">UK EXPORT FINANCE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">BBC</KEYFIELD>
+        <FIELD name="fullName">BRITISH BROADCASTING COROPORATION</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">BOE</KEYFIELD>
+        <FIELD name="fullName">BANK OF ENGLAND</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">NATWEST</KEYFIELD>
+        <FIELD name="fullName">NATWEST BANK</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">ALLIANCE</KEYFIELD>
+        <FIELD name="fullName">ALLIANCE AND LEICESTER</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">BARCLAYS</KEYFIELD>
+        <FIELD name="fullName">BARCLAYS BANK</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">NHS</KEYFIELD>
+        <FIELD name="fullName">NATIONAL HEALTH SERVICE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">NSI</KEYFIELD>
+        <FIELD name="fullName">NATIONAL SAVINGS</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">INLAND</KEYFIELD>
+        <FIELD name="fullName">INLAND REVENUE</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">SHIPLEY</KEYFIELD>
+        <FIELD name="fullName">SHIPLEYS BANK</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">RBS</KEYFIELD>
+        <FIELD name="fullName">ROYAL BANK OF SCOTLAND</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">DEFRA</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR THE ENVIROMENT</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">EUROPE</KEYFIELD>
+        <FIELD name="fullName">EUROPEAN COMMISSION</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">GOVT</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">FIRSTDIR</KEYFIELD>
+        <FIELD name="fullName">FIRST DIRECT </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">SANTANDE</KEYFIELD>
+        <FIELD name="fullName">SANTANDER </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">SMILE</KEYFIELD>
+        <FIELD name="fullName">SMILE (PART OF THE CO-OP BANK) </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">NATIONWI</KEYFIELD>
+        <FIELD name="fullName">NATIONWIDE </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">THECOOP</KEYFIELD>
+        <FIELD name="fullName">THE CO-OP </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">HALIFAX </KEYFIELD>
+        <FIELD name="fullName">HALIFAX </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">TSB </KEYFIELD>
+        <FIELD name="fullName">TSB </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">BANKOFSC</KEYFIELD>
+        <FIELD name="fullName">BANK OF SCOTLAND </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">YORKSHIR</KEYFIELD>
+        <FIELD name="fullName">YORKSHIRE BANK </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">LLOYDSBA</KEYFIELD>
+        <FIELD name="fullName">LLOYDS BANK </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">HSBC </KEYFIELD>
+        <FIELD name="fullName">HSBC </FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>

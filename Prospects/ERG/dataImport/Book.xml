@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="Book" classname="com.eurobase.siena.data.book.Book">
+      <RECORD>
+        <KEYFIELD name="bookName">ADJUSTMENT</KEYFIELD>
+        <FIELD name="fullName">ADJUSTMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">AGGREGATES</KEYFIELD>
+        <FIELD name="fullName">AGGREGATES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">ALLIANCEAN</KEYFIELD>
+        <FIELD name="fullName">ALLIANCE and LEICESTER</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">APD</KEYFIELD>
+        <FIELD name="fullName">APD</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BACS</KEYFIELD>
+        <FIELD name="fullName">BACS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BACSRCPTS</KEYFIELD>
+        <FIELD name="fullName">BACS RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BANKGIROCR</KEYFIELD>
+        <FIELD name="fullName">BANK GIRO CREDIT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BOETRANSFR</KEYFIELD>
+        <FIELD name="fullName">BANK OF ENGLAND TRANSFERS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BARCTOSHIP</KEYFIELD>
+        <FIELD name="fullName">BARCLAYS TO SHIPLEY TRANSFER</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BBCGRANTS</KEYFIELD>
+        <FIELD name="fullName">BBC GRANTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BEER</KEYFIELD>
+        <FIELD name="fullName">BEER</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BERR</KEYFIELD>
+        <FIELD name="fullName">BERR</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BGSINTRST</KEYFIELD>
+        <FIELD name="fullName">BGS INTEREST</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BOECLRCPAY</KEYFIELD>
+        <FIELD name="fullName">BOE CLEARING CENTRE PAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BOECLRD1</KEYFIELD>
+        <FIELD name="fullName">BOE CLEARING DAY 1</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BOECLRD2</KEYFIELD>
+        <FIELD name="fullName">BOE CLEARING DAY 2</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BOECLRD3</KEYFIELD>
+        <FIELD name="fullName">BOE CLEARING DAY 3</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BOECLRD4</KEYFIELD>
+        <FIELD name="fullName">BOE CLEARING DAY 4</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">BROADCAST</KEYFIELD>
+        <FIELD name="fullName">BROADCASTING RECEIVING LICENCES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CABINETOFF</KEYFIELD>
+        <FIELD name="fullName">CABINET OFFICE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CAPITA</KEYFIELD>
+        <FIELD name="fullName">CAPITA</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CCL</KEYFIELD>
+        <FIELD name="fullName">CCL</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CENTRALOFF</KEYFIELD>
+        <FIELD name="fullName">CENTRAL OFFICE OF INFORMATION</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CERTOFTAXD</KEYFIELD>
+        <FIELD name="fullName">CERT OF TAX DEPOSIT PURCHASES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CFSUPPLYIS</KEYFIELD>
+        <FIELD name="fullName">CF SUPPLY ISSUES TO OPG</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CHAPS</KEYFIELD>
+        <FIELD name="fullName">CHAPS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CHAPSPAYM</KEYFIELD>
+        <FIELD name="fullName">CHAPS PAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CHAPSRECPT</KEYFIELD>
+        <FIELD name="fullName">CHAPS RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CHARITYBAC</KEYFIELD>
+        <FIELD name="fullName">CHARITY BACS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CHILDBENEF</KEYFIELD>
+        <FIELD name="fullName">CHILD BENEFIT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CIDERPERRY</KEYFIELD>
+        <FIELD name="fullName">CIDER AND PERRY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CIVILSUPER</KEYFIELD>
+        <FIELD name="fullName">CIVIL SUPERANNUATION</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">COTAXSA</KEYFIELD>
+        <FIELD name="fullName">COTAX  SA</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CREST</KEYFIELD>
+        <FIELD name="fullName">CREST</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CROWNESTAT</KEYFIELD>
+        <FIELD name="fullName">CROWN ESTATE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CUSTOMS</KEYFIELD>
+        <FIELD name="fullName">CUSTOMS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CUSTOMSBAL</KEYFIELD>
+        <FIELD name="fullName">CUSTOMS BALANCE TRANSFER TO CF</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CUSTOMSPAY</KEYFIELD>
+        <FIELD name="fullName">CUSTOMS PAYMENTS TO OPG INC CONT F</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CUSTOMRECO</KEYFIELD>
+        <FIELD name="fullName">CUSTOMS RECEIPTS FROM OPG INC CONT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CUSTOMSREC</KEYFIELD>
+        <FIELD name="fullName">CUSTOMS RECEIPTS FROM OPG INCL CON</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DCLG</KEYFIELD>
+        <FIELD name="fullName">DCLG</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DCMS</KEYFIELD>
+        <FIELD name="fullName">DCMS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DCSF</KEYFIELD>
+        <FIELD name="fullName">DCSF</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DEFERREDDU</KEYFIELD>
+        <FIELD name="fullName">DEFERRED DUTIES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DEFRA</KEYFIELD>
+        <FIELD name="fullName">DEFRA</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DENTALSERV</KEYFIELD>
+        <FIELD name="fullName">DENTAL SERVICES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DEPTINNO</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT FOR INNOVATION UNIVERSIT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DEPTHEALTH</KEYFIELD>
+        <FIELD name="fullName">DEPARTMENT OF HEALTH</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DEPTTRANS</KEYFIELD>
+        <FIELD name="fullName">DEPT FOR TRANSPORT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DFID</KEYFIELD>
+        <FIELD name="fullName">DFID</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DFT</KEYFIELD>
+        <FIELD name="fullName">DFT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DUTY</KEYFIELD>
+        <FIELD name="fullName">DUTY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DVLA</KEYFIELD>
+        <FIELD name="fullName">DVLA</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">DWP</KEYFIELD>
+        <FIELD name="fullName">DWP</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">ECGD</KEYFIELD>
+        <FIELD name="fullName">ECGD</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">EDUCATION</KEYFIELD>
+        <FIELD name="fullName">EDUCATION</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">ENGLANDNHS</KEYFIELD>
+        <FIELD name="fullName">ENGLAND NHS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">ENGLISHREC</KEYFIELD>
+        <FIELD name="fullName">ENGLISH RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">EUROPEANCO</KEYFIELD>
+        <FIELD name="fullName">EUROPEAN COMMUNITIES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">EVAT</KEYFIELD>
+        <FIELD name="fullName">EVAT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">FAS</KEYFIELD>
+        <FIELD name="fullName">FAS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">FCO</KEYFIELD>
+        <FIELD name="fullName">FCO</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">FORESTRYFU</KEYFIELD>
+        <FIELD name="fullName">FORESTRY FUND</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">GACA</KEYFIELD>
+        <FIELD name="fullName">GACA</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">GCHQ</KEYFIELD>
+        <FIELD name="fullName">GCHQ</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">GOVERNMENT</KEYFIELD>
+        <FIELD name="fullName">GOVERNMENT DEPARTMENT'S FOREIGN EXC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">GRANTSTORA</KEYFIELD>
+        <FIELD name="fullName">GRANTS TO RAIL OPERATORS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HEALTH</KEYFIELD>
+        <FIELD name="fullName">HEALTH</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HEALTHAUTH</KEYFIELD>
+        <FIELD name="fullName">HEALTH AUTHORITIES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HEFCE</KEYFIELD>
+        <FIELD name="fullName">HEFCE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HIGHWAYSAG</KEYFIELD>
+        <FIELD name="fullName">HIGHWAYS AGENCY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HMREVENUEA</KEYFIELD>
+        <FIELD name="fullName">HM REVENUE and CUSTOMS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HMRC</KEYFIELD>
+        <FIELD name="fullName">HMRC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HOMEOFFICE</KEYFIELD>
+        <FIELD name="fullName">HOME OFFICE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HOUSEOFCOM</KEYFIELD>
+        <FIELD name="fullName">HOUSE OF COMMONS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HOUSINGBEN</KEYFIELD>
+        <FIELD name="fullName">HOUSING BENEFITS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HOUSINGCOR</KEYFIELD>
+        <FIELD name="fullName">HOUSING CORPORATION</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">HYDROCARBO</KEYFIELD>
+        <FIELD name="fullName">HYDROCARBON OIL</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">IDENTIFIED</KEYFIELD>
+        <FIELD name="fullName">IDENTIFIED REPAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">INCREDITCL</KEYFIELD>
+        <FIELD name="fullName">IN CREDIT CLEARING</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">INDEBITCLE</KEYFIELD>
+        <FIELD name="fullName">IN DEBIT CLEARING</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">INCOMESUPP</KEYFIELD>
+        <FIELD name="fullName">INCOME SUPPORT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">INLANDREVE</KEYFIELD>
+        <FIELD name="fullName">INLAND REVENUE TRANSFERS TO OPG</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">INSOLVENCY</KEYFIELD>
+        <FIELD name="fullName">INSOLVENCY SERVICES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">INTERESTPA</KEYFIELD>
+        <FIELD name="fullName">INTEREST PAYMENTS BY CHAPS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">IPT</KEYFIELD>
+        <FIELD name="fullName">IPT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">IRBALANCET</KEYFIELD>
+        <FIELD name="fullName">IR BALANCE TRANSFER TO CF</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">IRTRANSFER</KEYFIELD>
+        <FIELD name="fullName">IR TRANSFERS TO NLF FOR CTD PURCHAS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">ISA</KEYFIELD>
+        <FIELD name="fullName">ISA</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">JSA</KEYFIELD>
+        <FIELD name="fullName">JSA</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">LANDFILLTA</KEYFIELD>
+        <FIELD name="fullName">LANDFILL TAX</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">LAPR</KEYFIELD>
+        <FIELD name="fullName">LAPR</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">LEARNINGAN</KEYFIELD>
+        <FIELD name="fullName">LEARNING and SKILLS COUNCIL</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">LOTTERY</KEYFIELD>
+        <FIELD name="fullName">LOTTERY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">LSC</KEYFIELD>
+        <FIELD name="fullName">LSC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MINEWORKER</KEYFIELD>
+        <FIELD name="fullName">MINEWORKER PENSIONS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MIRAS</KEYFIELD>
+        <FIELD name="fullName">MIRAS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MISC.PMGRE</KEYFIELD>
+        <FIELD name="fullName">MISC. PMG RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MISC</KEYFIELD>
+        <FIELD name="fullName">MISCELLANEOUS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MODLIVERPO</KEYFIELD>
+        <FIELD name="fullName">MOD LIVERPOOL</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MOJ-CORE</KEYFIELD>
+        <FIELD name="fullName">MOJ -CORE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MOJ-SCOTLA</KEYFIELD>
+        <FIELD name="fullName">MOJ -SCOTLAND</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MOJ-WALES</KEYFIELD>
+        <FIELD name="fullName">MOJ -WALES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MOTORVEHIC</KEYFIELD>
+        <FIELD name="fullName">MOTOR VEHICLE LICENSING</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">MRC</KEYFIELD>
+        <FIELD name="fullName">MRC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NWTOSHIP</KEYFIELD>
+        <FIELD name="fullName">NAT WEST BANK SHIPLEY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NIFUND</KEYFIELD>
+        <FIELD name="fullName">NATIONAL INSURANCE FUND</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NATLOTTPAY</KEYFIELD>
+        <FIELD name="fullName">NATIONAL LOTTERY DISTRIBUTION FUND </FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NATLOTTRCP</KEYFIELD>
+        <FIELD name="fullName">NATIONAL LOTTERY DISTRIBUTION FUND </FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NDA</KEYFIELD>
+        <FIELD name="fullName">NDA</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NHSNORTHER</KEYFIELD>
+        <FIELD name="fullName">NHS NORTHERN IRELAND</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NHSPENSION</KEYFIELD>
+        <FIELD name="fullName">NHS PENSIONS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NIBNOTESPA</KEYFIELD>
+        <FIELD name="fullName">NIB NOTES PAID</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NIBNOTESRE</KEYFIELD>
+        <FIELD name="fullName">NIB NOTES REDEMPTIONS BY NLF TO IMF</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NICDD</KEYFIELD>
+        <FIELD name="fullName">NIC DD</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NICTONI</KEYFIELD>
+        <FIELD name="fullName">NIC TO NI</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NICSTONIF</KEYFIELD>
+        <FIELD name="fullName">NICS TO NIF</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NIFBENEFIT</KEYFIELD>
+        <FIELD name="fullName">NIF BENEFITS GIROBANKS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NIF3</KEYFIELD>
+        <FIELD name="fullName">NIF3</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NLDF</KEYFIELD>
+        <FIELD name="fullName">NLDF</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NLFPAYIRCA</KEYFIELD>
+        <FIELD name="fullName">NLF INTEREST PAYMENTS TO IR FOR CTD</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NLFPAYIRCB</KEYFIELD>
+        <FIELD name="fullName">NLF INTEREST PAYMENTS TO IR FOR CTD</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NLFINTRPAY</KEYFIELD>
+        <FIELD name="fullName">NLF INTEREST REPAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NLFMISCPAY</KEYFIELD>
+        <FIELD name="fullName">NLF MISC PAYMENTS SWING</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NLFPRINCIP</KEYFIELD>
+        <FIELD name="fullName">NLF PRINCIPAL REPAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NNDR</KEYFIELD>
+        <FIELD name="fullName">NNDR</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NON-VATBAC</KEYFIELD>
+        <FIELD name="fullName">NON-VAT BACS REPAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NON-VATCHA</KEYFIELD>
+        <FIELD name="fullName">NON-VAT CHAPS REPAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NON-VATPAY</KEYFIELD>
+        <FIELD name="fullName">NON-VAT PAYABLE ORDER REPAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NICUSTOMS</KEYFIELD>
+        <FIELD name="fullName">NORTHERN IRELAND CUSTOMS and EXCISE T</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NIOFFICE</KEYFIELD>
+        <FIELD name="fullName">NORTHERN IRELAND OFFICE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NSANDIPAYM</KEYFIELD>
+        <FIELD name="fullName">NSandI PAYMENTS -INTEREST and PSB PRIZE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NSANDIRECE</KEYFIELD>
+        <FIELD name="fullName">NSandI RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NSANDITOTA</KEYFIELD>
+        <FIELD name="fullName">NSandI TOTAL FORECAST</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NSANDIWAYS</KEYFIELD>
+        <FIELD name="fullName">NSandI WAYS and MEANS INTO NLF</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">NTCWFTC</KEYFIELD>
+        <FIELD name="fullName">NTC  WFTC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">ONADJUSTME</KEYFIELD>
+        <FIELD name="fullName">ON ADJUSTMENT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">OIL</KEYFIELD>
+        <FIELD name="fullName">OIL</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">OPGTXFRFX</KEYFIELD>
+        <FIELD name="fullName">OPG TRANSFERS TO BANK'S FORIEGN EXC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">OPGTCFRIR</KEYFIELD>
+        <FIELD name="fullName">OPG TRANSFERS TO IR</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">ORDNANCESU</KEYFIELD>
+        <FIELD name="fullName">ORDNANCE SURVEY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">OTHER</KEYFIELD>
+        <FIELD name="fullName">OTHER</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">OTHERBOETR</KEYFIELD>
+        <FIELD name="fullName">OTHER BOE TRANSFERS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">OTHERIDENT</KEYFIELD>
+        <FIELD name="fullName">OTHER IDENTIFIED</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">OTHERPAY</KEYFIELD>
+        <FIELD name="fullName">OTHER IDENTIFIED PAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">OTHERRCPT</KEYFIELD>
+        <FIELD name="fullName">OTHER IDENTIFIED RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">PAYMASTER</KEYFIELD>
+        <FIELD name="fullName">PAYMASTER LODGEMENT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">PAYROLL</KEYFIELD>
+        <FIELD name="fullName">PAYROLL</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">PERSPEN</KEYFIELD>
+        <FIELD name="fullName">PERSONAL PENSIONS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">POIDEPTEXC</KEYFIELD>
+        <FIELD name="fullName">POI DEPT EXCL REVALUATION PAID TO</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">POLICEGRAN</KEYFIELD>
+        <FIELD name="fullName">POLICE GRANT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">POLOAN</KEYFIELD>
+        <FIELD name="fullName">POST OFFICE LOAN</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">POLOANREP</KEYFIELD>
+        <FIELD name="fullName">POST OFFICE LOAN REPAYMENT</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">PRINCIPALR</KEYFIELD>
+        <FIELD name="fullName">PRINCIPAL REPAYMENTS FROM NLF TO NS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">PROFITSOFI</KEYFIELD>
+        <FIELD name="fullName">PROFITS OF ISSUE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RBSCUMBERN</KEYFIELD>
+        <FIELD name="fullName">RBS CUMBERNAULD</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">REDEMPTION</KEYFIELD>
+        <FIELD name="fullName">REDEMPTION PAYMENT BY CHAPS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RPAYCTDITR</KEYFIELD>
+        <FIELD name="fullName">REPAYMENT OF CTD INTEREST</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RPAYCRDPRN</KEYFIELD>
+        <FIELD name="fullName">REPAYMENT OF CTD PRINCIPAL</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RPAYMAT</KEYFIELD>
+        <FIELD name="fullName">REPAYMENT OF MATURING OPG TDS INCL</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RESEARCHCO</KEYFIELD>
+        <FIELD name="fullName">RESEARCH COUNCILS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RESIDUAL</KEYFIELD>
+        <FIELD name="fullName">RESIDUAL</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RESIDUALCH</KEYFIELD>
+        <FIELD name="fullName">RESIDUAL CHAPS RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RSGENGLAND</KEYFIELD>
+        <FIELD name="fullName">RSG ENGLAND</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RSGSCOTLAN</KEYFIELD>
+        <FIELD name="fullName">RSG SCOTLAND</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RSGWALES</KEYFIELD>
+        <FIELD name="fullName">RSG WALES</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RURALPAYME</KEYFIELD>
+        <FIELD name="fullName">RURAL PAYMENTS AGENCY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">SCOTLANDNH</KEYFIELD>
+        <FIELD name="fullName">SCOTLAND NHS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">SCOTTISHEX</KEYFIELD>
+        <FIELD name="fullName">SCOTTISH EXECUTIVE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">SCOTTISHRE</KEYFIELD>
+        <FIELD name="fullName">SCOTTISH RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">SFANDHEFC</KEYFIELD>
+        <FIELD name="fullName">SF and HEFC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">SHEFC</KEYFIELD>
+        <FIELD name="fullName">SHEFC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">SHIPLEYDEB</KEYFIELD>
+        <FIELD name="fullName">SHIPLEY DEBIT CARD RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">SLC</KEYFIELD>
+        <FIELD name="fullName">SLC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">SOCIALSECU</KEYFIELD>
+        <FIELD name="fullName">SOCIAL SECURITY BENEFITS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">SRC</KEYFIELD>
+        <FIELD name="fullName">SRC</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">STUDENTGRA</KEYFIELD>
+        <FIELD name="fullName">STUDENT GRANTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">STUDENTLOA</KEYFIELD>
+        <FIELD name="fullName">STUDENT LOANS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">TAPS</KEYFIELD>
+        <FIELD name="fullName">TAPS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">TDPRINCIPA</KEYFIELD>
+        <FIELD name="fullName">TD PRINCIPAL MATURING NON-OPG</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">TSDMATINT</KEYFIELD>
+        <FIELD name="fullName">TDS MATURING NON-OPG INTEREST</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">TDSTKNN</KEYFIELD>
+        <FIELD name="fullName">TDS TAKEN NON-OPG</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">TDSTKNO</KEYFIELD>
+        <FIELD name="fullName">TDS TAKEN OPG</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">TEACHERTRA</KEYFIELD>
+        <FIELD name="fullName">TEACHER TRAINING AGENCY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">TEACHERSSU</KEYFIELD>
+        <FIELD name="fullName">TEACHERS SUPERANNUATION</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">THEREST</KEYFIELD>
+        <FIELD name="fullName">THE REST</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">TOBACCO</KEYFIELD>
+        <FIELD name="fullName">TOBACCO</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">TOTALCHQ</KEYFIELD>
+        <FIELD name="fullName">TOTAL CHEQUES HMRC FORECAST</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">VATBACSREP</KEYFIELD>
+        <FIELD name="fullName">VAT BACS REPAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">VATCHPSREC</KEYFIELD>
+        <FIELD name="fullName">VAT CHAPS RECEIPTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">VATCHPSREP</KEYFIELD>
+        <FIELD name="fullName">VAT CHAPS REPAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">VATIMPORT</KEYFIELD>
+        <FIELD name="fullName">VAT ON IMPORTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">VATPAYABLE</KEYFIELD>
+        <FIELD name="fullName">VAT PAYABLE ORDER REPAYMENTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">WALESNHS</KEYFIELD>
+        <FIELD name="fullName">WALES NHS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">WARPENSION</KEYFIELD>
+        <FIELD name="fullName">WAR PENSIONS AGENCY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">WELSHOFFIC</KEYFIELD>
+        <FIELD name="fullName">WELSH OFFICE</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">WINESANDSP</KEYFIELD>
+        <FIELD name="fullName">WINES AND SPIRITS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">ACCOUNTS</KEYFIELD>
+        <FIELD name="fullName">ACCOUNTS HELD EXTERNALLY</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">RECON</KEYFIELD>
+        <FIELD name="fullName">RECONCILIATION ACCOUNTS</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>
