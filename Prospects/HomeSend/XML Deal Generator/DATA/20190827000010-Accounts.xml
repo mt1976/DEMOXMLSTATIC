@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>12</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>27/08/2019</TradeDate>
+        <ExtRefNo>JPY0000HSBEL</ExtRefNo>
+        <ExternalCustomer>HSBEL</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>JPY</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>B1NORM</Book>
+        <ValueDate>02/01/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>Internal JPY Auto Generated Account</Notes>
+        <AccountName>JPY HSBEL ACCOUNT</AccountName>
+        <AccountNumber>JPY0000HSBEL</AccountNumber>
+        <MandatedUser>HOMESEND BELGIUM</MandatedUser>
+      </Collection>
+</Collections>
