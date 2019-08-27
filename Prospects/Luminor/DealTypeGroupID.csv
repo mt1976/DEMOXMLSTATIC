@@ -1,0 +1,35 @@
+﻿Name,SuperDealTypeGroupId,InternalId,InternalDeleted
+ALM - Bank MM,,59,NULL
+ALM - Bank NI,,60,NULL
+ALM - Cash and Retail,,61,NULL
+ALM - CB,,62,NULL
+ALM - CB OMO,,63,NULL
+ALM - Corp MM,,64,NULL
+ALM - Corp NI,,65,NULL
+ALM - Exchange Derivatives,,69,NULL
+ALM - FX,,66,NULL
+ALM - FX Derivatives,,67,NULL
+ALM - Interest Derivatives,,68,NULL
+Call,MM,38,NULL
+Derivatives,,39,NULL
+Fixing Spot,,48,NULL
+FL MM,,40,NULL
+FX Forward,,41,NULL
+FX Futures,,42,NULL
+FX Limit Order,,43,NULL
+FX Options,,44,NULL
+FX Outright,FX Forward,45,NULL
+FX Spot,,46,NULL
+FX Swap,FX Forward,47,NULL
+InterestRate,,58,NULL
+Loan,,49,NULL
+MM,,50,NULL
+MM BAW,Call,51,NULL
+MM Term,MM,52,NULL
+NDF,,53,NULL
+NI,,54,NULL
+Payments,,55,NULL
+Securities,,56,NULL
+Spot Mismatch,FX Spot,57,NULL
+EMIR,,70,NULL
+PRIPPS,,71,NULL

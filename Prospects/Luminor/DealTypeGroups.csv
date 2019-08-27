@@ -1,0 +1,219 @@
+﻿DealTypeGroupKeyDealTypeGroupId,DealTypeGroupKeyDealType,InternalId,InternalDeleted
+ALM - Bank MM,CD,214,NULL
+ALM - Bank MM,Corp Term,226,NULL
+ALM - Bank MM,Early Maturity,210,NULL
+ALM - Bank MM,Early Redemption,209,NULL
+ALM - Bank MM,Floating Term,208,NULL
+ALM - Bank MM,Murabaha,227,NULL
+ALM - Bank MM,Repo Bond,225,NULL
+ALM - Bank MM,Repo CD,218,NULL
+ALM - Bank MM,Repo Extn Bond,219,NULL
+ALM - Bank MM,Repo Extn CD,220,NULL
+ALM - Bank MM,Repo Extn FRN,221,NULL
+ALM - Bank MM,Repo Extn ZCD,222,NULL
+ALM - Bank MM,Repo FRN,223,NULL
+ALM - Bank MM,Repo ZCD,224,NULL
+ALM - Bank MM,Reverse Repo Bond,217,NULL
+ALM - Bank MM,Reverse Repo CD,216,NULL
+ALM - Bank MM,Reverse Repo Extn FRN,215,NULL
+ALM - Bank MM,Reverse Repo FRN,213,NULL
+ALM - Bank MM,Reverse Repo ZCD,212,NULL
+ALM - Bank MM,Reverse RepoExtn Bond,211,NULL
+ALM - Bank MM,Term,207,NULL
+ALM - Bank MM,Term Rollover,206,NULL
+ALM - Bank NI,CD,229,NULL
+ALM - Bank NI,Corporate Bond,231,NULL
+ALM - Bank NI,FRN,230,NULL
+ALM - Bank NI,Sukuk,312,NULL
+ALM - Bank NI,ZCD,228,NULL
+ALM - Cash and Retail,Account,232,NULL
+ALM - Cash and Retail,Account Amendment,233,NULL
+ALM - Cash and Retail,Current Account,234,NULL
+ALM - Cash and Retail,FX Inbound Payment,298,2018-01-26 10:34:01.4366667
+ALM - Cash and Retail,FX Payment,297,2018-01-26 10:33:55.3966667
+ALM - Cash and Retail,Internal Account,235,NULL
+ALM - Cash and Retail,Internal Account Amendment,236,NULL
+ALM - Cash and Retail,MT Collateral,310,NULL
+ALM - CB,Government Bond,237,NULL
+ALM - CB,Repo TBill,239,NULL
+ALM - CB,Reverse Repo TBill,240,NULL
+ALM - CB,Treasury Bill,238,NULL
+ALM - CB OMO,Index Long Term Repo,241,NULL
+ALM - CB OMO,Repo Bond,244,2018-03-08 10:41:02.0500000
+ALM - CB OMO,Repo GOVT,332,NULL
+ALM - CB OMO,Term Funding Scheme,242,NULL
+ALM - CB OMO,Term Funding Scheme Amendment,243,NULL
+ALM - Corp MM,Call Amendment,254,NULL
+ALM - Corp MM,Call Conduit,255,NULL
+ALM - Corp MM,Call Money,256,NULL
+ALM - Corp MM,Corp Pledges,245,NULL
+ALM - Corp MM,Corp Pledges RO,246,NULL
+ALM - Corp MM,Corp Term,247,NULL
+ALM - Corp MM,Corp Term RO,248,NULL
+ALM - Corp MM,Murabaha,257,NULL
+ALM - Corp MM,Promissory Note,249,NULL
+ALM - Corp MM,Repo Bond,250,NULL
+ALM - Corp MM,Repo CD,251,NULL
+ALM - Corp MM,Repo Extn Bond,252,NULL
+ALM - Corp MM,Repo Extn CD,253,NULL
+ALM - Corp MM,Repo Extn FRN,258,NULL
+ALM - Corp MM,Repo Extn ZCD,259,NULL
+ALM - Corp MM,Repo FRN,260,NULL
+ALM - Corp MM,Repo ZCD,261,NULL
+ALM - Corp MM,Reverse Repo Bond,262,NULL
+ALM - Corp MM,Reverse Repo CD,263,NULL
+ALM - Corp MM,Reverse Repo Extn FRN,264,NULL
+ALM - Corp MM,Reverse Repo FRN,265,NULL
+ALM - Corp MM,Reverse Repo ZCD,266,NULL
+ALM - Corp MM,Reverse RepoExtn Bond,267,NULL
+ALM - Corp MM,Term,270,NULL
+ALM - Corp MM,Term Rollover,271,NULL
+ALM - Corp MM,TF Call Amendment,268,NULL
+ALM - Corp MM,TF Call Money,269,NULL
+ALM - Corp MM,Wakala,329,NULL
+ALM - Corp MM,Wakala Rollover,330,NULL
+ALM - Corp NI,CD,272,NULL
+ALM - Corp NI,Corporate Bond,273,NULL
+ALM - Corp NI,Covered Bond,274,NULL
+ALM - Corp NI,Covered FRN,275,NULL
+ALM - Corp NI,FRN,277,NULL
+ALM - Corp NI,Sukuk,276,NULL
+ALM - Corp NI,ZCD,278,NULL
+ALM - Exchange Derivatives,Bond Future,324,NULL
+ALM - Exchange Derivatives,FX Future,327,NULL
+ALM - Exchange Derivatives,Interest Rate Future,326,NULL
+ALM - Exchange Derivatives,Interest Rate Future Option,325,NULL
+ALM - Exchange Derivatives,Settled Bond Future,331,NULL
+ALM - Exchange Derivatives,Settled Interest Rate Future,328,NULL
+ALM - FX,Booked Rate,299,NULL
+ALM - FX,Cover Outright,307,NULL
+ALM - FX,FX Inbound Payment,316,NULL
+ALM - FX,FX Payment,315,NULL
+ALM - FX,FX Swap,279,NULL
+ALM - FX,Option Booked Rate,301,NULL
+ALM - FX,Option Outright,300,NULL
+ALM - FX,Outright,280,NULL
+ALM - FX,Spot,281,NULL
+ALM - FX Derivatives,DCD,282,NULL
+ALM - FX Derivatives,DCD+,283,NULL
+ALM - FX Derivatives,FX American Option,287,NULL
+ALM - FX Derivatives,FX European Option,288,NULL
+ALM - FX Derivatives,NCRS,284,2018-02-27 13:27:47.5766667
+ALM - FX Derivatives,NDF,285,NULL
+ALM - FX Derivatives,XCRS,286,2018-02-27 13:27:40.4933333
+ALM - Interest Derivatives,Bond Future,322,2018-02-28 08:50:42.2233333
+ALM - Interest Derivatives,EONIA,289,NULL
+ALM - Interest Derivatives,FRA,292,NULL
+ALM - Interest Derivatives,Index Linked Bond,317,2018-01-29 09:32:52.3066667
+ALM - Interest Derivatives,Interest Rate Future,303,2018-01-25 09:35:21.9566667
+ALM - Interest Derivatives,Interest Rate Future,321,2018-02-28 08:52:35.7300000
+ALM - Interest Derivatives,Interest Rate Future Option,323,2018-02-28 08:50:57.3000000
+ALM - Interest Derivatives,IRS - No Principal Exchanged,306,NULL
+ALM - Interest Derivatives,IRS - No Principal Exchanged,293,2018-01-25 09:35:29.4900000
+ALM - Interest Derivatives,IRS - Principal Exchanged,318,NULL
+ALM - Interest Derivatives,IRS - Principal Exchanged,296,2018-01-25 09:35:08.2100000
+ALM - Interest Derivatives,IRS - Principal Exchanged,304,2018-01-29 09:32:35.9200000
+ALM - Interest Derivatives,Limit Order Parked Spot,305,2018-01-25 09:35:39.1000000
+ALM - Interest Derivatives,NCRS,320,NULL
+ALM - Interest Derivatives,OIS,290,NULL
+ALM - Interest Derivatives,Profit Rate Swap Excl Prin,314,NULL
+ALM - Interest Derivatives,Profit Rate Swap Excl Prin,302,2018-01-25 17:12:53.4866667
+ALM - Interest Derivatives,Promissory Note,313,2018-01-25 17:13:02.8833333
+ALM - Interest Derivatives,Sonia,291,NULL
+ALM - Interest Derivatives,XCRS,319,NULL
+EMIR,FX Swap,333,NULL
+PRIPPS,FX Swap,334,NULL
+Call,Call Amendment,118,NULL
+Call,Call Money,119,NULL
+Derivatives,Booked Rate,194,NULL
+Derivatives,Booked Rate,190,2017-08-22 09:09:19.2266667
+Derivatives,EONIA,120,NULL
+Derivatives,FRA,121,NULL
+Derivatives,FX American Option,122,NULL
+Derivatives,FX European Option,123,NULL
+Derivatives,FX Future,124,NULL
+Derivatives,FX Inbound Payment,192,NULL
+Derivatives,FX Payment,193,2017-08-22 09:09:24.1600000
+Derivatives,FX Swap,188,NULL
+Derivatives,Interest Rate Future,125,NULL
+Derivatives,Interest Rate Future Option,126,NULL
+Derivatives,IRS - No Principal Exchanged,201,NULL
+Derivatives,IRS - No Principal Exchanged,195,2017-12-12 16:27:42.0400000
+Derivatives,IRS - Notional Prin Exchanged,200,2017-12-13 08:40:49.2000000
+Derivatives,IRS - Notional Princ Exchanged,202,2018-01-23 15:31:53.7500000
+Derivatives,IRS - Principal Exchanged,294,NULL
+Derivatives,IRS - Principal Exchanged,199,2017-12-13 08:41:28.2100000
+Derivatives,IRS - Principal Exchanged],197,2017-09-04 15:47:28.4900000
+Derivatives,NCRS,127,NULL
+Derivatives,NIRS,128,2017-09-04 15:27:03.0100000
+Derivatives,Option Booked Rate,191,NULL
+Derivatives,Outright,129,NULL
+Derivatives,XCRS,130,NULL
+Derivatives,XIRS,131,2017-09-04 15:27:17.0000000
+Fixing Spot,Fixing Spot,158,NULL
+FL MM,Floating Term,132,NULL
+FX Forward,NDF,133,NULL
+FX Futures,FX Future,134,NULL
+FX Options,FX European Option,135,NULL
+FX Outright,Booked Rate,136,NULL
+FX Outright,Close-Out Outright,137,NULL
+FX Outright,Cover Outright,308,NULL
+FX Outright,FX Inbound Payment,138,NULL
+FX Outright,FX Payment,139,NULL
+FX Outright,Limit Order Option Outright,140,NULL
+FX Outright,Limit Order Outright,141,NULL
+FX Outright,Option Booked Rate,205,NULL
+FX Outright,Option Outright,142,NULL
+FX Outright,Outright,143,NULL
+FX Outright,Sub Option Park,144,NULL
+FX Outright,Sub Outright Park,145,NULL
+FX Outright,Take Up,146,NULL
+FX Outright,Take-Up Booked Rate,311,NULL
+FX Spot,Close-Out Spot,147,NULL
+FX Spot,Cover Spot,309,NULL
+FX Spot,Limit Order Parked Spot,148,NULL
+FX Spot,Limit Order Spot,149,NULL
+FX Spot,Parked Spot,150,NULL
+FX Spot,Spot,151,NULL
+FX Spot,Sub Spot Park,152,NULL
+FX Swap,Close-Out FX Swap,153,NULL
+FX Swap,FX Early Takeup,154,NULL
+FX Swap,FX Extension,155,NULL
+FX Swap,FX Swap,156,NULL
+FX Swap,Option FX Swap,157,NULL
+InterestRate,Profit Rate Swap Excl Prin,204,NULL
+MM,DCD,159,NULL
+MM,FRA,160,NULL
+MM,IRS - Notional Princ Exchanged,203,2018-01-23 15:31:53.7633333
+MM,IRS - Principal Exchanged,295,NULL
+MM,IRS - Principal Exchanged,198,2017-12-13 08:41:28.2266667
+MM,IRS - Principal Exchanged],196,2017-09-04 15:47:28.4766667
+MM,XIRS,161,2017-09-04 15:27:16.9866667
+MM BAW,BAW,162,NULL
+MM BAW,BAW Amendment,163,NULL
+MM Term,Term,164,NULL
+MM Term,Term Rollover,165,NULL
+NDF,NDF,166,NULL
+NI,Bond,167,NULL
+NI,CD,168,NULL
+NI,Corporate Bond,169,NULL
+NI,Covered Bond,170,NULL
+NI,Covered FRN,171,NULL
+NI,Equity,189,NULL
+NI,FRN,172,NULL
+NI,FX Swap,173,NULL
+NI,Government Bond,174,NULL
+NI,Index Linked Bond,175,NULL
+NI,Supranational Bond,176,NULL
+NI,Treasury Bill,177,NULL
+NI,ZCD,178,NULL
+Payments,FX Payment,179,NULL
+Payments,FX Payment Received,180,NULL
+Payments,FX Payment Sent,181,NULL
+Payments,Payment,182,NULL
+Securities,Bond,183,NULL
+Securities,CD,184,NULL
+Securities,FRN,185,NULL
+Securities,Repo Bond,186,NULL
+Spot Mismatch,Spot Mismatch,187,NULL
+EMIR,Outright EMIR,335,NULL

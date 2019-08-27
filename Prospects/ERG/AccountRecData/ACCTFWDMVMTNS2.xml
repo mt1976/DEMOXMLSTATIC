@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Collections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-05-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 May 16]</Notes>
+		<ExtRefNo>WLGBP42513</ExtRefNo>
+		<StatementNotes>UK Payroll [23 May 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-06-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Jun 16]</Notes>
+		<ExtRefNo>WLGBP42544</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Jun 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-07-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Jul 16]</Notes>
+		<ExtRefNo>WLGBP42574</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Jul 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-08-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Aug 16]</Notes>
+		<ExtRefNo>WLGBP42605</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Aug 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-09-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Sep 16]</Notes>
+		<ExtRefNo>WLGBP42636</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Sep 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-10-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Oct 16]</Notes>
+		<ExtRefNo>WLGBP42666</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Oct 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-11-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Nov 16]</Notes>
+		<ExtRefNo>WLGBP42697</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Nov 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-12-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Dec 16]</Notes>
+		<ExtRefNo>WLGBP42727</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Dec 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2017-01-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Jan 17]</Notes>
+		<ExtRefNo>WLGBP42758</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Jan 17]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2017-02-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Feb 17]</Notes>
+		<ExtRefNo>WLGBP42789</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Feb 17]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2017-03-23</ValueDate>
+		<Adjustment>-100000</Adjustment>
+		<Notes>UK Payroll [23 Mar 17]</Notes>
+		<ExtRefNo>WLGBP42817</ExtRefNo>
+		<StatementNotes>UK Payroll [23 Mar 17]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-05-23</ValueDate>
+		<Adjustment>-10000</Adjustment>
+		<Notes>UK Payroll Adjusment [May 16]</Notes>
+		<ExtRefNo>WLGBP42513</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [May 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-06-23</ValueDate>
+		<Adjustment>-11000</Adjustment>
+		<Notes>UK Payroll Adjusment [Jun 16]</Notes>
+		<ExtRefNo>WLGBP42544</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Jun 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-07-23</ValueDate>
+		<Adjustment>-12000</Adjustment>
+		<Notes>UK Payroll Adjusment [Jul 16]</Notes>
+		<ExtRefNo>WLGBP42574</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Jul 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-08-23</ValueDate>
+		<Adjustment>-13000</Adjustment>
+		<Notes>UK Payroll Adjusment [Aug 16]</Notes>
+		<ExtRefNo>WLGBP42605</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Aug 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-09-23</ValueDate>
+		<Adjustment>-14000</Adjustment>
+		<Notes>UK Payroll Adjusment [Sep 16]</Notes>
+		<ExtRefNo>WLGBP42636</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Sep 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-10-23</ValueDate>
+		<Adjustment>-15000</Adjustment>
+		<Notes>UK Payroll Adjusment [Oct 16]</Notes>
+		<ExtRefNo>WLGBP42666</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Oct 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-11-23</ValueDate>
+		<Adjustment>-16000</Adjustment>
+		<Notes>UK Payroll Adjusment [Nov 16]</Notes>
+		<ExtRefNo>WLGBP42697</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Nov 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2016-12-23</ValueDate>
+		<Adjustment>-17000</Adjustment>
+		<Notes>UK Payroll Adjusment [Dec 16]</Notes>
+		<ExtRefNo>WLGBP42727</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Dec 16]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2017-01-23</ValueDate>
+		<Adjustment>-18000</Adjustment>
+		<Notes>UK Payroll Adjusment [Jan 17]</Notes>
+		<ExtRefNo>WLGBP42758</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Jan 17]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2017-02-23</ValueDate>
+		<Adjustment>-19000</Adjustment>
+		<Notes>UK Payroll Adjusment [Feb 17]</Notes>
+		<ExtRefNo>WLGBP42789</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Feb 17]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+	<Collection>
+		<ParentExtRefNo>1234567890</ParentExtRefNo>
+		<DealType>Account Amendment</DealType>
+		<ExecType>0</ExecType>
+		<ValueDate>2017-03-23</ValueDate>
+		<Adjustment>-20000</Adjustment>
+		<Notes>UK Payroll Adjusment [Mar 17]</Notes>
+		<ExtRefNo>WLGBP42817</ExtRefNo>
+		<StatementNotes>UK Payroll Adjusment [Mar 17]</StatementNotes>
+		<RedefaultValues>N</RedefaultValues>
+	</Collection>
+</Collections>
