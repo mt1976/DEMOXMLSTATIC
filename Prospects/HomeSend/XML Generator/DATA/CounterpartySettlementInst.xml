@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="CounterpartySettlementInstructions" classname="com.eurobase.siena.data.counterparty.CounterpartySettlementInstructions">
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">CAD</KEYFIELD>
+        <KEYFIELD name="key.name">CAD Account 9--------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">EUR</KEYFIELD>
+        <KEYFIELD name="key.name">EUR Account 9--------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">EUR</KEYFIELD>
+        <KEYFIELD name="key.name">EUR Account 9--------2</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">USD</KEYFIELD>
+        <KEYFIELD name="key.name">USD Account 7--------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">ZAR</KEYFIELD>
+        <KEYFIELD name="key.name">ZAR Account 6--------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">USD</KEYFIELD>
+        <KEYFIELD name="key.name">USD0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">EUR</KEYFIELD>
+        <KEYFIELD name="key.name">EUR0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">GBP</KEYFIELD>
+        <KEYFIELD name="key.name">GBP0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">JPY</KEYFIELD>
+        <KEYFIELD name="key.name">JPY0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">AUD</KEYFIELD>
+        <KEYFIELD name="key.name">AUD0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">NZD</KEYFIELD>
+        <KEYFIELD name="key.name">NZD0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">CAD</KEYFIELD>
+        <KEYFIELD name="key.name">CAD0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">CHF</KEYFIELD>
+        <KEYFIELD name="key.name">CHF0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">NOK</KEYFIELD>
+        <KEYFIELD name="key.name">NOK0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">SEK</KEYFIELD>
+        <KEYFIELD name="key.name">SEK0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">ZAR</KEYFIELD>
+        <KEYFIELD name="key.name">ZAR0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">CHF</KEYFIELD>
+        <KEYFIELD name="key.name">CHF0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">DKK</KEYFIELD>
+        <KEYFIELD name="key.name">DKK0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">BEL</KEYFIELD>
+        <KEYFIELD name="key.currency">BTC</KEYFIELD>
+        <KEYFIELD name="key.name">BTC0000HSBEL</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">USD</KEYFIELD>
+        <KEYFIELD name="key.name">USD0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">EUR</KEYFIELD>
+        <KEYFIELD name="key.name">EUR0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">GBP</KEYFIELD>
+        <KEYFIELD name="key.name">GBP0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">JPY</KEYFIELD>
+        <KEYFIELD name="key.name">JPY0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">AUD</KEYFIELD>
+        <KEYFIELD name="key.name">AUD0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">NZD</KEYFIELD>
+        <KEYFIELD name="key.name">NZD0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">CAD</KEYFIELD>
+        <KEYFIELD name="key.name">CAD0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">CHF</KEYFIELD>
+        <KEYFIELD name="key.name">CHF0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">NOK</KEYFIELD>
+        <KEYFIELD name="key.name">NOK0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">SEK</KEYFIELD>
+        <KEYFIELD name="key.name">SEK0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">ZAR</KEYFIELD>
+        <KEYFIELD name="key.name">ZAR0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">CHF</KEYFIELD>
+        <KEYFIELD name="key.name">CHF0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">DKK</KEYFIELD>
+        <KEYFIELD name="key.name">DKK0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">HOMESEND</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">FRA</KEYFIELD>
+        <KEYFIELD name="key.currency">BTC</KEYFIELD>
+        <KEYFIELD name="key.name">BTC0000HSFRA</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">CAD</KEYFIELD>
+        <KEYFIELD name="key.name">CAD Account 9-------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">EUR</KEYFIELD>
+        <KEYFIELD name="key.name">EUR Account 9-------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">EUR</KEYFIELD>
+        <KEYFIELD name="key.name">EUR Account 9-------2</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">USD</KEYFIELD>
+        <KEYFIELD name="key.name">USD Account 7-------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">ZAR</KEYFIELD>
+        <KEYFIELD name="key.name">ZAR Account 6-------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">CHF</KEYFIELD>
+        <KEYFIELD name="key.name">CHF Account CHF---------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">CHF</KEYFIELD>
+        <KEYFIELD name="key.name">CHF Account CHF----------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">JPY</KEYFIELD>
+        <KEYFIELD name="key.name">JPY Account JPY---------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">JPY</KEYFIELD>
+        <KEYFIELD name="key.name">JPY Account JPY----------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">NZD</KEYFIELD>
+        <KEYFIELD name="key.name">NZD Account NZD---------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">NZD</KEYFIELD>
+        <KEYFIELD name="key.name">NZD Account NZD----------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">AUD</KEYFIELD>
+        <KEYFIELD name="key.name">AUD Account AUD---------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">AUD</KEYFIELD>
+        <KEYFIELD name="key.name">AUD Account AUD----------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">BTC</KEYFIELD>
+        <KEYFIELD name="key.name">BTC Account BTC---------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">BTC</KEYFIELD>
+        <KEYFIELD name="key.name">BTC Account BTC----------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">TELIA</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">DKK</KEYFIELD>
+        <KEYFIELD name="key.name">DKK Account DKK---------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.counterparty.firm">DISNEY</KEYFIELD>
+        <KEYFIELD name="key.counterparty.centre">WEB</KEYFIELD>
+        <KEYFIELD name="key.currency">DKK</KEYFIELD>
+        <KEYFIELD name="key.name">DKK Account DKK----------1</KEYFIELD>
+        <KEYFIELD name="key.number">1</KEYFIELD>
+        <FIELD name="isDefault">Y</FIELD>
+        <FIELD name="isActive">Y</FIELD>
+        <FIELD name="authorised">Y</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>

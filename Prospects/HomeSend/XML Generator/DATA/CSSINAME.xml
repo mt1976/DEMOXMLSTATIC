@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="CounterpartySettlementInstructionsName" classname="com.eurobase.siena.data.counterparty.CounterpartySettlementInstructionsName">
+      <RECORD>
+        <KEYFIELD name="name">CAD Account 9--------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">EUR Account 9--------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">EUR Account 9--------2</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">USD Account 7--------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">ZAR Account 6--------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">USD0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">EUR0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">GBP0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">JPY0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">AUD0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">NZD0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">CAD0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">CHF0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">NOK0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">SEK0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">ZAR0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">CHF0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">DKK0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">BTC0000HSBEL</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">USD0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">EUR0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">GBP0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">JPY0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">AUD0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">NZD0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">CAD0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">CHF0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">NOK0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">SEK0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">ZAR0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">CHF0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">DKK0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">BTC0000HSFRA</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">CAD Account 9-------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">EUR Account 9-------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">EUR Account 9-------2</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">USD Account 7-------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">ZAR Account 6-------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">CHF Account CHF---------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">CHF Account CHF----------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">JPY Account JPY---------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">JPY Account JPY----------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">NZD Account NZD---------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">NZD Account NZD----------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">AUD Account AUD---------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">AUD Account AUD----------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">BTC Account BTC---------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">BTC Account BTC----------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">DKK Account DKK---------1</KEYFIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name">DKK Account DKK----------1</KEYFIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>
