@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Cash Transfer</DealType>
+        <MsgID>20190912-12335-004</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>12/09/2019</TradeDate>
+        <ExtRefNo>ext.190912.1000.0004</ExtRefNo>
+        <ExternalCustomer>HSBEL</ExternalCustomer>
+        <Direction>RECEIVE</Direction>
+        <DealtCurrency>USD</DealtCurrency>
+        <DealtAmount>75000</DealtAmount>
+        <Book>B1NORM</Book>
+        <ValueDate>12/09/2019</ValueDate>
+        <Notes>Cash Transfer Imported @ 10:00 on 12 Sep 2019</Notes>
+        <MandatedUser>HOMESEND BELGIUM</MandatedUser>
+        <LEI>HSBEL2019091212335004</LEI>
+      </Collection>
+</Collections>
