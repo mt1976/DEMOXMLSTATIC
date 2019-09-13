@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Customer Payment Instruction</DealType>
+        <MsgID>20190913-134828-022</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>13/09/19</TradeDate>
+        <ExtRefNo>ext.UC1.1031.190913000022</ExtRefNo>
+        <ExternalCustomer>HSBEL</ExternalCustomer>
+        <Direction>PAY</Direction>
+        <DealtCurrency>BRL</DealtCurrency>
+        <DealtAmount>6895.6</DealtAmount>
+        <Book>ACTUAL</Book>
+        <ValueDate>13/09/19</ValueDate>
+        <Notes>[UC1] Customer Payment Instruction [13.09.19-10:31]</Notes>
+        <MandatedUser>HOMESEND BELGIUM</MandatedUser>
+        <LEI>HSBEL20190913134828022</LEI>
+      </Collection>
+</Collections>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Lock In Instruction</DealType>
+        <MsgID>20190913-135134-006</MsgID>
+        <ExecType>2</ExecType>
+        <TradeDate>13/09/19</TradeDate>
+        <ExtRefNo>ext.UC2.0900.190913000006</ExtRefNo>
+        <ExternalCustomer>HSBEL</ExternalCustomer>
+        <Direction>PAY</Direction>
+        <DealtCurrency>BDT</DealtCurrency>
+        <DealtAmount>423000</DealtAmount>
+        <Book>ACTUAL</Book>
+        <ValueDate>13/09/19</ValueDate>
+        <Notes>[UC2] Lock In Instruction          [13.09.19-09:00]</Notes>
+        <MandatedUser>HOMESEND BELGIUM</MandatedUser>
+        <LEI>HSBEL20190913135134006</LEI>
+      </Collection>
+</Collections>

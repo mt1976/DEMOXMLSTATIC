@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>FX Lock In</DealType>
+        <MsgID>20190913-135249-003</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>13/09/19</TradeDate>
+        <ExtRefNo>ext.UC2.0810.190913000003</ExtRefNo>
+        <ExternalCustomer>TELIA</ExternalCustomer>
+        <Direction>SELL</Direction>
+        <Rate>84.7546</Rate>
+        <DealtCurrency>USD</DealtCurrency>
+        <AgainstCurrency>BDT</AgainstCurrency>
+        <DealtAmount>423773</DealtAmount>
+        <AgainstAmount></AgainstAmount>
+        <Book>ACTUAL</Book>
+        <ValueDate>43721</ValueDate>
+        <Notes>[UC2] FX Lock In                   [13.09.19-08:10]</Notes>
+        <MandatedUser>Dorothy W. Arner</MandatedUser>
+        <LEI>HSBEL20190913135249003</LEI>
+      </Collection>
+</Collections>
