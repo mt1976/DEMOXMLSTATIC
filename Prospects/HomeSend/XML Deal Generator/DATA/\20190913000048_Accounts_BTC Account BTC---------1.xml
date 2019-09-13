@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>50</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>27/08/19</TradeDate>
+        <ExtRefNo>BTC Account BTC---------1</ExtRefNo>
+        <ExternalCustomer>TELIA</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>BTC</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>B1NORM</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>Standard BTC Account</Notes>
+        <AccountName>BTC---------1</AccountName>
+        <AccountNumber>BTC---------1</AccountNumber>
+        <MandatedUser>Dorothy W. Arner</MandatedUser>
+      </Collection>
+</Collections>
