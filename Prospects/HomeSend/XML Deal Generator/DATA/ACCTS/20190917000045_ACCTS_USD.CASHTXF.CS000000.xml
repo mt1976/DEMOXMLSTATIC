@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>ca0d83a0-1196-a1d4-7803-aa2daae3a0f4-a45</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>USD.CASHTXF.CS000000</ExtRefNo>
+        <ExternalCustomer>CS</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>USD</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>CASHTX-F</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[USD][2E9C5][USD.CASHTXF.CS000000][U3]</Notes>
+        <AccountName>1M.Fixed.USD.CASHTXF.CS000000</AccountName>
+        <AccountNumber>USD.CASHTXF.CS000000</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

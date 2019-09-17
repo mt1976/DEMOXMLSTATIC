@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>07509d66-9f86-46a2-8b34-1beb12084779-a68</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>USD.CUSTINSTF.HSBEL0</ExtRefNo>
+        <ExternalCustomer>HSBEL</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>USD</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>CUSTINST-F</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[USD][2E9C5][USD.CUSTINSTF.HSBEL0][U0]</Notes>
+        <AccountName>1M.Fixed.USD.CUSTINSTF.HSBEL0</AccountName>
+        <AccountNumber>USD.CUSTINSTF.HSBEL0</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

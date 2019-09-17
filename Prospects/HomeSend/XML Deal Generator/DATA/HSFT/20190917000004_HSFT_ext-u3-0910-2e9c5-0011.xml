@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>USD.CUSTINSTF.CS0000</ParentExtRefNo>
+        <DealType>Customer Payment Instruction</DealType>
+        <MsgID>4184764a-7418-5c6a-2fd8-00baae570d06-011</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>17/09/19</TradeDate>
+        <ExtRefNo>ext-u3-0910-2e9c5-0011</ExtRefNo>
+        <ExternalCustomer>CS</ExternalCustomer>
+        <Direction>PAY</Direction>
+        <DealtCurrency>USD</DealtCurrency>
+        <Adjustment>-20000</Adjustment>
+        <Book>CUSTINST-F</Book>
+        <InterestRate>Fixed</InterestRate>
+        <Notes>[UC3]Customer Payment Instruction [09:10]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>CS4184764A74185C6A2F</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>
