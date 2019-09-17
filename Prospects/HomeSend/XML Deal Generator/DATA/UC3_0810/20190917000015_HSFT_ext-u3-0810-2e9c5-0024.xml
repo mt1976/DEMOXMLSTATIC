@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>SGD.CASHTXF.CS000000</ParentExtRefNo>
+        <DealType>Cash Transfer</DealType>
+        <MsgID>63325a0a-9439-2eb8-43bd-aed537f010e0-024</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>17/09/2019</TradeDate>
+        <ExtRefNo>ext-u3-0810-2e9c5-0024</ExtRefNo>
+        <ExternalCustomer>CS</ExternalCustomer>
+        <Direction>RECEIVE</Direction>
+        <DealtCurrency>SGD</DealtCurrency>
+        <Adjustment>28971.6</Adjustment>
+        <Book>CASHTX-F</Book>
+        <InterestRate>Fixed</InterestRate>
+        <Notes>[UC3]Cash Transfer                [08:10]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>CS63325A0A94392EB843</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>
