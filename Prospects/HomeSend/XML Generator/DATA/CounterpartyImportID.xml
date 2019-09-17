@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="CounterpartyImportID" classname="com.eurobase.siena.data.counterparty.CounterpartyImportID">
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">HSBCUSD</KEYFIELD>
+        <FIELD name="counterparty.firm">HSBC</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">CSSGD</KEYFIELD>
+        <FIELD name="counterparty.firm">CS</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">BDBBRL</KEYFIELD>
+        <FIELD name="counterparty.firm">BDB</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">SCBUSD</KEYFIELD>
+        <FIELD name="counterparty.firm">SCB</FIELD>
+        <FIELD name="counterparty.centre">NYK</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="key.originID">ExternalDealImporter</KEYFIELD>
+        <KEYFIELD name="key.importID">SCBBTD</KEYFIELD>
+        <FIELD name="counterparty.firm">SCB</FIELD>
+        <FIELD name="counterparty.centre">OTH</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>

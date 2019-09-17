@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="Firm" classname="com.eurobase.siena.data.firms.Firm">
+      <RECORD>
+        <KEYFIELD name="firmName">HSBC</KEYFIELD>
+        <FIELD name="fullName">HSBC</FIELD>
+        <FIELD name="country">USA</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">CS</KEYFIELD>
+        <FIELD name="fullName">CREDIT SUISSE</FIELD>
+        <FIELD name="country">SGP</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">BDB</KEYFIELD>
+        <FIELD name="fullName">BANCO DO BRASIL</FIELD>
+        <FIELD name="country">BRA</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="firmName">SCB</KEYFIELD>
+        <FIELD name="fullName">STANDARD CHARTERED</FIELD>
+        <FIELD name="country">GBR</FIELD>
+        <FIELD name="sector">Banks</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>

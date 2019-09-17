@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="Counterparty" classname="com.eurobase.siena.data.counterparty.Counterparty">
+      <RECORD>
+        <KEYFIELD name="name.firm">HSBC</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Interbank</FIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+        <FIELD name="sectorCode">Banking</FIELD>
+        <FIELD name="cpartyGroupName">HSBC</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">CS</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Interbank</FIELD>
+        <FIELD name="countryCode">SGP</FIELD>
+        <FIELD name="sectorCode">Banking</FIELD>
+        <FIELD name="cpartyGroupName">CS</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">BDB</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Interbank</FIELD>
+        <FIELD name="countryCode">BRA</FIELD>
+        <FIELD name="sectorCode">Banking</FIELD>
+        <FIELD name="cpartyGroupName">BDB</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">SCB</KEYFIELD>
+        <KEYFIELD name="name.centre">NYK</KEYFIELD>
+        <FIELD name="customerType">Interbank</FIELD>
+        <FIELD name="countryCode">USA</FIELD>
+        <FIELD name="sectorCode">Banking</FIELD>
+        <FIELD name="cpartyGroupName">SCB</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="name.firm">SCB</KEYFIELD>
+        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <FIELD name="customerType">Interbank</FIELD>
+        <FIELD name="countryCode">GBR</FIELD>
+        <FIELD name="sectorCode">Banking</FIELD>
+        <FIELD name="cpartyGroupName">SCB</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>

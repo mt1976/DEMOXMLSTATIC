@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="Centre" classname="com.eurobase.siena.data.centres.Centre">
+      <RECORD>
+        <KEYFIELD name="shortName">NYK</KEYFIELD>
+        <FIELD name="fullName">NEW YORK</FIELD>
+        <FIELD name="country">USA</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="shortName">OTH</KEYFIELD>
+        <FIELD name="fullName">GENERAL</FIELD>
+        <FIELD name="country">GBR</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>

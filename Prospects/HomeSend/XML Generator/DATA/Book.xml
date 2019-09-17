@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<TRANSACTIONS>
+  <TRANSACTION type="IMPORT">
+    <TABLE name="Book" classname="com.eurobase.siena.data.book.Book">
+      <RECORD>
+        <KEYFIELD name="bookName">CASHTX-A</KEYFIELD>
+        <FIELD name="fullName">CASH TRANSFER [ACTUAL]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CASHTX-F</KEYFIELD>
+        <FIELD name="fullName">CASH TRANSFER [FORECAST]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CUSTINST-A</KEYFIELD>
+        <FIELD name="fullName">CUSTOMER PAYMENT INSTRUCTION [ACTUAL]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">CUSTINST-F</KEYFIELD>
+        <FIELD name="fullName">CUSTOMER PAYMENT INSTRUCTION [FORECAST]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">FX-A</KEYFIELD>
+        <FIELD name="fullName">FX [ACTUAL]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">FX-F</KEYFIELD>
+        <FIELD name="fullName">FX [FORECAST]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">LOCKFX-A</KEYFIELD>
+        <FIELD name="fullName">LOCK IN FX [ACTUAL]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">LOCKFX-F</KEYFIELD>
+        <FIELD name="fullName">LOCK IN FX [FORECAST]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">LOCKINST-A</KEYFIELD>
+        <FIELD name="fullName">LOCK IN INSTRUCTION [ACTUAL]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+      <RECORD>
+        <KEYFIELD name="bookName">LOCKINST-F</KEYFIELD>
+        <FIELD name="fullName">LOCK IN INSTRUCTION [FORECAST]</FIELD>
+        <FIELD name="pLManage">None</FIELD>
+        <FIELD name="pLTransfer">None</FIELD>
+        <FIELD name="derivePL">0</FIELD>
+        <FIELD name="costOfCarry">0</FIELD>
+        <FIELD name="costOfFunding">0</FIELD>
+        <FIELD name="lotAllocationMethod">Average</FIELD>
+        <FIELD name="allEquities">Y</FIELD>
+      </RECORD>
+    </TABLE>
+  </TRANSACTION>
+</TRANSACTIONS>
