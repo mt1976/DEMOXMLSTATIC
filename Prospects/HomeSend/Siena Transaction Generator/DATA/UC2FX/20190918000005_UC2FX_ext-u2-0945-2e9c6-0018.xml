@@ -2,12 +2,12 @@
 <Collections>
       <Collection>
         <DealType>FX Trade</DealType>
-        <MsgID>ee2d7ac9-8c5a-8c1c-55f4-be952b61027e-018</MsgID>
+        <MsgID>4215052f-a390-26b9-57f9-c7c0daca4c9d-018</MsgID>
         <ExecType>1</ExecType>
         <TradeDate>18/09/2019</TradeDate>
         <ExtRefNo>ext-u2-0945-2e9c6-0018</ExtRefNo>
         <ExternalCustomer>SCB</ExternalCustomer>
-        <Direction>SELL</Direction>
+        <Direction>BUY</Direction>
         <Rate>84.765</Rate>
         <DealtCurrency>USD</DealtCurrency>
         <AgainstCurrency>BDT</AgainstCurrency>
@@ -17,6 +17,6 @@
         <ValueDate>18/09/2019</ValueDate>
         <Notes>[UC2]FX Trade                     [09:45]</Notes>
         <MandatedUser>DEFAULT</MandatedUser>
-        <LEI>SCBEE2D7AC98C5A8C1C5</LEI>
+        <LEI>SCB4215052FA39026B95</LEI>
       </Collection>
 </Collections>

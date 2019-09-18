@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BDT.CASHTXA.SCB00000</ParentExtRefNo>
+        <DealType>Customer Payment Instruction</DealType>
+        <MsgID>9e2d3785-2d1d-47a3-5675-ff950ba596bc-114</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>18/09/2019</TradeDate>
+        <ExtRefNo>ext-u2-0840-2e9c6-0014</ExtRefNo>
+        <ExternalCustomer>SCB</ExternalCustomer>
+        <Direction>PAY</Direction>
+        <DealtCurrency>BDT</DealtCurrency>
+        <Adjustment>-112564.67</Adjustment>
+        <Book>CUSTINST-A</Book>
+        <InterestRate></InterestRate>
+        <Notes>[UC2]Customer Payment Instruction [08:40]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>SCB9E2D37852D1D47A35</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>

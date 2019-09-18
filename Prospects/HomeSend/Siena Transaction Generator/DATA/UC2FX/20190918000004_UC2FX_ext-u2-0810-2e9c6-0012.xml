@@ -2,12 +2,12 @@
 <Collections>
       <Collection>
         <DealType>FX Lock In</DealType>
-        <MsgID>344040d5-2eab-3630-4719-5911d8912666-012</MsgID>
+        <MsgID>ffec698d-76c6-49ac-417d-be2efa3a2227-012</MsgID>
         <ExecType>1</ExecType>
         <TradeDate>18/09/2019</TradeDate>
         <ExtRefNo>ext-u2-0810-2e9c6-0012</ExtRefNo>
         <ExternalCustomer>SCB</ExternalCustomer>
-        <Direction>SELL</Direction>
+        <Direction>BUY</Direction>
         <Rate>84.7546</Rate>
         <DealtCurrency>USD</DealtCurrency>
         <AgainstCurrency>BDT</AgainstCurrency>
@@ -17,6 +17,6 @@
         <ValueDate>18/09/2019</ValueDate>
         <Notes>[UC2]FX Lock In                   [08:10]</Notes>
         <MandatedUser>DEFAULT</MandatedUser>
-        <LEI>SCB344040D52EAB36304</LEI>
+        <LEI>SCBFFEC698D76C649AC4</LEI>
       </Collection>
 </Collections>
