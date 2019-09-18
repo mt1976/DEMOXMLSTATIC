@@ -7,7 +7,7 @@
         <TradeDate>18/09/2019</TradeDate>
         <ExtRefNo>ext-u1-1031-2e9c6-0024</ExtRefNo>
         <ExternalCustomer>BDB</ExternalCustomer>
-        <Direction>SELL</Direction>
+        <Direction>BUY</Direction>
         <Rate>4.12</Rate>
         <DealtCurrency>USD</DealtCurrency>
         <AgainstCurrency>BRL</AgainstCurrency>
