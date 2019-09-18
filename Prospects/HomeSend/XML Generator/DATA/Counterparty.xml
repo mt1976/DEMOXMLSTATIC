@@ -4,7 +4,7 @@
     <TABLE name="Counterparty" classname="com.eurobase.siena.data.counterparty.Counterparty">
       <RECORD>
         <KEYFIELD name="name.firm">HSBC</KEYFIELD>
-        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <KEYFIELD name="name.centre">WEB</KEYFIELD>
         <FIELD name="customerType">Interbank</FIELD>
         <FIELD name="countryCode">GBR</FIELD>
         <FIELD name="sectorCode">Banking</FIELD>
@@ -12,7 +12,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="name.firm">CS</KEYFIELD>
-        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <KEYFIELD name="name.centre">WEB</KEYFIELD>
         <FIELD name="customerType">Interbank</FIELD>
         <FIELD name="countryCode">SGP</FIELD>
         <FIELD name="sectorCode">Banking</FIELD>
@@ -20,7 +20,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="name.firm">BDB</KEYFIELD>
-        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <KEYFIELD name="name.centre">WEB</KEYFIELD>
         <FIELD name="customerType">Interbank</FIELD>
         <FIELD name="countryCode">BRA</FIELD>
         <FIELD name="sectorCode">Banking</FIELD>
@@ -36,7 +36,7 @@
       </RECORD>
       <RECORD>
         <KEYFIELD name="name.firm">SCB</KEYFIELD>
-        <KEYFIELD name="name.centre">OTH</KEYFIELD>
+        <KEYFIELD name="name.centre">WEB</KEYFIELD>
         <FIELD name="customerType">Interbank</FIELD>
         <FIELD name="countryCode">GBR</FIELD>
         <FIELD name="sectorCode">Banking</FIELD>

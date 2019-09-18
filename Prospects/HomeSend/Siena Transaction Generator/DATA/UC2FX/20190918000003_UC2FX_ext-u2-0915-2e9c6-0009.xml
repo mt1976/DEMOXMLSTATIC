@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>FX Trade</DealType>
+        <MsgID>cc5a5196-2d94-550b-157c-320bfba48f9a-009</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>18/09/2019</TradeDate>
+        <ExtRefNo>ext-u2-0915-2e9c6-0009</ExtRefNo>
+        <ExternalCustomer>SCB</ExternalCustomer>
+        <Direction>SELL</Direction>
+        <Rate>84.765</Rate>
+        <DealtCurrency>USD</DealtCurrency>
+        <AgainstCurrency>BDT</AgainstCurrency>
+        <DealtAmount>974797.5</DealtAmount>
+        <AgainstAmount></AgainstAmount>
+        <Book>FX-F</Book>
+        <ValueDate>18/09/2019</ValueDate>
+        <Notes>[UC2]FX Trade                     [09:15]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>SCBCC5A51962D94550B1</LEI>
+      </Collection>
+</Collections>

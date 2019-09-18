@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>FX Trade</DealType>
+        <MsgID>779d9e0c-3297-02b7-5643-3103169d4eba-025</MsgID>
+        <ExecType>0</ExecType>
+        <TradeDate>18/09/2019</TradeDate>
+        <ExtRefNo>ext-u1-1031-2e9c6-0024</ExtRefNo>
+        <ExternalCustomer>BDB</ExternalCustomer>
+        <Direction>SELL</Direction>
+        <Rate>4.12</Rate>
+        <DealtCurrency>USD</DealtCurrency>
+        <AgainstCurrency>BRL</AgainstCurrency>
+        <DealtAmount>50000</DealtAmount>
+        <AgainstAmount></AgainstAmount>
+        <Book>FX-F</Book>
+        <ValueDate></ValueDate>
+        <Notes>[UC1]FX Trade                     [10:31]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>BDB595DA7A0A44C0BC74</LEI>
+      </Collection>
+</Collections>

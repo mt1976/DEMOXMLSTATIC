@@ -2,26 +2,21 @@
 <TRANSACTIONS>
   <TRANSACTION type="IMPORT">
     <TABLE name="Firm" classname="com.eurobase.siena.data.firms.Firm">
+
       <RECORD>
-        <KEYFIELD name="firmName">HSBC</KEYFIELD>
-        <FIELD name="fullName">HSBC</FIELD>
-        <FIELD name="country">USA</FIELD>
-        <FIELD name="sector">Banks</FIELD>
-      </RECORD>
-      <RECORD>
-        <KEYFIELD name="firmName">CS</KEYFIELD>
+        <KEYFIELD name="firmName">CS2</KEYFIELD>
         <FIELD name="fullName">CREDIT SUISSE</FIELD>
         <FIELD name="country">SGP</FIELD>
         <FIELD name="sector">Banks</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="firmName">BDB</KEYFIELD>
+        <KEYFIELD name="firmName">BDB2</KEYFIELD>
         <FIELD name="fullName">BANCO DO BRASIL</FIELD>
         <FIELD name="country">BRA</FIELD>
         <FIELD name="sector">Banks</FIELD>
       </RECORD>
       <RECORD>
-        <KEYFIELD name="firmName">SCB</KEYFIELD>
+        <KEYFIELD name="firmName">SCB2</KEYFIELD>
         <FIELD name="fullName">STANDARD CHARTERED</FIELD>
         <FIELD name="country">GBR</FIELD>
         <FIELD name="sector">Banks</FIELD>
