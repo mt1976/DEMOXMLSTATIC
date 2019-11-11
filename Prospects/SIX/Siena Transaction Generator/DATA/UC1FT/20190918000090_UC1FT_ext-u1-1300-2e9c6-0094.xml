@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BRL.CUSTINSTA.BDB000</ParentExtRefNo>
+        <DealType>Customer Payment Instruction</DealType>
+        <MsgID>93bdc62b-07c1-7227-0366-c75a215c7e70-094</MsgID>
+        <ExecType>0</ExecType>
+        <TradeDate>18/09/2019</TradeDate>
+        <ExtRefNo>ext-u1-1300-2e9c6-0094</ExtRefNo>
+        <ExternalCustomer>BDB</ExternalCustomer>
+        <Direction>PAY</Direction>
+        <DealtCurrency>BRL</DealtCurrency>
+        <Adjustment>-8099.6</Adjustment>
+        <Book>CUSTINST-A</Book>
+        <InterestRate>Fixed</InterestRate>
+        <Notes>[UC1]Customer Payment Instruction [13:00]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>BDB93BDC62B07C172270</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>

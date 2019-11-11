@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BDT.CUSTINSTF.SCB000</ParentExtRefNo>
+        <DealType>Customer Payment Instruction</DealType>
+        <MsgID>0c9633ea-46c1-a6cc-32f1-27fe1b737c57-007</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>18/09/2019</TradeDate>
+        <ExtRefNo>ext-u2-0915-2e9c6-0007</ExtRefNo>
+        <ExternalCustomer>SCB</ExternalCustomer>
+        <Direction>PAY</Direction>
+        <DealtCurrency>BDT</DealtCurrency>
+        <Adjustment>-425132.45</Adjustment>
+        <Book>CUSTINST-F</Book>
+        <InterestRate></InterestRate>
+        <Notes>[UC2]Customer Payment Instruction [09:15]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>SCB0C9633EA46C1A6CC3</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>92289323-7b2e-3690-7642-aff2358b4a9d-a62</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/2019</TradeDate>
+        <ExtRefNo>USD.CASHTXA.HSBEL000</ExtRefNo>
+        <ExternalCustomer>HSBEL</ExternalCustomer>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>USD</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>CASHTX-A</Book>
+        <ValueDate>02/01/2018</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency>1M</InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[USD][2E9C6][USD.CASHTXA.HSBEL000][U0]</Notes>
+        <AccountName>1M.Fixed.USD.CASHTXA.HSBEL000</AccountName>
+        <AccountNumber>USD.CASHTXA.HSBEL000</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>

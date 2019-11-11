@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>SGD.CUSTINSTA.CS0000</ParentExtRefNo>
+        <DealType>Customer Payment Instruction</DealType>
+        <MsgID>fa283242-22f6-4969-625c-92d7c23c9074-051</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>18/09/2019</TradeDate>
+        <ExtRefNo>ext-u3-0810-2e9c6-0051</ExtRefNo>
+        <ExternalCustomer>CS</ExternalCustomer>
+        <Direction>PAY</Direction>
+        <DealtCurrency>SGD</DealtCurrency>
+        <Adjustment>-172.439375</Adjustment>
+        <Book>CUSTINST-A</Book>
+        <InterestRate>Fixed</InterestRate>
+        <Notes>[UC3]Customer Payment Instruction [08:10]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>CSFA28324222F6496962</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>
