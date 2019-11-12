@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>38a3b246-1ef4-5b11-13a9-bb7ac3b590b2-a17</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>USD.LOCKFXF.BDB11111</ExtRefNo>
+        <ExternalCustomer>BDB</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>USD</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>LOCKFX-F</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency></InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[USD][2EA88][USD.LOCKFXF.BDB11111][U1]</Notes>
+        <AccountName>Fixed.USD.LOCKFXF.BDB11111</AccountName>
+        <AccountNumber>USD.LOCKFXF.BDB11111</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

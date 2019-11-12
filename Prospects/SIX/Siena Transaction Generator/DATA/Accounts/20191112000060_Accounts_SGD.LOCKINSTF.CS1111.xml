@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>007685e2-1f49-1f2d-1b50-8de06c322d5b-a6a</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>SGD.LOCKINSTF.CS1111</ExtRefNo>
+        <ExternalCustomer>CS</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>SGD</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>LOCKINST-F</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency></InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[SGD][2EA88][SGD.LOCKINSTF.CS1111][U3]</Notes>
+        <AccountName>Fixed.SGD.LOCKINSTF.CS1111</AccountName>
+        <AccountNumber>SGD.LOCKINSTF.CS1111</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

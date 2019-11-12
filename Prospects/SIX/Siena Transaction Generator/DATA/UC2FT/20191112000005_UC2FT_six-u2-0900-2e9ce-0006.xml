@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BDT.LOCKINSTF.SCB111</ParentExtRefNo>
+        <DealType>Lock In Instruction</DealType>
+        <MsgID>055e377c-1b36-31bb-3a13-aa2533a19f3b-006</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>12/11/19</TradeDate>
+        <ExtRefNo>six-u2-0900-2e9ce-0006</ExtRefNo>
+        <ExternalCustomer>SCB</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>PAY</Direction>
+        <DealtCurrency>BDT</DealtCurrency>
+        <Adjustment>-423000</Adjustment>
+        <Book>LOCKINST-F</Book>
+        <InterestRate></InterestRate>
+        <Notes>[UC2]Lock In Instruction          [09:00]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>SCB055E377C1B3631BB3</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

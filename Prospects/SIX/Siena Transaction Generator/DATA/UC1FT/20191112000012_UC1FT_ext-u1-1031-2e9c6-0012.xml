@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>USD.CASHTXF.BDB00000</ParentExtRefNo>
+        <DealType>Cash Transfer</DealType>
+        <MsgID>4cb8251a-206e-19fc-763e-f85884071240-012</MsgID>
+        <ExecType>0</ExecType>
+        <TradeDate>01/10/19</TradeDate>
+        <ExtRefNo>ext-u1-1031-2e9c6-0012</ExtRefNo>
+        <ExternalCustomer>BDB</ExternalCustomer>
+        <PaymentSyste,></PaymentSyste,>
+        <Direction>RECEIVE</Direction>
+        <DealtCurrency>USD</DealtCurrency>
+        <Adjustment>20000</Adjustment>
+        <Book>CASHTX-F</Book>
+        <InterestRate>Fixed</InterestRate>
+        <Notes>[UC1]Cash Transfer                [10:31]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>BDB4CB8251A206E19FC7</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

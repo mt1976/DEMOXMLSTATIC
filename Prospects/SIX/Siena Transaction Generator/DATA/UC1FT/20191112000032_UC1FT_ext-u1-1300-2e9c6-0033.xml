@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BRL.CUSTINSTF.BDB000</ParentExtRefNo>
+        <DealType>Customer Payment Instruction</DealType>
+        <MsgID>9d41e616-06c7-10a5-581e-d0a6142f2b8f-033</MsgID>
+        <ExecType>0</ExecType>
+        <TradeDate>01/10/19</TradeDate>
+        <ExtRefNo>ext-u1-1300-2e9c6-0033</ExtRefNo>
+        <ExternalCustomer>BDB</ExternalCustomer>
+        <PaymentSyste,></PaymentSyste,>
+        <Direction>PAY</Direction>
+        <DealtCurrency>BRL</DealtCurrency>
+        <Adjustment>-5297.6</Adjustment>
+        <Book>CUSTINST-F</Book>
+        <InterestRate>Fixed</InterestRate>
+        <Notes>[UC1]Customer Payment Instruction [13:00]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>BDB9D41E61606C710A55</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>29ac883a-7918-8513-8a9b-981f4701605f-a61</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>USD.LOCKINSTF.CS1111</ExtRefNo>
+        <ExternalCustomer>CS</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>USD</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>LOCKINST-F</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency></InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[USD][2EA88][USD.LOCKINSTF.CS1111][U3]</Notes>
+        <AccountName>Fixed.USD.LOCKINSTF.CS1111</AccountName>
+        <AccountNumber>USD.LOCKINSTF.CS1111</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>63d21ed4-52c4-4243-0fc9-2b56725b958b-a42</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>SGD.CASHTXA.CS111111</ExtRefNo>
+        <ExternalCustomer>CS</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>SGD</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>CASHTX-A</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency></InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[SGD][2EA88][SGD.CASHTXA.CS111111][U3]</Notes>
+        <AccountName>Fixed.SGD.CASHTXA.CS111111</AccountName>
+        <AccountNumber>SGD.CASHTXA.CS111111</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>

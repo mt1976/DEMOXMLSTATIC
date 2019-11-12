@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>SGD.CUSTINSTF.CS1111</ParentExtRefNo>
+        <DealType>Customer Payment Instruction</DealType>
+        <MsgID>51d8c40e-50df-0ba1-2da0-4401c3ff9e30-031</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>12/11/19</TradeDate>
+        <ExtRefNo>six-u3-0910-2e9c6-0031</ExtRefNo>
+        <ExternalCustomer>CS</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>PAY</Direction>
+        <DealtCurrency>SGD</DealtCurrency>
+        <Adjustment>-4481.1512856</Adjustment>
+        <Book>CUSTINST-F</Book>
+        <InterestRate>Fixed</InterestRate>
+        <Notes>[UC3]Customer Payment Instruction [09:10]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>CS51D8C40E50DF0BA12D</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

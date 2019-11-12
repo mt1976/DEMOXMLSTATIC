@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>69a863a0-5b01-34f5-878d-2feeabc17641-a35</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>USD.LOCKFXA.SCB11111</ExtRefNo>
+        <ExternalCustomer>SCB</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>USD</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>LOCKFX-A</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency></InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[USD][2EA88][USD.LOCKFXA.SCB11111][U2]</Notes>
+        <AccountName>Fixed.USD.LOCKFXA.SCB11111</AccountName>
+        <AccountNumber>USD.LOCKFXA.SCB11111</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>

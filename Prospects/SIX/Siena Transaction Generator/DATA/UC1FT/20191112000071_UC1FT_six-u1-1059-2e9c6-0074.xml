@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>BRL.CUSTINSTA.BDB111</ParentExtRefNo>
+        <DealType>Customer Payment Instruction</DealType>
+        <MsgID>0202db1a-0acb-6ff0-4f7f-439c955203da-074</MsgID>
+        <ExecType>0</ExecType>
+        <TradeDate>12/11/19</TradeDate>
+        <ExtRefNo>six-u1-1059-2e9c6-0074</ExtRefNo>
+        <ExternalCustomer>BDB</ExternalCustomer>
+        <PaymentSyste,>SWIFT</PaymentSyste,>
+        <Direction>PAY</Direction>
+        <DealtCurrency>BRL</DealtCurrency>
+        <Adjustment>-7345.8</Adjustment>
+        <Book>CUSTINST-A</Book>
+        <InterestRate>Fixed</InterestRate>
+        <Notes>[UC1]Customer Payment Instruction [10:59]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>BDB0202DB1A0ACB6FF04</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>

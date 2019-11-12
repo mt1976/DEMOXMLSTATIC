@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>c64a6fc9-712a-8df6-064d-99f2b9b81885-a2a</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>BRL.LOCKINSTF.BDB111</ExtRefNo>
+        <ExternalCustomer>BDB</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>BRL</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>LOCKINST-F</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency></InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[BRL][2EA88][BRL.LOCKINSTF.BDB111][U1]</Notes>
+        <AccountName>Fixed.BRL.LOCKINSTF.BDB111</AccountName>
+        <AccountNumber>BRL.LOCKINSTF.BDB111</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>FORECAST</Portfolio>
+      </Collection>
+</Collections>

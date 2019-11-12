@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <ParentExtRefNo>USD.CASHTXA.SCB11111</ParentExtRefNo>
+        <DealType>Cash Transfer</DealType>
+        <MsgID>07b4f03a-99e0-2b79-3998-268ca52f3b08-011</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>12/11/19</TradeDate>
+        <ExtRefNo>six-u2-0800-2e9ce-0011</ExtRefNo>
+        <ExternalCustomer>SCB</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>RECEIVE</Direction>
+        <DealtCurrency>USD</DealtCurrency>
+        <Adjustment>50000</Adjustment>
+        <Book>CASHTX-A</Book>
+        <InterestRate></InterestRate>
+        <Notes>[UC2]Cash Transfer                [08:00]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>SCB07B4F03A99E02B793</LEI>
+        <RedefaultValues>N</RedefaultValues>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>

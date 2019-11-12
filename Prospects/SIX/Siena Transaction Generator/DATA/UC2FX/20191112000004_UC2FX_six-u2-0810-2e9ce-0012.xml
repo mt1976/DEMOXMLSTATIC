@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>FX Lock In</DealType>
+        <MsgID>77d0eacc-5328-7940-29be-1f4735b60680-012</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>30/09/19</TradeDate>
+        <ExtRefNo>six-u2-0810-2e9ce-0012</ExtRefNo>
+        <ExternalCustomer>SCB</ExternalCustomer>
+        <Direction>BUY</Direction>
+        <MarketSpotRate>84.7546</MarketSpotRate>
+        <DealtCurrency>USD</DealtCurrency>
+        <AgainstCurrency>BDT</AgainstCurrency>
+        <DealtAmount>5000</DealtAmount>
+        <AgainstAmount></AgainstAmount>
+        <Book>LOCKFX-A</Book>
+        <ValueDate>30/09/19</ValueDate>
+        <Notes>[UC2]FX Lock In                   [08:10]</Notes>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <LEI>SCB77D0EACC532879402</LEI>
+      </Collection>
+</Collections>

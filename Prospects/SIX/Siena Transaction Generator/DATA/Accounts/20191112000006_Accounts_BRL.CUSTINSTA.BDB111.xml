@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>10135493-0074-974a-1663-2462a5fc86cd-aa6</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>BRL.CUSTINSTA.BDB111</ExtRefNo>
+        <ExternalCustomer>BDB</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>BRL</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>CUSTINST-A</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency></InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[BRL][2EA88][BRL.CUSTINSTA.BDB111][U1]</Notes>
+        <AccountName>Fixed.BRL.CUSTINSTA.BDB111</AccountName>
+        <AccountNumber>BRL.CUSTINSTA.BDB111</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>

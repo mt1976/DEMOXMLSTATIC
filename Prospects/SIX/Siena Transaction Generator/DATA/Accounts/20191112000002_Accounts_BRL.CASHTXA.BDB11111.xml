@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<Collections>
+      <Collection>
+        <DealType>Account</DealType>
+        <MsgID>59b6b78b-1490-0132-0e45-d0f154393439-aa2</MsgID>
+        <ExecType>1</ExecType>
+        <TradeDate>01/01/19</TradeDate>
+        <ExtRefNo>BRL.CASHTXA.BDB11111</ExtRefNo>
+        <ExternalCustomer>BDB</ExternalCustomer>
+        <PaymentSystem>SWIFT</PaymentSystem>
+        <Direction>DEPO</Direction>
+        <Rate>0</Rate>
+        <DealtCurrency>BRL</DealtCurrency>
+        <DealtAmount>0</DealtAmount>
+        <Book>CASHTX-A</Book>
+        <ValueDate>02/01/18</ValueDate>
+        <MaturityDate></MaturityDate>
+        <InterestFrequency></InterestFrequency>
+        <InterestRateType>Fixed</InterestRateType>
+        <FloatingRateMargin></FloatingRateMargin>
+        <InterestAction>0</InterestAction>
+        <Notes>[BRL][2EA88][BRL.CASHTXA.BDB11111][U1]</Notes>
+        <AccountName>Fixed.BRL.CASHTXA.BDB11111</AccountName>
+        <AccountNumber>BRL.CASHTXA.BDB11111</AccountNumber>
+        <MandatedUser>DEFAULT</MandatedUser>
+        <Portfolio>ACTUAL</Portfolio>
+      </Collection>
+</Collections>
