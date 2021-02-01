@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : traderToolsNack.xml
+    Created on : 15 May 2013
+    Author     : cmcfarlane
+    Description:
+        Test Nack XML for TraderTools interface.
+-->
+
+<TrdCaptRptAck  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns='http://www.fixprotocol.org/FIXML-5-0-SP1'
+   xsi:schemaLocation='http://www.fixprotocol.org/FIXML-5-0-SP1 fixml-tradecapture-base-5-0-SP1.xsd'
+   RptID="NACK test 1" TrdRptStat="1"
+   TrdID="000447" MsgID="0000000088">
+<Hdr Snt="2016-09-01T10:32:00"/>
+<Instrmt/>
+</TrdCaptRptAck>

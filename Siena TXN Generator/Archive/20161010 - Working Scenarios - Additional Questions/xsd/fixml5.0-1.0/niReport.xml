@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<!--
+    Document   : niReport.xml
+    Created on : 05 September 2011, 14:38
+    Author     : jnewell
+    Description:
+        Purpose of the document follows:
+          Example of a NegotiableInstrument deal to  be importer or exported by siena
+
+    Deal Type identification:
+      This has a SubTyp of TRM so this is a Term deal
+
+    Attributes:
+      ExecTyp=0: means new report
+      TrdDt:   The date the trade was struck
+      TrdID:   For deal import this is a bank generated reference. For Deal export this will be a siena contract number.
+      OrigTrdID:  This is included for deal export. It is the siena external reference number. For trades that originated from the bank this will be a bank genrated number.
+      TrdID2:  The siena reference number. This is static for the lifetime of the deal (survives deal edits). Only relevant for deal export
+      Ccy:     The account currency
+      LastQty: The opening balance
+      LastPx:  The starting interest rate
+      SettlDt: The Settlement date for the final leg
+      Bk:      The book or portfolio
+-->
+
+<TrdCaptRpt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.fixprotocol.org/FIXML-5-0-SP1"
+    xsi:schemaLocation="http://www.fixprotocol.org/FIXML-5-0-SP1 fixml-tradecapture-base-5-0-SP1.xsd"
+    ExecTyp="0"
+      TrdDt="2011-08-10" TrdID="001157" TrdID2="001115" Ccy="USD" Bk="CAP" ExportCat="21063" LastMkt="5.0" LastPx="5.0" LastQty="+10000000.00" MsgID="0000000939" RefIRTyp="Fixed" SettlDt="2011-08-10">
+  <!--
+    Snt: The time this report was sent
+  -->
+  <Hdr Snt="2011-09-02T16:01:40"/>
+  <!--
+    Sym: The currency pair involved in the exchange
+    CFI=DYXXXX: means MM
+    SubType: TRM means Term
+    Clrg: The Clearing System of the Negotiable Instrument
+  -->
+  <Instrmt CFI="DYFXXX" Clrg="EUROCLEAR" CpnRt="4.0000" Issr="ACCESS   LDN" Issued="2011-08-10" NIName="test" SubTyp="CD"/>
+  <!--
+    StartDt: The start date of the first interest period
+    EndDt:   The maturity date. The date on which the last interest payment is due
+  -->
+  <FinDetls EndDt="2012-08-10" StartDt="2011-08-10"/>
+  <!--
+    CleanPx: Clean price
+    DirtPx:  Dirty price
+    Yield:   Yield rate
+  -->
+  <Undly CleanPx="99.03251390000001" Desc="NI" DirtPx="99.03251390000001" Yield="5.0"/>
+ <!--
+    Point
+      Interest rate frequency:
+        3M means payable quarterly
+    Name
+      Interest Rate Types:
+        Base
+        Call
+        Fixed
+        LIBID
+        LIBOR
+        Prime
+        SIBID
+        SIBOR
+     IntAct
+        Interest Action:
+          Not present means Settle
+          0 means Settle
+          1 means capitalise
+  -->
+  <SprdBnchmkCurve Point="3M" Name="LIBOR" IntAct="1"/>
+  <TrdLeg SettlDt="2011-08-10"/>
+  <TrdLeg SettlDt="2012-08-10"/>
+  <RptSide Side="1">
+    <Pty ID="ABEBE    LAG" R="13"/>
+    <Pty ID="100691" R="3"/>
+    <Pty ID="Super" R="31"/>
+    <SettlDetails>
+      <Pty/>
+    </SettlDetails>
+  </RptSide>
+</TrdCaptRpt>

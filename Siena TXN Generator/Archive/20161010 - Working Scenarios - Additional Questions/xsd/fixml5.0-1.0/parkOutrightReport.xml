@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : outrightReport.xml
+    Created on : 22 May 2008, 14:38
+    Author     : rmcconnell
+    Description:
+        Purpose of the document follows.
+        
+    Deal Type identification:
+     This has a SubTyp of PRKOT so this is an Parked Outright
+    
+    Attributes:
+      ExecTyp=0: means new report
+      TrdID: This is the external reference number as far as siena is concerened (allocated by the bank for referencing the deal).
+      TrdDt: TrdDt: trade start date
+      SettlDt: This is the settlement date
+      Ccy: This is the dealt currency
+      LastQty: This is the quantity of the dealt currency
+      LastPx: This is the all in price at which the currency is being bought or sold
+      LastSpotRate: This is the spot rate which plus points makes up LastPx
+      
+-->
+
+<TrdCaptRpt  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns='http://www.fixprotocol.org/FIXML-5-0-SP1'
+   xsi:schemaLocation='http://www.fixprotocol.org/FIXML-5-0-SP1 fixml-tradecapture-base-5-0-SP1.xsd'
+   ExecTyp="0" TrdID="ABC1234" TrdDt="2008-06-19" SettlDt="2008-07-23" Ccy="GBP" LastQty="5000000"
+   LastPx="1.725813" LastSpotRt="1.7244">
+<!--
+  Snt: The time this report was sent
+-->
+<Hdr Snt="2008-06-19T10:32:00"/>
+<!--
+  Sym: The currency pair involved in the exchange
+  CFI=FFCPN0: Indicates that this is an outright.
+  SubTyp: PRKOT means Park Outright
+-->
+<Instrmt Sym="GBP/USD" CFI="FFCPN0" SubTyp="PRKOT"/>
+<!--
+
+  Must be at least two underlying. If only two then a pair for the traded currency pair:
+  
+    GBP/USD Spot
+    GBP/USD Forward
+    
+  Desc: Label identifying the underlying component
+  FxRate: The all in price
+  Px: margin.
+-->
+<!--
+  First the spot component
+-->
+<Undly Desc="SP" Sym="GBP/USD" FxRate="1.7244" CFI="RCSXXX" Px="0.001" Mat="2008-06-23"/>
+<!--
+  Now the forward component
+-->
+<Undly Desc="Leg1" Sym="GBP/USD" FxRate="1.725813" CFI="FFCPN0" Px="0.001" Mat="2008-07-23"/>
+<!--
+  Side=1: Means the bank is buying (customer is selling). 2 means selling
+-->
+<RptSide Side="1">
+  <!-- The customer. This is mapped to a siena counterparty. -->
+  <Pty ID="ABCLON" R="13"/>
+  <!--
+      The mandated user
+  -->
+  <Pty ID="traderA" R="11"/>
+  <!-- Pay From / Pay to  settlement instruction -->
+  <SettlDetails>
+    <!-- the banks Debit instruction, customer credit instruction for USD -->
+    <Pty ID="abc1"/>
+  </SettlDetails>
+  <!-- Take From / Take At settlement instruction -->
+  <SettlDetails>
+    <!-- Customer debit instruction, the banks credit instruction for GBP -->
+    <Pty ID="abc2"/>
+    </SettlDetails>
+</RptSide>
+</TrdCaptRpt>

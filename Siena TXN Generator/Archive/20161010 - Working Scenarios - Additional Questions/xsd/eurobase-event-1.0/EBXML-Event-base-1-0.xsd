@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : EBXML-Event-base-1-0.xsd
+    Created on : 07 April 2011
+    Copyright  : Copyright 2011 Eurobase Systems Limited. All rights reserved.
+                 EUROBASE PROPRIETARY/CONFIDENTIAL. Use is subject to license
+                 terms.
+    Author     : rhawes
+    Description:
+        The Document is the Schema for validating Siena Deal Event XML.
+-->
+<xsd:schema xmlns="http://www.eurobase.com/EBXML-Event-1-0"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.eurobase.com/EBXML-Event-1-0"
+           xmlns:fixml="http://www.fixprotocol.org/FIXML-5-0-SP1"
+           targetNamespace="http://www.eurobase.com/EBXML-Event-1-0"
+           elementFormDefault="qualified">
+  <xsd:import namespace="http://www.fixprotocol.org/FIXML-5-0-SP1"
+       schemaLocation="fixml-tradecapture-base-5-0-SP1.xsd"/>
+  <!-- Elements -->
+  <xsd:element name="event" type="Event_message_t" />
+  <xsd:element name="header" type="tns:Header_t" />
+  <xsd:element name="body" type="tns:Body_t" />
+  <xsd:element name="details" type="tns:Details_t" />
+  <!-- Complex Types -->
+  <xsd:complexType name="Event_message_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Event Message</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element ref="tns:header" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Holds information about the message.</xsd:documentation>
+          <xsd:appinfo>Header Element</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:body" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Holds body of the message.</xsd:documentation>
+          <xsd:appinfo>Header Element</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Header_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Holds information about the message.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="recipient" maxOccurs="1" minOccurs="1" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">The Recipient of the message.</xsd:documentation>
+          <xsd:appinfo>Recipient</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Body_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">The main body of the message.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="dateTimeStamp" maxOccurs="1" minOccurs="1" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">The timestamp when the event was raised.</xsd:documentation>
+          <xsd:appinfo>Timestamp</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="type" maxOccurs="1" minOccurs="1" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">The Event Type.</xsd:documentation>
+          <xsd:appinfo>Event Type</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="text" maxOccurs="1" minOccurs="1" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">The description of the event.</xsd:documentation>
+          <xsd:appinfo>Description</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:details" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">The details of the event.</xsd:documentation>
+          <xsd:appinfo>Event Details</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="addressees" maxOccurs="1" minOccurs="0" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Optional comma-separated list of addressees.</xsd:documentation>
+          <xsd:appinfo>Addressees</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Details_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">The details of the event.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element ref="fixml:TrdCaptRpt" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">The FIXML TrdCaptRpt.</xsd:documentation>
+          <xsd:appinfo>TrdCaptRpt</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : termRolloverReport.xml
+    Created on : 22 May 2008, 14:38
+    Author     : rmcconnell
+    Description:
+        Purpose of the document follows:
+          Example of a Term deal to  be importer or exported by siena
+        
+    Deal Type identification:
+      This has a SubTyp of TRMRO so this is a Term Rollover deal
+    
+    Attributes:
+      ExecTyp=0: means new report
+      LinkID: The reference to the original Term deal
+      TrdDt:   The date the trade was struck
+      TrdID:   For deal import this is a bank generated reference. For Deal export this will be a siena contract number.
+      OrigTrdID:  This is included for deal export. It is the siena external reference number. For trades that originated from bank this will be a bank genrated number.
+      TrdID2:  The siena reference number. This is static for the lifetime of the deal (survives deal edits). Only relevant for deal export
+      Ccy:     The account currency
+      LastQty: The opening balance
+      LastPx:  The starting interest rate
+-->
+
+<TrdCaptRpt  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns='http://www.fixprotocol.org/FIXML-5-0-SP1'
+   xsi:schemaLocation='http://www.fixprotocol.org/FIXML-5-0-SP1 fixml-tradecapture-base-5-0-SP1.xsd'
+   ExecTyp="0"
+   LinkID="ABC123"
+    TrdDt="2008-05-21" TrdID="ABC1234" OrigTrdID="XYZ1234" TrdID2="SIENA-REF1234"
+   Ccy="GBP" LastPx="5" LastQty="5000000">
+<!--
+  Snt: The time this report was sent
+-->
+<Hdr Snt="2008-12-01T10:32:00"/>
+<!--
+  Sym: The currency pair involved in the exchange
+  CFI=DYXXXX: means MM
+  SubType: TRMRO means Term Rollover
+-->
+<Instrmt CFI="DYFXXX" SubTyp="TRMRO"/>
+<!-- 
+  StartDt: The start date of the first interest period
+  EndDt:   The maturity date. The date on which the last interest payment is due
+-->
+<FinDetls StartDt="2008-05-23" EndDt="2009-05-23"/>
+  <!--
+    Margins
+  -->
+  <!--
+    M1 = Cash Reserves and liquids
+  -->
+ <Undly Desc="M1" Px="0.2721"/>
+ <!--
+    M2 = Tennis Court
+  -->
+ <Undly Desc="M2" Px="0.02"/>
+ <!--
+    M3 = Credit Premium
+  -->
+ <Undly Desc="M3" Px="0.01"/>
+ <!--
+    M4 = Capital costs
+  -->
+ <Undly Desc="M4" Px="0.01"/>
+ <!--
+    Point
+      Interest rate frequency:
+        3M means payable quarterly
+    Name
+      Interest Rate Types:
+        Base
+        Call
+        Fixed
+        LIBID
+        LIBOR
+        Prime
+        SIBID
+        SIBOR
+  -->
+  <SprdBnchmkCurve Point="3M" Name="LIBOR"/>
+
+  <!--
+    The fact that this leg has an interest rate fixed, implies that the
+    previous (first in this case) interest payment has matured
+    SettlDt:  The start date for the current interest period. Also the settlement
+              date for the previous interest period
+    LastPx:   The interest rate for this leg
+  -->
+  <TrdLeg SettlDt="2008-08-25" LastPx="5"/>
+  <!--
+    The following legs have not yet reached their fixing date i.e. no interest rate
+    is defined, but are included to define the interest schedule.
+  -->
+  <TrdLeg SettlDt="2008-11-24"/>
+  <TrdLeg SettlDt="2009-02-21"/>
+  <!--
+    The last date interest is payable. LastPx is never specified for the last
+    leg as LastPx is the interest rate for the coming period.
+  -->
+  <TrdLeg SettlDt="2009-05-23"/>
+<!-- 
+  Side=F: Means lend. B means borrow. This is from the banks point of view. This
+  is a Loan
+-->
+<RptSide Side="F">
+  <!--
+    The Order originating firm
+    -->
+  <Pty ID="ABCLON" R="13"/>
+  <!--
+    The mandated user
+  -->
+  <Pty ID="traderA" R="11"/>
+  <SettlDetails>
+    <!-- Settlement key -->
+    <Pty ID="abc1"/>
+  </SettlDetails>
+  </RptSide>
+</TrdCaptRpt>

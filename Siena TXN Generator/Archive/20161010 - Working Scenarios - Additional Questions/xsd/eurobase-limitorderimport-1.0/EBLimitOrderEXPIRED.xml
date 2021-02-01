@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Title      : EBLimitOrderEXPIRED.xml
+    Author     : hsnow
+    Company    : Eurobase Systems Limited
+    Copyright  : Copyright (c) 2013
+    Description:
+        Limit Order Import Example XML for Expired Limit Orders
+-->
+<LimitOrder xmlns="http://www.eurobase.com/EBXML-LimitOrderImport-1-0"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+           xsd:schemaLocation="http://www.eurobase.com/EBXML-LimitOrderImport-1-0 EBXML-LimitOrderImport-base-1-0.xsd">
+  <!-- Header information which may be required for debug or Ack purposes -->
+  <Header timeStamp="2013-03-17T15:41:09" msgID="000001" />
+  <!--
+      type: is the type of information this message will provide. Valid values are FILL and EXPIRED
+      ref: this is the Siena BackOfficeReferenceNumber. This is used to look up
+           the Limit Order. For an OCO LimitOrder, this reference is for the leg
+           of the OCO which is being filled
+  -->
+  <LimitOrderInfo type="EXPIRED" ref="0001" />
+</LimitOrder>

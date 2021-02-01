@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : EBXML-BulkTradeCapture-base-1-0.xsd
+    Created on : 21 March 2011, 15:36
+    Copyright  : Copyright 2011 Eurobase Systems Limited. All rights reserved.
+                 EUROBASE PROPRIETARY/CONFIDENTIAL. Use is subject to license
+                 terms.
+    Author     : rhawes
+    Description:
+        The Document is the Schema for validating Bulk Trade Capture XML
+        objects.
+-->
+<xsd:schema xmlns="http://www.eurobase.com/EBXML-BulkTradeCapture-1-0"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.eurobase.com/EBXML-BulkTradeCapture-1-0"
+           targetNamespace="http://www.eurobase.com/EBXML-BulkTradeCapture-1-0">
+  <!-- Elements -->
+  <xsd:element name="BulkTradeCapture" type="BulkTradeCapture_message_t" />
+  <xsd:element name="Header" type="tns:Header_t" />
+  <xsd:element name="BulkInfo" type="tns:BulkInfo_t" />
+  <xsd:element name="DealData" type="tns:DealData_t" />
+  <xsd:element name="DealInfo" type="tns:DealInfo_t" />
+  <xsd:element name="Monies" type="tns:Monies_t" />
+  <xsd:element name="SettlementInfo" type="tns:SettlementInfo_t" />
+  <xsd:element name="TradingEntity" type="tns:TradingEntity_t" />
+
+  <!-- Complex Types -->
+  <xsd:complexType name="BulkTradeCapture_message_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Bulk Trade Capture Message</xsd:documentation>
+      <xsd:appinfo>xml:lang="en">Bulk Trade Capture</xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element ref="tns:Header" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Holds information about the message.</xsd:documentation>
+          <xsd:appinfo>Header Element</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:BulkInfo" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en"></xsd:documentation>
+          <xsd:appinfo></xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:DealData" maxOccurs="unbounded" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en"></xsd:documentation>
+          <xsd:appinfo></xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Header_t">
+    <xsd:attributeGroup ref="tns:HeaderAttributes"/>
+  </xsd:complexType>
+  <xsd:complexType name="BulkInfo_t">
+    <xsd:attributeGroup ref="tns:BulkInfoAttributes"/>
+  </xsd:complexType>
+  <xsd:complexType name="DealData_t">
+    <xsd:sequence>
+      <xsd:element ref="tns:DealInfo" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en"></xsd:documentation>
+          <xsd:appinfo></xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:Monies" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en"></xsd:documentation>
+          <xsd:appinfo></xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:SettlementInfo" maxOccurs="2" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en"></xsd:documentation>
+          <xsd:appinfo></xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:TradingEntity" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en"></xsd:documentation>
+          <xsd:appinfo></xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DealInfo_t">
+    <xsd:attributeGroup ref="tns:DealInfoAttributes"/>
+  </xsd:complexType>
+  <xsd:complexType name="Monies_t">
+    <xsd:attributeGroup ref="tns:MoniesAttributes"/>
+  </xsd:complexType>
+  <xsd:complexType name="SettlementInfo_t">
+    <xsd:attributeGroup ref="tns:SettlementInfoAttributes"/>
+  </xsd:complexType>
+  <xsd:complexType name="TradingEntity_t">
+    <xsd:attributeGroup ref="tns:TradingEntityAttributes"/>
+  </xsd:complexType>
+
+  <!-- Attribute Groups -->
+  <xsd:attributeGroup name="HeaderAttributes">
+    <xsd:attribute name="timeStamp" type="timeStamp_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The time the RateData was created</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="msgID" type="msgID_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The message ID which can be used to identify the XML (Mandatory)</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="BulkInfoAttributes">
+    <xsd:attribute name="dealType" type="dealType_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The DealType</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="DealInfoAttributes">
+    <xsd:attribute name="dir" type="direction_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The DealType</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="extRefNo" type="extRefNo_t" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>The External Reference Number</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="valueDate" type="valueDate_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The External Reference Number</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="bk" type="book_t" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>The Book</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="MoniesAttributes">
+    <xsd:attribute name="dealtAmt" type="dealtAmount_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The Dealt Amount</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="dealtCcy" type="currency_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The Dealt Currency</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="SettlementInfoAttributes">
+    <xsd:attribute name="type" type="settlementType_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The Settlement Type</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="ID" type="settlementID_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The Settlement ID</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="TradingEntityAttributes">
+    <xsd:attribute name="type" type="tradingEntityType_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The TradingEntity Type</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="ID" type="tradingEntityID_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The TradingEntity ID</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+
+  <!-- Simple Types -->
+  <xsd:simpleType name="timeStamp_t">
+    <xsd:annotation>
+      <xsd:documentation>String field representing a time/date combination representing local time with an offset to UTC to allow identification of local time and timezone offset of that time. The representation is based on ISO 8601.
+Format is YYYYMMDD-HH:MM:SS[Z | [ + | - hh[:mm]]] where YYYY = 0000 to 9999, MM = 01-12, DD = 01-31 HH = 00-23 hours, MM = 00-59 minutes, SS = 00-59 seconds, hh = 01-12 offset hours, mm = 00-59 offset minutes
+Example: 20060901-07:39Z is 07:39 UTC on 1st of September 2006
+Example: 20060901-02:39-05 is five hours behind UTC, thus Eastern Time on 1st of September 2006
+Example: 20060901-15:39+08 is eight hours ahead of UTC, Hong Kong/Singapore time on 1st of September 2006
+Example: 20060901-13:09+05:30 is 5.5 hours ahead of UTC, India time on 1st of September 2006
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:dateTime">
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="msgID_t">
+    <xsd:annotation>
+      <xsd:documentation>The unique id given to the message.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="dealType_t">
+    <xsd:annotation>
+      <xsd:documentation>The DealType String.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="direction_t">
+    <xsd:annotation>
+      <xsd:documentation>The Direction of the Deal.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="P">
+        <xsd:annotation>
+          <xsd:documentation>Pay.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="R">
+        <xsd:annotation>
+          <xsd:documentation>Receive.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="extRefNo_t">
+    <xsd:annotation>
+      <xsd:documentation>The External Reference Number String.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="dealtAmount_t">
+    <xsd:restriction base="xsd:decimal">
+      <xsd:fractionDigits value="2"/>
+      <xsd:totalDigits value="17"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="currency_t">
+    <xsd:annotation>
+      <xsd:documentation>String field representing a currency type using ISO 4217 Currency code (3 character) values.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value=".{3}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="settlementType_t">
+    <xsd:annotation>
+      <xsd:documentation>The Settlement Type.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:integer">
+      <xsd:enumeration value="0">
+        <xsd:annotation>
+          <xsd:documentation>Counterparty Receipt.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="1">
+        <xsd:annotation>
+          <xsd:documentation>Customer Receipt.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="2">
+        <xsd:annotation>
+          <xsd:documentation>Counterparty Payment.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="3">
+        <xsd:annotation>
+          <xsd:documentation>Customer Payment.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="settlementID_t">
+    <xsd:annotation>
+      <xsd:documentation>The Settlement id.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="tradingEntityType_t">
+    <xsd:annotation>
+      <xsd:documentation>The Trading Entity Type.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:integer">
+      <xsd:enumeration value="0">
+        <xsd:annotation>
+          <xsd:documentation>External Customer.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="1">
+        <xsd:annotation>
+          <xsd:documentation>Trading Entity.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tradingEntityID_t">
+    <xsd:annotation>
+      <xsd:documentation>The Settlement id.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="valueDate_t">
+    <xsd:annotation>
+      <xsd:documentation>String field represening the value date. This is in YYYYMMDD format.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:date">
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="book_t">
+    <xsd:annotation>
+      <xsd:documentation>The Book</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+</xsd:schema>

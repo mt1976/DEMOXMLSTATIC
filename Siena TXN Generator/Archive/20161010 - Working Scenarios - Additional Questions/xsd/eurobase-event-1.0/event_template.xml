@@ -1,0 +1,13 @@
+<event xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' 
+ xmlns='http://www.eurobase.com/EBXML-Event-1-0'
+ xsd:schemaLocation='http://www.eurobase.com/EBXML-Event-1-0 EBXML-Event-base-1-0.xsd'>
+  <header>
+    <recipient></recipient>
+  </header>
+  <body>
+    <dateTimeStamp></dateTimeStamp>
+    <type></type>
+    <text> - %text%</text>
+    <details></details>
+  </body>
+</event>

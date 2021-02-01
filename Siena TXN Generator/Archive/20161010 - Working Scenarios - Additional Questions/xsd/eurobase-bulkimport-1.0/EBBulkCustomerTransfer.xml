@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Title      : EBBulkCustomerTransfer.xml
+    Author     : rhawes
+    Company    : Eurobase Systems Limited
+    Copyright  : Copyright (c) 2011
+    Description:
+        Bulk Customer Transfer Example XML
+-->
+<BulkTradeCapture xmlns="http://www.eurobase.com/EBXML-BulkTradeCapture-1-0"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+           xsd:schemaLocation="http://www.eurobase.com/EBXML-BulkTradeCapture-1-0 EBXML-BulkTradeCapture-base-1-0.xsd">
+  <Header timeStamp="2011-03-17T15:41:09" msgID="000001" />
+  <BulkInfo dealType="Customer Transfer" />
+  <DealData>
+    <DealInfo dir="P" extRefNo="000001" valueDate="2011-03-28" bk="TestBook" />
+    <Monies dealtAmt="56090.33" dealtCcy="NGN" />
+    <!-- 0 Counterparty Receipt, 1 Customer Receipt -->
+    <SettlementInfo type="1" ID="11112222" />
+    <!-- 2 Counterparty Payment, 3 Customer Payment -->
+    <SettlementInfo type="3" ID="11112222" />
+    <!-- 0 is External Customer, 1 is Trading Entity -->
+    <TradingEntity type="0" ID="123456" />
+  </DealData>
+  <DealData>
+    <DealInfo dir="P" extRefNo="000002" valueDate="2011-03-28" />
+    <Monies dealtAmt="56090.33" dealtCcy="NGN" />
+    <!-- 0 Counterparty Receipt, 1 Customer Receipt -->
+    <SettlementInfo type="1" ID="11112222" />
+    <!-- 2 Counterparty Payment, 3 Customer Payment -->
+    <SettlementInfo type="3" ID="11113333" />
+    <!-- 0 is External Customer, 1 is Trading Entity -->
+    <TradingEntity type="0" ID="123456" />
+  </DealData>
+  <DealData>
+    <DealInfo dir="P" extRefNo="000003" valueDate="2011-03-28" />
+    <Monies dealtAmt="56090.33" dealtCcy="NGN" />
+    <!-- 0 Counterparty Receipt, 1 Customer Receipt -->
+    <SettlementInfo type="1" ID="11112222" />
+    <!-- 2 Counterparty Payment, 3 Customer Payment -->
+    <SettlementInfo type="3" ID="11112222" />
+    <!-- 0 is External Customer, 1 is Trading Entity -->
+    <TradingEntity type="1" ID="123456" />
+  </DealData>
+</BulkTradeCapture>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : ack.xml
+    Created on : 28 August 2008, 18:10
+    Author     : rmcconnell
+    Description:
+        Purpose of the document follows.
+-->
+
+<TrdCaptRptAck  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns='http://www.fixprotocol.org/FIXML-5-0-SP1'
+   xsi:schemaLocation='http://www.fixprotocol.org/FIXML-5-0-SP1 fixml-tradecapture-base-5-0-SP1.xsd'
+   RptID="ttttttttt" TrdRptStat="0" 
+   TrdID="UUU8825017" MsgID="000000001">
+<Hdr Snt="2008-12-01T10:32:00"/>
+<Instrmt/>
+</TrdCaptRptAck>

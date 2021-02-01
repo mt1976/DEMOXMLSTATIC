@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : traderToolsAck.xml
+    Created on : 15 May 2013
+    Author     : cmcfarlane
+    Description:
+        Test Ack XML for TraderTools interface.
+-->
+
+<TrdCaptRptAck  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns='http://www.fixprotocol.org/FIXML-5-0-SP1'
+   xsi:schemaLocation='http://www.fixprotocol.org/FIXML-5-0-SP1 fixml-tradecapture-base-5-0-SP1.xsd'
+   RptID="YYY1234567" TrdRptStat="0"
+   TrdID="UUU8825017" MsgID="000000001" RptID2="ZZZ1234567">
+<Hdr Snt="2008-12-01T10:32:00"/>
+<Instrmt/>
+</TrdCaptRptAck>

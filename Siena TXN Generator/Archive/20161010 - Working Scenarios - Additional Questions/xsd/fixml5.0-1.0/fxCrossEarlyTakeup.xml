@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : fxCrossEarlyTakeUp.xml
+    Created on : 22 May 2008, 14:38
+    Author     : rmcconnell
+    Description:
+        Purpose of the document follows.
+   Deal Type identification:
+    This has a SubTyp of FXET so it is an FX Early Takeup
+     
+    
+    Attributes:
+      ExecTyp=0: means new report
+      LinkID: Refers to the deal (the TrdID) we are extending
+      TrdID: This is the external reference number as far as siena is concerened (allocated by the bank if this is deal import for referencing the deal).
+             If this is for deal export, then this will be a siena contract number
+      TrdID2: This is a siena reference number (deal export only). It remains constant for the lifetime of the deal (constant through deal edits)
+      OrigTrdId: If this deal is imported by siena and re-exported, this will contain the original trade id specified by RMB. From siena's point of view this is for maintaining an external reference id
+              For eTrader deals thsi will contain the eTrader generated external reference.
+      TrdDt: trade start date
+      SettlDt: This is the near leg settlement date
+      Ccy: This is the dealt currency
+      LastSpotRate: This is the spot rate
+      LastPx:       The is the price for the far leg
+      LastQty:      This is the dealt amount for the far leg
+-->
+
+<TrdCaptRpt  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns='http://www.fixprotocol.org/FIXML-5-0-SP1'
+   xsi:schemaLocation='http://www.fixprotocol.org/FIXML-5-0-SP1 fixml-tradecapture-base-5-0-SP1.xsd'
+   ExecTyp="0"
+   LinkID="ABC1234"
+   TrdID="EXT-ABC1234" OrigTrdID="EXT-XYZ1234" TrdID2="EXT-SIENA-REF1234"
+   TrdDt="2008-06-19" SettlDt="2008-08-23" Ccy="GBP"
+   LastSpotRt="205.4779" LastQty="5000000" LastPx="203.3821" >
+<!--
+  Snt: The time this report was sent
+-->
+<Hdr Snt="2008-07-19T10:32:00"/>
+<!--
+  Sym: traded currency pair
+  CFI: FFCPNW Indicates Swap
+  SubTyp: FXET means FX Early Take Up
+-->
+<Instrmt  Sym="GBP/JPY" CFI="FFCPNW" SubTyp="FXET"/>
+<!--
+  The cross and side rate information. This comes in three parts:
+    1. All Spot prices
+    2. All leg one prices
+    3. All leg two prices
+    
+    Where leg one is spot or leg two is spot the leg information is ommited.
+    For example spot/forward
+    
+    Would have
+      SP GBP/JPY
+      SP GBP/USD
+      SP USD/JPY
+      
+      leg 2 GBP/JPY
+      leg 2 GBP/USD
+      leg 2 USD/JPY
+      
+    tom/next would have
+      SP  GBP/JPY
+      SP  GBP/USD
+      SP  USD/JPY
+      
+      leg 1 GBP/JPY
+      leg 1 GBP/USD
+      leg 1 USD/JPY
+    
+    
+    The three sections are identifed by the Desc attribute which is:
+      SP meaning spot component
+      Leg1  meaning leg one component
+      Leg2  meaning leg two component
+-->
+<!--
+  First we describe spot components. Where this is greater than 1, then we know
+  we have a cross. This example is forward/forward so all component are included
+
+  Desc:   Identifies what the underlying rate refers to.
+  
+  FxRate: The price
+  Px:     Margin (derived if cross)
+  CFI:    RCSXXX=SPOT, FFCPN0=FORWARD
+  Mat:    Maurity date. Used to give a date for the rate. Where Desc is SP, this is the spot date
+-->
+<Undly Desc="SP" Sym="GBP/JPY" FxRate="205.4779" CFI="RCSXXX" Px="0.001" Mat="2008-06-23"/>
+<Undly Desc="SP" Sym="GBP/USD" FxRate="1.7254" CFI="RCSXXX" Px="0.001" Mat="2008-06-23"/>
+<Undly Desc="SP" Sym="USD/JPY" FxRate="119.090" CFI="RCSXXX" Px="0.001"  Mat="2008-06-23"/>
+<!--
+  Now the leg one components. Where there is more than one then this is a cross
+-->
+<Undly Desc="Leg1" Sym="GBP/JPY" FxRate="205.3095" CFI="FFCPN0" Px="0.001" Mat="2008-06-30"/>
+<Undly Desc="Leg1" Sym="GBP/USD" FxRate="1.725496" CFI="FFCPN0" Px="0.001"  Mat="2008-06-30"/>
+<Undly Desc="Leg1" Sym="USD/JPY" FxRate="118.9858" CFI="FFCPN0" Px="0.001"  Mat="2008-06-30"/>
+
+<!--
+ Now the leg two components. Where there is more than one then we know this is a cross
+-->
+<Undly Desc="Leg2" Sym="GBP/JPY" FxRate="203.3821" CFI="FFCPN0" Px="0.001" Mat="2008-08-23"/>
+<Undly Desc="Leg2" Sym="GBP/USD" FxRate="1.72583"  CFI="FFCPN0" Px="0.001" Mat="2008-08-23"/>
+<Undly Desc="Leg2" Sym="USD/JPY" FxRate="118.6453" CFI="FFCPN0" Px="0.001" Mat="2008-08-23"/>
+<!--
+  Quantity
+  
+  LegNo:  the leg in question, 1 = near
+  LastQty: the dealt amount for the near leg
+-->
+<TrdLeg LegNo="1" LastQty="5000000" SettlDt="2008-06-30"/>
+<!--
+  LegNo:  the leg in question, 2 = far
+  LastQty: the dealt amount for the far leg
+  LastPx: the far price
+  SettlDt: the far settlement date
+-->
+<TrdLeg LegNo="2"  LastQty="5000000" SettlDt="2008-09-23"/>
+<!--
+  Settlement Details, direction and parties
+  Side: 2 = the banks buy for near leg, Customr sell
+-->
+<RptSide Side="1" >
+  <!-- The customer mapped to a siena counterparty -->
+  <Pty ID="ABCLON" R="13"/>
+  <!--
+    The mandated user
+  -->
+  <Pty ID="traderA" R="11"/>
+  <!-- Near leg pay from and pay to -->
+  <SettlDetails>
+    <!-- Near leg the banks debit GBP, customer credit GBP -->
+    <Pty ID="GBP-abc1"/>
+  </SettlDetails>
+  <!-- Near leg take from and take at -->
+  <SettlDetails>
+    <!-- Near leg the banks credit USD customer debit USD -->
+    <Pty ID="USD-abc2"/>
+  </SettlDetails>
+</RptSide>
+<!-- Side: 1 = the banks buy for far leg, Customer sell -->
+<RptSide Side="2">
+  <!-- Far leg pay from and pay to -->
+  <SettlDetails>
+    <!-- Near leg the banks debit USD, customer credit USD -->
+    <Pty ID="USD-abc1"/>
+    </SettlDetails>
+  <!-- Far Leg Take from, Take at -->
+  <SettlDetails>
+    <!-- Far leg the banks credit GBP, customer debit GBP-->
+    <Pty ID="GBP-abc2"/>
+    </SettlDetails>
+</RptSide>
+</TrdCaptRpt>

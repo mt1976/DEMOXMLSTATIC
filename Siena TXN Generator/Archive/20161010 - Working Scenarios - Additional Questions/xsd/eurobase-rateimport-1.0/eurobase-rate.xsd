@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="msg">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Schema constraining Eurobase rate import XML.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="coll"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coll">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="rt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="rt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="bid" minOccurs="0"/>
+        <xs:element ref="ask" minOccurs="0"/>
+        <xs:element ref="own" minOccurs="0"/>
+        <xs:element ref="rsk" minOccurs="0"/>
+        <xs:element ref="dTme" minOccurs="0"/>
+        <xs:element ref="amt" minOccurs="0"/>
+        <xs:element ref="amtCcy" minOccurs="0"/>
+        <xs:element ref="sts" minOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="cat" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+           Source Category.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="id" use="required">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+           Id for this rate. Must be supplied. This is analogous to
+           a Reuters RIC. Uniquely describes a rate. If an amt element
+           is provided there can be a many to one relationship between id and
+           amt
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="src" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+           A rate source, for example Reuters
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="uid" use="optional" type="xs:string">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+           A unique identifier for this rate value.  The meaning of unique
+           depends on the external system, i.e. some systems may allocate a
+           unique id for each individual tiered rate within a related group,
+           others may allocate an id at the group level.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bid" type="xs:decimal">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+            What we buy at
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="ask" type="xs:decimal">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+            What we sell at
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="own" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+            The current owner of the rate
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="rsk" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+            The current risk centre
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="dTme" type="xs:dateTime">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+            ISO date and time from source
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="amt" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+            An Amount band. If provided this is a tiered rate
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="amtCcy" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+            An Amount currency. The currency ISO code for the amount
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="sts" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+            Status. If anything other than OK, then currently regarded as
+            stale
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

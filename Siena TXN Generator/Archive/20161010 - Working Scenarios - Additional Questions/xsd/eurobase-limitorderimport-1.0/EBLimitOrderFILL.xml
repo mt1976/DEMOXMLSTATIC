@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Title      : EBLimitOrderFILL.xml
+    Author     : rhawes
+    Company    : Eurobase Systems Limited
+    Copyright  : Copyright (c) 2013
+    Description:
+        Limit Order Import Example XML for Filled/Partial Filled Limit Orders
+-->
+<LimitOrder xmlns="http://www.eurobase.com/EBXML-LimitOrderImport-1-0"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+           xsd:schemaLocation="http://www.eurobase.com/EBXML-LimitOrderImport-1-0 EBXML-LimitOrderImport-base-1-0.xsd">
+  <!-- Header information which may be required for debug or Ack purposes -->
+  <Header timeStamp="2013-03-17T15:41:09" msgID="000001" />
+  <!--
+      type: is the type of information this message will provide. Valid values are
+            FILL and EXPIRED
+      ref: this is the Siena BackOfficeReferenceNumber. This is used to look up
+           the Limit Order. For an OCO LimitOrder, this reference is for the leg
+           of the OCO which is being filled
+      partFillRef: this is the Siena BackOfficeReferenceNumber for a partial fill
+                   Limit Order which is generated if the amount does not cover the
+                   full amount of the original Limit Order. (Optional)
+      partFillRef2: this is the Siena BackOfficeReferenceNumber for the second leg
+                    of a partial fill Limit Order OCO which is generated if the
+                    amount does not cover the full amount of the original Limit
+                    Order OCO. (Optional)
+  -->
+  <LimitOrderInfo type="FILL" ref="TEST_0001" partFillRef="0002" partFillRef2="0003"
+                  valueDate="2013-05-29" amount="250000.00" />
+  <!-- Holds the rate information for this Limit Order -->
+  <RateInfo>
+    <!-- ccy1 the first currency, ccy2 the second (or re-routed) currency -->
+    <SpotRate ccy1="GBP" ccy2="AUD" rate="1.6" />
+    <!-- Optional. Only required for re-routed rates
+        qteBse: this is the way the rate is being quoted:
+                0: CURRENCY1PERCURRENCY2
+                1: CURRENCY2PERCURRENCY1
+    -->
+    <SideRate1 ccy1="GBP" ccy2="USD" rate="1.7" qteBse="0" />
+    <!-- Optional. Only required for re-routed rates
+        qteBse: this is the way the rate is being quoted:
+                0: CURRENCY1PERCURRENCY2
+                1: CURRENCY2PERCURRENCY1
+    -->
+    <SideRate2 ccy1="USD" ccy2="AUD" rate="0.8" qteBse="0" />
+  </RateInfo>
+</LimitOrder>

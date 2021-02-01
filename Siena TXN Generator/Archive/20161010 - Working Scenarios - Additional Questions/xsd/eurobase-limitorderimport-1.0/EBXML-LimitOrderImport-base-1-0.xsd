@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : EBXML-LimitOrderImport-base-1-0.xsd
+    Created on : 08 March 2013
+    Copyright  : Copyright 2015 Eurobase Systems Limited. All rights reserved.
+                 EUROBASE PROPRIETARY/CONFIDENTIAL. Use is subject to license
+                 terms.
+    Author     : rhawes
+    Description:
+        The Document is the Schema for validating Eurobase Limit Order XML
+        objects.
+    
+    History:
+    
+    20150213 rmc  B18998: Corrected doc for Quote Basis
+-->
+<xsd:schema xmlns="http://www.eurobase.com/EBXML-LimitOrderImport-1-0"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.eurobase.com/EBXML-LimitOrderImport-1-0"
+           targetNamespace="http://www.eurobase.com/EBXML-LimitOrderImport-1-0">
+  <!-- Elements. -->
+  <xsd:element name="LimitOrder" type="LimitOrder_message_t" />
+  <xsd:element name="Header" type="tns:Header_t" />
+  <xsd:element name="LimitOrderInfo" type="tns:LimitOrderInfo_t" />
+  <xsd:element name="RateInfo" type="tns:RateInfo_t" />
+  <xsd:element name="SpotRate" type="tns:SpotRate_t" />
+  <xsd:element name="SideRate1" type="tns:SideRate_t" />
+  <xsd:element name="SideRate2" type="tns:SideRate_t" />
+
+  <!-- Complex Types -->
+  <xsd:complexType name="LimitOrder_message_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">LimitOrder Message</xsd:documentation>
+      <xsd:appinfo>LimitOrder Message Element</xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element ref="tns:Header" maxOccurs="1" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Holds information about the message.</xsd:documentation>
+          <xsd:appinfo>Header Element</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:LimitOrderInfo" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Holds the Limit Order Information.</xsd:documentation>
+          <xsd:appinfo>LimitOrderInfo Element</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:RateInfo" maxOccurs="1" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Holds the Rate Info Information.</xsd:documentation>
+          <xsd:appinfo>RateInfo Element</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Header_t">
+    <xsd:attributeGroup ref="tns:HeaderAttributes"/>
+  </xsd:complexType>
+  <xsd:complexType name="LimitOrderInfo_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">LimitOrderInfo</xsd:documentation>
+      <xsd:appinfo>LimitOrderInfo Element</xsd:appinfo>
+    </xsd:annotation>
+    <xsd:attributeGroup ref="tns:LimitOrderInfoAttributes"/>
+  </xsd:complexType>
+  <xsd:complexType name="RateInfo_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">RateInfo</xsd:documentation>
+      <xsd:appinfo>RateInfo Element</xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element ref="tns:SpotRate" maxOccurs="1" minOccurs="1">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Holds the Spot Rate Information. Currency and Rate Information</xsd:documentation>
+          <xsd:appinfo>Spot Rate Element</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:SideRate1" maxOccurs="1" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Holds the first Side Rate Information. Currency and Rate Information</xsd:documentation>
+          <xsd:appinfo>Side Rate 1 Element</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element ref="tns:SideRate2" maxOccurs="1" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="en">Holds the second Side Rate Information. Currency and Rate Information</xsd:documentation>
+          <xsd:appinfo>Side Rate 2 Element</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="SpotRate_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Spot Rate</xsd:documentation>
+      <xsd:appinfo>SpotRate Element</xsd:appinfo>
+    </xsd:annotation>
+    <xsd:attributeGroup ref="tns:RateAttributes"/>
+  </xsd:complexType>
+  <xsd:complexType name="SideRate_t">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Side Rate</xsd:documentation>
+      <xsd:appinfo>Side Rate Element</xsd:appinfo>
+    </xsd:annotation>
+    <xsd:attributeGroup ref="tns:SideRateAttributes"/>
+  </xsd:complexType>
+
+  <!-- Attribute Groups -->
+  <xsd:attributeGroup name="HeaderAttributes">
+    <xsd:attribute name="timeStamp" type="timeStamp_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The time the LimitOrder was created</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="msgID" type="msgID_t" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>The message ID which can be used to identify the XML (Optional)</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="LimitOrderInfoAttributes">
+    <xsd:attribute name="type" type="loType_t" use="required">
+      <xsd:annotation>
+        <xsd:documentation>The Limit Order Message Type. FILL = A Limit Order Fill request,
+        EXPIRED = A Limit Order Expiry request,
+        CANCEL = A Limit Order Cancellation request</xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="ref" type="ref_t" use="required"/>
+    <xsd:attribute name="partFillRef" type="partFillRef_t" use="optional"/>
+    <xsd:attribute name="partFillRef2" type="partFillRef_t" use="optional"/>
+    <xsd:attribute name="valueDate" type="valueDate_t" use="optional"/>
+    <xsd:attribute name="amount" type="amount_t" use="optional"/>
+  </xsd:attributeGroup>
+
+
+  <xsd:attributeGroup name="RateAttributes">
+    <xsd:attribute name="ccy1" type="currency_t" use="required"/>
+    <xsd:attribute name="ccy2" type="currency_t" use="required"/>
+    <xsd:attribute name="rate" type="rate_t" use="required"/>
+  </xsd:attributeGroup>
+
+  <xsd:attributeGroup name="SideRateAttributes">
+    <xsd:attribute name="ccy1" type="currency_t" use="required"/>
+    <xsd:attribute name="ccy2" type="currency_t" use="required"/>
+    <xsd:attribute name="rate" type="rate_t" use="required"/>
+    <xsd:attribute name="qteBse" type="qteBse_t" use="required"/>
+  </xsd:attributeGroup>
+
+  <!-- Simple Types -->
+  <xsd:simpleType name="timeStamp_t">
+    <xsd:annotation>
+      <xsd:documentation>String field representing a time/date combination representing local time with an offset to UTC to allow identification of local time and timezone offset of that time. The representation is based on ISO 8601.
+Format is YYYYMMDD-HH:MM:SS[Z | [ + | - hh[:mm]]] where YYYY = 0000 to 9999, MM = 01-12, DD = 01-31 HH = 00-23 hours, MM = 00-59 minutes, SS = 00-59 seconds, hh = 01-12 offset hours, mm = 00-59 offset minutes
+Example: 20060901-07:39Z is 07:39 UTC on 1st of September 2006
+Example: 20060901-02:39-05 is five hours behind UTC, thus Eastern Time on 1st of September 2006
+Example: 20060901-15:39+08 is eight hours ahead of UTC, Hong Kong/Singapore time on 1st of September 2006
+Example: 20060901-13:09+05:30 is 5.5 hours ahead of UTC, India time on 1st of September 2006
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:dateTime">
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="msgID_t">
+    <xsd:annotation>
+      <xsd:documentation>The unique id given to the message.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="loType_t">
+    <xsd:annotation>
+      <xsd:documentation>Limit Order Message Type i.e. FILL / EXPIRED / CANCEL.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="FILL">
+        <xsd:annotation>
+          <xsd:documentation>Limit Order Fill Request</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="EXPIRED">
+        <xsd:annotation>
+          <xsd:documentation>Limit Order Expiry Request</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="CANCEL">
+        <xsd:annotation>
+          <xsd:documentation>Limit Order Cancellation Request</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="currency_t">
+    <xsd:annotation>
+      <xsd:documentation>String field representing a currency type using ISO 4217 Currency code (3 character) values.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value=".{3}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="ref_t">
+    <xsd:annotation>
+      <xsd:documentation>A Reference to the Limit Order (i.e. The Back Office Reference Number).
+      For an OCO Limit Order, this should be the reference number of the side to Fill
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="partFillRef_t">
+    <xsd:annotation>
+      <xsd:documentation>The Reference which should be given to a Limit Order which
+      is generated from a partial fill. For an OCO Limit Order, this should be the
+      reference number of the leg
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="rate_t">
+    <xsd:annotation>
+      <xsd:documentation>Rate.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:decimal">
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="amount_t">
+    <xsd:annotation>
+      <xsd:documentation>Amount.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:double"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="valueDate_t">
+    <xsd:annotation>
+      <xsd:documentation>String field representing the value date of the Limit Order. This is in YYYY-MM-DD format.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:date">
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="qteBse_t">
+    <xsd:annotation>
+      <xsd:documentation>The Quote Basis</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:int">
+      <xsd:enumeration value="0">
+        <xsd:annotation>
+          <xsd:documentation>Currency 2 Per Currency 1</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="1">
+        <xsd:annotation>
+          <xsd:documentation>Currency 1 Per Currency 2</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>
